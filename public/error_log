@@ -1,0 +1,2 @@
+[19-Sep-2024 03:56:22 Australia/Brisbane] [debug] Warning: filemtime(): stat failed for /home/alan/apps/test-apps/Projet12/Ecogarden/config/routes/framework.yaml
+[19-Sep-2024 03:56:22 Australia/Brisbane] [error] Uncaught PHP Exception Symfony\Component\HttpKernel\Exception\NotFoundHttpException: "No route found for "GET http://ecogarden.test/"" at RouterListener.php line 127
