@@ -16,6 +16,17 @@ class AdviceRepository extends ServiceEntityRepository
         parent::__construct($registry, Advice::class);
     }
 
+    public function findAllBSortedByMonth(): array
+    {
+        return $this->createQueryBuilder('a')
+            ->orderBy('a.month', 'ASC')
+            ->getQuery()
+            ->getResult()
+        ;
+    }
+
+
+
     //    /**
     //     * @return Advice[] Returns an array of Advice objects
     //     */
