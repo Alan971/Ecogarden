@@ -2,6 +2,7 @@
 
 namespace App\Entity;
 
+use App\Entity\DataUser;
 use App\Repository\UserRepository;
 use Doctrine\ORM\Mapping as ORM;
 use Symfony\Component\Validator\Constraints as Assert;
@@ -41,7 +42,10 @@ class User implements UserInterface, PasswordAuthenticatedUserInterface
     ])]
     private ?string $password = null;
 
-    public function getId(): ?int
+    #[ORM\OneToOne(mappedBy: 'email', cascade: ['persist', 'remove'])]
+    private ?DataUser $dataUser = null;
+
+    public function getId(): ?Uuid
     {
         return $this->id;
     }
@@ -114,5 +118,22 @@ class User implements UserInterface, PasswordAuthenticatedUserInterface
     {
         // If you store any temporary, sensitive data on the user, clear it here
         // $this->plainPassword = null;
+    }
+
+    public function getDataUser(): ?DataUser
+    {
+        return $this->dataUser;
+    }
+
+    public function setDataUser(DataUser $dataUser): static
+    {
+        // set the owning side of the relation if necessary
+        if ($dataUser->getEmail() !== $this) {
+            $dataUser->setEmail($this);
+        }
+
+        $this->dataUser = $dataUser;
+
+        return $this;
     }
 }
