@@ -2,39 +2,39 @@
 
 namespace App\Repository;
 
-use App\Entity\DataUser;
+use App\Entity\InfoUser;
 use Doctrine\Bundle\DoctrineBundle\Repository\ServiceEntityRepository;
 use Doctrine\Persistence\ManagerRegistry;
 
 /**
- * @extends ServiceEntityRepository<DataUser>
+ * @extends ServiceEntityRepository<InfoUser>
  */
-class DataUserRepository extends ServiceEntityRepository
+class InfoUserRepository extends ServiceEntityRepository
 {
     public function __construct(ManagerRegistry $registry)
     {
-        parent::__construct($registry, DataUser::class);
+        parent::__construct($registry, InfoUser::class);
     }
 
     //    /**
-    //     * @return DataUser[] Returns an array of DataUser objects
+    //     * @return InfoUser[] Returns an array of InfoUser objects
     //     */
     //    public function findByExampleField($value): array
     //    {
-    //        return $this->createQueryBuilder('d')
-    //            ->andWhere('d.exampleField = :val')
+    //        return $this->createQueryBuilder('i')
+    //            ->andWhere('i.exampleField = :val')
     //            ->setParameter('val', $value)
-    //            ->orderBy('d.id', 'ASC')
+    //            ->orderBy('i.id', 'ASC')
     //            ->setMaxResults(10)
     //            ->getQuery()
     //            ->getResult()
     //        ;
     //    }
 
-    //    public function findOneBySomeField($value): ?DataUser
+    //    public function findOneBySomeField($value): ?InfoUser
     //    {
-    //        return $this->createQueryBuilder('d')
-    //            ->andWhere('d.exampleField = :val')
+    //        return $this->createQueryBuilder('i')
+    //            ->andWhere('i.exampleField = :val')
     //            ->setParameter('val', $value)
     //            ->getQuery()
     //            ->getOneOrNullResult()

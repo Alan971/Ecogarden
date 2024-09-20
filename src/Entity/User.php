@@ -42,8 +42,8 @@ class User implements UserInterface, PasswordAuthenticatedUserInterface
     ])]
     private ?string $password = null;
 
-    #[ORM\OneToOne(mappedBy: 'email', cascade: ['persist', 'remove'])]
-    private ?DataUser $dataUser = null;
+    #[ORM\OneToOne(mappedBy: 'user', cascade: ['persist', 'remove'])]
+    private ?InfoUser $infoUser = null;
 
     public function getId(): ?Uuid
     {
@@ -120,19 +120,24 @@ class User implements UserInterface, PasswordAuthenticatedUserInterface
         // $this->plainPassword = null;
     }
 
-    public function getDataUser(): ?DataUser
+    public function getInfoUser(): ?InfoUser
     {
-        return $this->dataUser;
+        return $this->infoUser;
     }
 
-    public function setDataUser(DataUser $dataUser): static
+    public function setInfoUser(?InfoUser $infoUser): static
     {
-        // set the owning side of the relation if necessary
-        if ($dataUser->getEmail() !== $this) {
-            $dataUser->setEmail($this);
+        // unset the owning side of the relation if necessary
+        if ($infoUser === null && $this->infoUser !== null) {
+            $this->infoUser->setUser(null);
         }
 
-        $this->dataUser = $dataUser;
+        // set the owning side of the relation if necessary
+        if ($infoUser !== null && $infoUser->getUser() !== $this) {
+            $infoUser->setUser($this);
+        }
+
+        $this->infoUser = $infoUser;
 
         return $this;
     }
