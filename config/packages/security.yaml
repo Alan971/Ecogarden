@@ -20,10 +20,10 @@ security:
         #     lazy: true
         #     provider: app_user_provider
         login:
-            pattern:  ^/api/login
+            pattern:  ^/api/auth
             stateless: true
             json_login:
-                check_path: /api/login_check
+                check_path: /api/auth
                 success_handler: lexik_jwt_authentication.handler.authentication_success
                 failure_handler: lexik_jwt_authentication.handler.authentication_failure
         api:
@@ -41,7 +41,8 @@ security:
     access_control:
         # - { path: ^/admin, roles: ROLE_ADMIN }
         # - { path: ^/profile, roles: ROLE_USER }
-        - { path: ^/api/login, roles: PUBLIC_ACCESS }
+        - { path: ^/api/auth, roles: PUBLIC_ACCESS }
+        - { path: ^/api/user, roles: PUBLIC_ACCESS }
         - { path: ^/api, roles: IS_AUTHENTICATED_FULLY }
         
 

@@ -2,10 +2,7 @@
 
 namespace App\Controller;
 
-use ApiPlatform\OpenApi\Model\Info;
 use App\Entity\Location;
-use App\Entity\User;
-use App\Entity\InfoUser;
 use App\Repository\InfoUserRepository;
 use Symfony\Bundle\FrameworkBundle\Controller\AbstractController;
 use Symfony\Component\HttpFoundation\JsonResponse;
@@ -16,9 +13,9 @@ use Symfony\Component\Serializer\SerializerInterface;
 
 class WeatherController extends AbstractController
 {
-    #[Route('api/weather', name: 'app_weather', methods: ['GET'])]
+    #[Route('api/meteo', name: 'app_weather', methods: ['GET'])]
     #[IsGranted('IS_AUTHENTICATED_FULLY')]
-    public function yourWeather(SerializerInterface $serializer, HttpClientInterface $httpClient, InfoUserRepository $infoUserRepository): JsonResponse
+    public function yourWeather(SerializerInterface $serializer, HttpClientInterface $httpClient): JsonResponse
     {
         $currentUser = $this->getUser();
         $infoUser = $currentUser->getInfoUser();
@@ -46,11 +43,11 @@ class WeatherController extends AbstractController
             'GET',
             'http://api.openweathermap.org/data/3.0/onecall?lat=' . $location->getLat() . '&lon=' . $location->getLon() . '&appid=' . $this->getParameter('WEATHER_API_KEY'),
          );
-         $formatData = "{\n Ville:" . $infoUser->getCity() ."\n ZipCode:" . $infoUser->getZipCode() . "\n Country:" . $infoUser->getCountry() . "\n}";
+         $formatData = "{\n Ville:" . $infoUser->getCity() ."\n ZipCode:" . $infoUser->getZipCode() . "\n Country:" . $infoUser->getCountry() . "\n}\n";
          return new JsonResponse( $formatData . $response->getContent(), $response->getStatusCode(), [], true);
     }
 
-    #[Route('api/weather/{zipcode}/{country}', name: 'app_weather_zipcode', methods: ['GET'])]
+    #[Route('api/meteo/{zipcode}/{country}', name: 'app_weather_zipcode', methods: ['GET'])]
     public function zipcodeWeather(int $zipcode, string $country, SerializerInterface $serializer, HttpClientInterface $httpClient): JsonResponse
     {
         // récupération de la latitude et longitude
@@ -67,7 +64,7 @@ class WeatherController extends AbstractController
             'http://api.openweathermap.org/data/3.0/onecall?lat=' . $location->getLat() . '&lon=' . $location->getLon() . '&appid=' . $this->getParameter('WEATHER_API_KEY'),
          );
 
-         $formatData = "{\n  ZipCode:" . $zipcode . "\n Country:" . $country . "\n}";
+         $formatData = "{\n  ZipCode:" . $zipcode . "\n Country:" . $country . "\n}\n";
          return new JsonResponse( $formatData . $response->getContent(), $response->getStatusCode(), [], true);
     }
 }

@@ -24,7 +24,19 @@ class AdviceRepository extends ServiceEntityRepository
             ->getResult()
         ;
     }
-
+       /**
+        * @return Advice[] Returns an array of Advice objects
+        */
+       public function findAllInMonth($month): array
+       {
+           return $this->createQueryBuilder('a')
+               ->andWhere('a.month = :val')
+               ->setParameter('val', $month)
+               ->orderBy('a.id', 'ASC')
+               ->getQuery()
+               ->getResult()
+           ;
+       }
 
 
     //    /**

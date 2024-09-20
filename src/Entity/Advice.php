@@ -6,9 +6,11 @@ use ApiPlatform\Metadata\ApiResource;
 use App\Repository\AdviceRepository;
 use Doctrine\DBAL\Types\Types;
 use Doctrine\ORM\Mapping as ORM;
+use Doctrine\ORM\Query\AST\WhereClause;
 
 #[ORM\Entity(repositoryClass: AdviceRepository::class)]
-#[ApiResource(order:['month', 'id'])]
+#[ApiResource(
+)]
 class Advice
 {
     #[ORM\Id]
