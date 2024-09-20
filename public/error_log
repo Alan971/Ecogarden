@@ -562,3 +562,1062 @@
 [20-Sep-2024 03:50:02 Australia/Brisbane] [debug] Notified event "kernel.finish_request" to listener "Symfony\Component\HttpKernel\EventListener\RouterListener::onKernelFinishRequest".
 [20-Sep-2024 03:50:02 Australia/Brisbane] [debug] Notified event "kernel.finish_request" to listener "Symfony\Bundle\SecurityBundle\Debug\TraceableFirewallListener::onKernelFinishRequest".
 [20-Sep-2024 03:50:02 Australia/Brisbane] [debug] Notified event "kernel.finish_request" to listener "Symfony\Component\HttpKernel\EventListener\LocaleAwareListener::onKernelFinishRequest".
+[20-Sep-2024 03:56:13 Australia/Brisbane] [info] User Deprecated: Since symfony/dependency-injection 6.4: "Symfony\Bridge\Doctrine\DataFixtures\ContainerAwareLoader" is deprecated, use dependency injection in your fixtures instead.
+[20-Sep-2024 03:56:13 Australia/Brisbane] [info] User Deprecated: Since api-platform/core 3.3: Use a "ApiPlatform\State\ProviderInterface" as first argument in "ApiPlatform\Symfony\EventListener\QueryParameterValidateListener" instead of "ApiPlatform\ParameterValidator\ParameterValidator".
+[20-Sep-2024 03:56:13 Australia/Brisbane] [info] User Deprecated: Support for MariaDB < 10.4 is deprecated and will be removed in DBAL 4. Consider upgrading to a more recent version of MariaDB. (AbstractMySQLDriver.php:65 called by AbstractDriverMiddleware.php:68, https://github.com/doctrine/dbal/pull/6110, package doctrine/dbal)
+[20-Sep-2024 03:56:13 Australia/Brisbane] [info] Matched route "app_weather".
+[20-Sep-2024 03:56:13 Australia/Brisbane] [debug] Checking for authenticator support.
+[20-Sep-2024 03:56:13 Australia/Brisbane] [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\DebugHandlersListener::configure".
+[20-Sep-2024 03:56:13 Australia/Brisbane] [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\ValidateRequestListener::onKernelRequest".
+[20-Sep-2024 03:56:13 Australia/Brisbane] [debug] Notified event "kernel.request" to listener "Nelmio\CorsBundle\EventListener\CorsListener::onKernelRequest".
+[20-Sep-2024 03:56:13 Australia/Brisbane] [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\SessionListener::onKernelRequest".
+[20-Sep-2024 03:56:13 Australia/Brisbane] [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\LocaleListener::setDefaultLocale".
+[20-Sep-2024 03:56:13 Australia/Brisbane] [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\RouterListener::onKernelRequest".
+[20-Sep-2024 03:56:13 Australia/Brisbane] [debug] Notified event "kernel.request" to listener "ApiPlatform\Symfony\EventListener\AddFormatListener::onKernelRequest".
+[20-Sep-2024 03:56:13 Australia/Brisbane] [debug] Notified event "kernel.request" to listener "ApiPlatform\Symfony\EventListener\QueryParameterValidateListener::onKernelRequest".
+[20-Sep-2024 03:56:13 Australia/Brisbane] [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\LocaleListener::onKernelRequest".
+[20-Sep-2024 03:56:13 Australia/Brisbane] [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\LocaleAwareListener::onKernelRequest".
+[20-Sep-2024 03:56:13 Australia/Brisbane] [debug] Notified event "kernel.request" to listener "Symfony\Bundle\SecurityBundle\Debug\TraceableFirewallListener::configureLogoutUrlGenerator".
+[20-Sep-2024 03:56:13 Australia/Brisbane] [debug] Notified event "kernel.request" to listener "Symfony\Bundle\SecurityBundle\Debug\TraceableFirewallListener::onKernelRequest".
+[20-Sep-2024 03:56:13 Australia/Brisbane] [debug] Notified event "kernel.request" to listener "ApiPlatform\Symfony\EventListener\ReadListener::onKernelRequest".
+[20-Sep-2024 03:56:13 Australia/Brisbane] [debug] Notified event "kernel.request" to listener "ApiPlatform\Symfony\EventListener\DeserializeListener::onKernelRequest".
+[20-Sep-2024 03:56:13 Australia/Brisbane] [debug] Notified event "kernel.controller_arguments" to listener "Symfony\Component\Security\Http\EventListener\IsGrantedAttributeListener::onKernelControllerArguments".
+[20-Sep-2024 03:56:13 Australia/Brisbane] [debug] Notified event "kernel.controller_arguments" to listener "Symfony\Component\HttpKernel\EventListener\CacheAttributeListener::onKernelControllerArguments".
+[20-Sep-2024 03:56:13 Australia/Brisbane] [debug] Notified event "kernel.controller_arguments" to listener "ContainerZT09QDg\RequestPayloadValueResolverGhost3590451::onKernelControllerArguments".
+[20-Sep-2024 03:56:13 Australia/Brisbane] [debug] Notified event "kernel.controller_arguments" to listener "Symfony\Component\HttpKernel\EventListener\ErrorListener::onControllerArguments".
+[20-Sep-2024 03:56:13 Australia/Brisbane] [debug] Notified event "kernel.response" to listener "Symfony\Component\Security\Http\Firewall\ContextListener::onKernelResponse".
+[20-Sep-2024 03:56:13 Australia/Brisbane] [debug] Notified event "kernel.response" to listener "Nelmio\CorsBundle\EventListener\CorsListener::onKernelResponse".
+[20-Sep-2024 03:56:13 Australia/Brisbane] [debug] Notified event "kernel.response" to listener "Symfony\Component\HttpKernel\EventListener\ResponseListener::onKernelResponse".
+[20-Sep-2024 03:56:13 Australia/Brisbane] [debug] Notified event "kernel.response" to listener "Symfony\Component\WebLink\EventListener\AddLinkHeaderListener::onKernelResponse".
+[20-Sep-2024 03:56:13 Australia/Brisbane] [debug] Notified event "kernel.response" to listener "Nelmio\CorsBundle\EventListener\CacheableResponseVaryListener::onResponse".
+[20-Sep-2024 03:56:13 Australia/Brisbane] [debug] Notified event "kernel.response" to listener "Symfony\Component\HttpKernel\EventListener\CacheAttributeListener::onKernelResponse".
+[20-Sep-2024 03:56:13 Australia/Brisbane] [debug] Notified event "kernel.response" to listener "Symfony\Component\HttpKernel\EventListener\ErrorListener::removeCspHeader".
+[20-Sep-2024 03:56:13 Australia/Brisbane] [debug] Notified event "kernel.response" to listener "Symfony\Component\HttpKernel\EventListener\DisallowRobotsIndexingListener::onResponse".
+[20-Sep-2024 03:56:13 Australia/Brisbane] [debug] Notified event "kernel.response" to listener "Symfony\Component\HttpKernel\EventListener\SessionListener::onKernelResponse".
+[20-Sep-2024 03:56:13 Australia/Brisbane] [debug] Notified event "kernel.finish_request" to listener "Symfony\Component\HttpKernel\EventListener\LocaleListener::onKernelFinishRequest".
+[20-Sep-2024 03:56:13 Australia/Brisbane] [debug] Notified event "kernel.finish_request" to listener "Symfony\Component\HttpKernel\EventListener\RouterListener::onKernelFinishRequest".
+[20-Sep-2024 03:56:13 Australia/Brisbane] [debug] Notified event "kernel.finish_request" to listener "Symfony\Bundle\SecurityBundle\Debug\TraceableFirewallListener::onKernelFinishRequest".
+[20-Sep-2024 03:56:13 Australia/Brisbane] [debug] Notified event "kernel.finish_request" to listener "Symfony\Component\HttpKernel\EventListener\LocaleAwareListener::onKernelFinishRequest".
+[20-Sep-2024 04:43:10 Australia/Brisbane] [info] User Deprecated: Since symfony/dependency-injection 6.4: "Symfony\Bridge\Doctrine\DataFixtures\ContainerAwareLoader" is deprecated, use dependency injection in your fixtures instead.
+[20-Sep-2024 04:43:10 Australia/Brisbane] [info] User Deprecated: Since api-platform/core 3.3: Use a "ApiPlatform\State\ProviderInterface" as first argument in "ApiPlatform\Symfony\EventListener\QueryParameterValidateListener" instead of "ApiPlatform\ParameterValidator\ParameterValidator".
+[20-Sep-2024 04:43:10 Australia/Brisbane] [debug] Warning: filemtime(): stat failed for /home/alan/apps/test-apps/Projet12/Ecogarden/config/routes/api_platform.yaml
+[20-Sep-2024 04:43:10 Australia/Brisbane] [info] User Deprecated: Support for MariaDB < 10.4 is deprecated and will be removed in DBAL 4. Consider upgrading to a more recent version of MariaDB. (AbstractMySQLDriver.php:65 called by AbstractDriverMiddleware.php:68, https://github.com/doctrine/dbal/pull/6110, package doctrine/dbal)
+[20-Sep-2024 04:43:10 Australia/Brisbane] [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\DebugHandlersListener::configure".
+[20-Sep-2024 04:43:10 Australia/Brisbane] [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\ValidateRequestListener::onKernelRequest".
+[20-Sep-2024 04:43:10 Australia/Brisbane] [debug] Notified event "kernel.request" to listener "Nelmio\CorsBundle\EventListener\CorsListener::onKernelRequest".
+[20-Sep-2024 04:43:10 Australia/Brisbane] [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\SessionListener::onKernelRequest".
+[20-Sep-2024 04:43:10 Australia/Brisbane] [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\LocaleListener::setDefaultLocale".
+[20-Sep-2024 04:43:10 Australia/Brisbane] [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\RouterListener::onKernelRequest".
+[20-Sep-2024 04:43:10 Australia/Brisbane] [error] Uncaught PHP Exception Symfony\Component\HttpKernel\Exception\NotFoundHttpException: "No route found for "GET http://ecogarden.test/api/weather/29200/FR"" at RouterListener.php line 127
+[20-Sep-2024 04:43:10 Australia/Brisbane] [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\DebugHandlersListener::configure".
+[20-Sep-2024 04:43:10 Australia/Brisbane] [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\ValidateRequestListener::onKernelRequest".
+[20-Sep-2024 04:43:10 Australia/Brisbane] [debug] Notified event "kernel.request" to listener "Nelmio\CorsBundle\EventListener\CorsListener::onKernelRequest".
+[20-Sep-2024 04:43:10 Australia/Brisbane] [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\SessionListener::onKernelRequest".
+[20-Sep-2024 04:43:10 Australia/Brisbane] [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\LocaleListener::setDefaultLocale".
+[20-Sep-2024 04:43:10 Australia/Brisbane] [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\RouterListener::onKernelRequest".
+[20-Sep-2024 04:43:10 Australia/Brisbane] [debug] Notified event "kernel.request" to listener "ApiPlatform\Symfony\EventListener\AddFormatListener::onKernelRequest".
+[20-Sep-2024 04:43:10 Australia/Brisbane] [debug] Notified event "kernel.request" to listener "ApiPlatform\Symfony\EventListener\QueryParameterValidateListener::onKernelRequest".
+[20-Sep-2024 04:43:10 Australia/Brisbane] [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\LocaleListener::onKernelRequest".
+[20-Sep-2024 04:43:10 Australia/Brisbane] [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\LocaleAwareListener::onKernelRequest".
+[20-Sep-2024 04:43:10 Australia/Brisbane] [debug] Notified event "kernel.request" to listener "Symfony\Bundle\SecurityBundle\Debug\TraceableFirewallListener::configureLogoutUrlGenerator".
+[20-Sep-2024 04:43:10 Australia/Brisbane] [debug] Notified event "kernel.request" to listener "Symfony\Bundle\SecurityBundle\Debug\TraceableFirewallListener::onKernelRequest".
+[20-Sep-2024 04:43:10 Australia/Brisbane] [debug] Notified event "kernel.request" to listener "ApiPlatform\Symfony\EventListener\ReadListener::onKernelRequest".
+[20-Sep-2024 04:43:10 Australia/Brisbane] [debug] Notified event "kernel.request" to listener "ApiPlatform\Symfony\EventListener\DeserializeListener::onKernelRequest".
+[20-Sep-2024 04:43:10 Australia/Brisbane] [debug] Notified event "kernel.controller_arguments" to listener "Symfony\Component\Security\Http\EventListener\IsGrantedAttributeListener::onKernelControllerArguments".
+[20-Sep-2024 04:43:10 Australia/Brisbane] [debug] Notified event "kernel.controller_arguments" to listener "Symfony\Component\HttpKernel\EventListener\CacheAttributeListener::onKernelControllerArguments".
+[20-Sep-2024 04:43:10 Australia/Brisbane] [debug] Notified event "kernel.controller_arguments" to listener "ContainerVj4RSwi\RequestPayloadValueResolverGhost3590451::onKernelControllerArguments".
+[20-Sep-2024 04:43:10 Australia/Brisbane] [debug] Notified event "kernel.controller_arguments" to listener "Symfony\Component\HttpKernel\EventListener\ErrorListener::onControllerArguments".
+[20-Sep-2024 04:43:10 Australia/Brisbane] [debug] Notified event "kernel.response" to listener "Symfony\Component\Security\Http\Firewall\ContextListener::onKernelResponse".
+[20-Sep-2024 04:43:10 Australia/Brisbane] [debug] Notified event "kernel.response" to listener "Nelmio\CorsBundle\EventListener\CorsListener::onKernelResponse".
+[20-Sep-2024 04:43:10 Australia/Brisbane] [debug] Notified event "kernel.response" to listener "Symfony\Component\HttpKernel\EventListener\ResponseListener::onKernelResponse".
+[20-Sep-2024 04:43:10 Australia/Brisbane] [debug] Notified event "kernel.response" to listener "Symfony\Component\WebLink\EventListener\AddLinkHeaderListener::onKernelResponse".
+[20-Sep-2024 04:43:10 Australia/Brisbane] [debug] Notified event "kernel.response" to listener "Nelmio\CorsBundle\EventListener\CacheableResponseVaryListener::onResponse".
+[20-Sep-2024 04:43:10 Australia/Brisbane] [debug] Notified event "kernel.response" to listener "Symfony\Component\HttpKernel\EventListener\CacheAttributeListener::onKernelResponse".
+[20-Sep-2024 04:43:10 Australia/Brisbane] [debug] Notified event "kernel.response" to listener "Symfony\Component\HttpKernel\EventListener\ErrorListener::removeCspHeader".
+[20-Sep-2024 04:43:10 Australia/Brisbane] [debug] Notified event "kernel.response" to listener "Symfony\Component\HttpKernel\EventListener\DisallowRobotsIndexingListener::onResponse".
+[20-Sep-2024 04:43:10 Australia/Brisbane] [debug] Notified event "kernel.response" to listener "Symfony\Component\HttpKernel\EventListener\SessionListener::onKernelResponse".
+[20-Sep-2024 04:43:10 Australia/Brisbane] [debug] Notified event "kernel.finish_request" to listener "Symfony\Component\HttpKernel\EventListener\LocaleListener::onKernelFinishRequest".
+[20-Sep-2024 04:43:10 Australia/Brisbane] [debug] Notified event "kernel.finish_request" to listener "Symfony\Component\HttpKernel\EventListener\RouterListener::onKernelFinishRequest".
+[20-Sep-2024 04:43:10 Australia/Brisbane] [debug] Notified event "kernel.finish_request" to listener "Symfony\Bundle\SecurityBundle\Debug\TraceableFirewallListener::onKernelFinishRequest".
+[20-Sep-2024 04:43:10 Australia/Brisbane] [debug] Notified event "kernel.finish_request" to listener "Symfony\Component\HttpKernel\EventListener\LocaleAwareListener::onKernelFinishRequest".
+[20-Sep-2024 04:43:10 Australia/Brisbane] [debug] Notified event "kernel.exception" to listener "Symfony\Component\HttpKernel\EventListener\ErrorListener::logKernelException".
+[20-Sep-2024 04:43:10 Australia/Brisbane] [debug] Notified event "kernel.exception" to listener "Symfony\Component\HttpKernel\EventListener\RouterListener::onKernelException".
+[20-Sep-2024 04:43:10 Australia/Brisbane] [debug] Notified event "kernel.exception" to listener "ApiPlatform\Symfony\EventListener\ExceptionListener::onKernelException".
+[20-Sep-2024 04:43:10 Australia/Brisbane] [debug] Notified event "kernel.exception" to listener "Symfony\Component\HttpKernel\EventListener\ErrorListener::onKernelException".
+[20-Sep-2024 04:43:10 Australia/Brisbane] [debug] Listener "Symfony\Component\HttpKernel\EventListener\ErrorListener::onKernelException" stopped propagation of the event "kernel.exception".
+[20-Sep-2024 04:43:10 Australia/Brisbane] [debug] Notified event "kernel.response" to listener "Symfony\Component\Security\Http\Firewall\ContextListener::onKernelResponse".
+[20-Sep-2024 04:43:10 Australia/Brisbane] [debug] Notified event "kernel.response" to listener "Nelmio\CorsBundle\EventListener\CorsListener::onKernelResponse".
+[20-Sep-2024 04:43:10 Australia/Brisbane] [debug] Notified event "kernel.response" to listener "Symfony\Component\HttpKernel\EventListener\ResponseListener::onKernelResponse".
+[20-Sep-2024 04:43:10 Australia/Brisbane] [debug] Notified event "kernel.response" to listener "Symfony\Component\WebLink\EventListener\AddLinkHeaderListener::onKernelResponse".
+[20-Sep-2024 04:43:10 Australia/Brisbane] [debug] Notified event "kernel.response" to listener "Nelmio\CorsBundle\EventListener\CacheableResponseVaryListener::onResponse".
+[20-Sep-2024 04:43:10 Australia/Brisbane] [debug] Notified event "kernel.response" to listener "Symfony\Component\HttpKernel\EventListener\CacheAttributeListener::onKernelResponse".
+[20-Sep-2024 04:43:10 Australia/Brisbane] [debug] Notified event "kernel.response" to listener "Symfony\Component\HttpKernel\EventListener\ErrorListener::removeCspHeader".
+[20-Sep-2024 04:43:10 Australia/Brisbane] [debug] Notified event "kernel.response" to listener "Symfony\Component\HttpKernel\EventListener\DisallowRobotsIndexingListener::onResponse".
+[20-Sep-2024 04:43:10 Australia/Brisbane] [debug] Notified event "kernel.response" to listener "Symfony\Component\HttpKernel\EventListener\SessionListener::onKernelResponse".
+[20-Sep-2024 04:43:10 Australia/Brisbane] [debug] Notified event "kernel.finish_request" to listener "Symfony\Component\HttpKernel\EventListener\LocaleListener::onKernelFinishRequest".
+[20-Sep-2024 04:43:10 Australia/Brisbane] [debug] Notified event "kernel.finish_request" to listener "Symfony\Component\HttpKernel\EventListener\RouterListener::onKernelFinishRequest".
+[20-Sep-2024 04:43:10 Australia/Brisbane] [debug] Notified event "kernel.finish_request" to listener "Symfony\Bundle\SecurityBundle\Debug\TraceableFirewallListener::onKernelFinishRequest".
+[20-Sep-2024 04:43:10 Australia/Brisbane] [debug] Notified event "kernel.finish_request" to listener "Symfony\Component\HttpKernel\EventListener\LocaleAwareListener::onKernelFinishRequest".
+[20-Sep-2024 04:44:11 Australia/Brisbane] [info] User Deprecated: Since symfony/dependency-injection 6.4: "Symfony\Bridge\Doctrine\DataFixtures\ContainerAwareLoader" is deprecated, use dependency injection in your fixtures instead.
+[20-Sep-2024 04:44:11 Australia/Brisbane] [info] User Deprecated: Since api-platform/core 3.3: Use a "ApiPlatform\State\ProviderInterface" as first argument in "ApiPlatform\Symfony\EventListener\QueryParameterValidateListener" instead of "ApiPlatform\ParameterValidator\ParameterValidator".
+[20-Sep-2024 04:44:11 Australia/Brisbane] [info] User Deprecated: Support for MariaDB < 10.4 is deprecated and will be removed in DBAL 4. Consider upgrading to a more recent version of MariaDB. (AbstractMySQLDriver.php:65 called by AbstractDriverMiddleware.php:68, https://github.com/doctrine/dbal/pull/6110, package doctrine/dbal)
+[20-Sep-2024 04:44:11 Australia/Brisbane] [info] Matched route "app_weather_zipcode".
+[20-Sep-2024 04:44:11 Australia/Brisbane] [debug] Checking for authenticator support.
+[20-Sep-2024 04:44:11 Australia/Brisbane] [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\DebugHandlersListener::configure".
+[20-Sep-2024 04:44:11 Australia/Brisbane] [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\ValidateRequestListener::onKernelRequest".
+[20-Sep-2024 04:44:11 Australia/Brisbane] [debug] Notified event "kernel.request" to listener "Nelmio\CorsBundle\EventListener\CorsListener::onKernelRequest".
+[20-Sep-2024 04:44:11 Australia/Brisbane] [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\SessionListener::onKernelRequest".
+[20-Sep-2024 04:44:11 Australia/Brisbane] [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\LocaleListener::setDefaultLocale".
+[20-Sep-2024 04:44:11 Australia/Brisbane] [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\RouterListener::onKernelRequest".
+[20-Sep-2024 04:44:11 Australia/Brisbane] [debug] Notified event "kernel.request" to listener "ApiPlatform\Symfony\EventListener\AddFormatListener::onKernelRequest".
+[20-Sep-2024 04:44:11 Australia/Brisbane] [debug] Notified event "kernel.request" to listener "ApiPlatform\Symfony\EventListener\QueryParameterValidateListener::onKernelRequest".
+[20-Sep-2024 04:44:11 Australia/Brisbane] [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\LocaleListener::onKernelRequest".
+[20-Sep-2024 04:44:11 Australia/Brisbane] [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\LocaleAwareListener::onKernelRequest".
+[20-Sep-2024 04:44:11 Australia/Brisbane] [debug] Notified event "kernel.request" to listener "Symfony\Bundle\SecurityBundle\Debug\TraceableFirewallListener::configureLogoutUrlGenerator".
+[20-Sep-2024 04:44:11 Australia/Brisbane] [debug] Notified event "kernel.request" to listener "Symfony\Bundle\SecurityBundle\Debug\TraceableFirewallListener::onKernelRequest".
+[20-Sep-2024 04:44:11 Australia/Brisbane] [debug] Notified event "kernel.request" to listener "ApiPlatform\Symfony\EventListener\ReadListener::onKernelRequest".
+[20-Sep-2024 04:44:11 Australia/Brisbane] [debug] Notified event "kernel.request" to listener "ApiPlatform\Symfony\EventListener\DeserializeListener::onKernelRequest".
+[20-Sep-2024 04:44:12 Australia/Brisbane] [debug] Notified event "kernel.controller_arguments" to listener "Symfony\Component\Security\Http\EventListener\IsGrantedAttributeListener::onKernelControllerArguments".
+[20-Sep-2024 04:44:12 Australia/Brisbane] [debug] Notified event "kernel.controller_arguments" to listener "Symfony\Component\HttpKernel\EventListener\CacheAttributeListener::onKernelControllerArguments".
+[20-Sep-2024 04:44:12 Australia/Brisbane] [debug] Notified event "kernel.controller_arguments" to listener "ContainerVj4RSwi\RequestPayloadValueResolverGhost3590451::onKernelControllerArguments".
+[20-Sep-2024 04:44:12 Australia/Brisbane] [debug] Notified event "kernel.controller_arguments" to listener "Symfony\Component\HttpKernel\EventListener\ErrorListener::onControllerArguments".
+[20-Sep-2024 04:44:12 Australia/Brisbane] [info] Request: "GET http://api.openweathermap.org/geo/1.0/zip?zip=29200,FR&appid=%env(WEATHER_API_KEY)"
+[20-Sep-2024 04:44:12 Australia/Brisbane] [info] Response: "401 http://api.openweathermap.org/geo/1.0/zip?zip=29200,FR&appid=%env(WEATHER_API_KEY)"
+[20-Sep-2024 04:44:12 Australia/Brisbane] [critical] Uncaught PHP Exception Symfony\Component\HttpClient\Exception\ClientException: "HTTP/1.1 401 Unauthorized returned for "http://api.openweathermap.org/geo/1.0/zip?zip=29200,FR&appid=%env(WEATHER_API_KEY)"." at CommonResponseTrait.php line 173
+[20-Sep-2024 04:44:12 Australia/Brisbane] [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\DebugHandlersListener::configure".
+[20-Sep-2024 04:44:12 Australia/Brisbane] [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\ValidateRequestListener::onKernelRequest".
+[20-Sep-2024 04:44:12 Australia/Brisbane] [debug] Notified event "kernel.request" to listener "Nelmio\CorsBundle\EventListener\CorsListener::onKernelRequest".
+[20-Sep-2024 04:44:12 Australia/Brisbane] [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\SessionListener::onKernelRequest".
+[20-Sep-2024 04:44:12 Australia/Brisbane] [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\LocaleListener::setDefaultLocale".
+[20-Sep-2024 04:44:12 Australia/Brisbane] [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\RouterListener::onKernelRequest".
+[20-Sep-2024 04:44:12 Australia/Brisbane] [debug] Notified event "kernel.request" to listener "ApiPlatform\Symfony\EventListener\AddFormatListener::onKernelRequest".
+[20-Sep-2024 04:44:12 Australia/Brisbane] [debug] Notified event "kernel.request" to listener "ApiPlatform\Symfony\EventListener\QueryParameterValidateListener::onKernelRequest".
+[20-Sep-2024 04:44:12 Australia/Brisbane] [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\LocaleListener::onKernelRequest".
+[20-Sep-2024 04:44:12 Australia/Brisbane] [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\LocaleAwareListener::onKernelRequest".
+[20-Sep-2024 04:44:12 Australia/Brisbane] [debug] Notified event "kernel.request" to listener "Symfony\Bundle\SecurityBundle\Debug\TraceableFirewallListener::configureLogoutUrlGenerator".
+[20-Sep-2024 04:44:12 Australia/Brisbane] [debug] Notified event "kernel.request" to listener "Symfony\Bundle\SecurityBundle\Debug\TraceableFirewallListener::onKernelRequest".
+[20-Sep-2024 04:44:12 Australia/Brisbane] [debug] Notified event "kernel.request" to listener "ApiPlatform\Symfony\EventListener\ReadListener::onKernelRequest".
+[20-Sep-2024 04:44:12 Australia/Brisbane] [debug] Notified event "kernel.request" to listener "ApiPlatform\Symfony\EventListener\DeserializeListener::onKernelRequest".
+[20-Sep-2024 04:44:12 Australia/Brisbane] [debug] Notified event "kernel.controller_arguments" to listener "Symfony\Component\Security\Http\EventListener\IsGrantedAttributeListener::onKernelControllerArguments".
+[20-Sep-2024 04:44:12 Australia/Brisbane] [debug] Notified event "kernel.controller_arguments" to listener "Symfony\Component\HttpKernel\EventListener\CacheAttributeListener::onKernelControllerArguments".
+[20-Sep-2024 04:44:12 Australia/Brisbane] [debug] Notified event "kernel.controller_arguments" to listener "ContainerVj4RSwi\RequestPayloadValueResolverGhost3590451::onKernelControllerArguments".
+[20-Sep-2024 04:44:12 Australia/Brisbane] [debug] Notified event "kernel.controller_arguments" to listener "Symfony\Component\HttpKernel\EventListener\ErrorListener::onControllerArguments".
+[20-Sep-2024 04:44:12 Australia/Brisbane] [debug] Notified event "kernel.response" to listener "Symfony\Component\Security\Http\Firewall\ContextListener::onKernelResponse".
+[20-Sep-2024 04:44:12 Australia/Brisbane] [debug] Notified event "kernel.response" to listener "Nelmio\CorsBundle\EventListener\CorsListener::onKernelResponse".
+[20-Sep-2024 04:44:12 Australia/Brisbane] [debug] Notified event "kernel.response" to listener "Symfony\Component\HttpKernel\EventListener\ResponseListener::onKernelResponse".
+[20-Sep-2024 04:44:12 Australia/Brisbane] [debug] Notified event "kernel.response" to listener "Symfony\Component\WebLink\EventListener\AddLinkHeaderListener::onKernelResponse".
+[20-Sep-2024 04:44:12 Australia/Brisbane] [debug] Notified event "kernel.response" to listener "Nelmio\CorsBundle\EventListener\CacheableResponseVaryListener::onResponse".
+[20-Sep-2024 04:44:12 Australia/Brisbane] [debug] Notified event "kernel.response" to listener "Symfony\Component\HttpKernel\EventListener\CacheAttributeListener::onKernelResponse".
+[20-Sep-2024 04:44:12 Australia/Brisbane] [debug] Notified event "kernel.response" to listener "Symfony\Component\HttpKernel\EventListener\ErrorListener::removeCspHeader".
+[20-Sep-2024 04:44:12 Australia/Brisbane] [debug] Notified event "kernel.response" to listener "Symfony\Component\HttpKernel\EventListener\DisallowRobotsIndexingListener::onResponse".
+[20-Sep-2024 04:44:12 Australia/Brisbane] [debug] Notified event "kernel.response" to listener "Symfony\Component\HttpKernel\EventListener\SessionListener::onKernelResponse".
+[20-Sep-2024 04:44:12 Australia/Brisbane] [debug] Notified event "kernel.finish_request" to listener "Symfony\Component\HttpKernel\EventListener\LocaleListener::onKernelFinishRequest".
+[20-Sep-2024 04:44:12 Australia/Brisbane] [debug] Notified event "kernel.finish_request" to listener "Symfony\Component\HttpKernel\EventListener\RouterListener::onKernelFinishRequest".
+[20-Sep-2024 04:44:12 Australia/Brisbane] [debug] Notified event "kernel.finish_request" to listener "Symfony\Bundle\SecurityBundle\Debug\TraceableFirewallListener::onKernelFinishRequest".
+[20-Sep-2024 04:44:12 Australia/Brisbane] [debug] Notified event "kernel.finish_request" to listener "Symfony\Component\HttpKernel\EventListener\LocaleAwareListener::onKernelFinishRequest".
+[20-Sep-2024 04:44:12 Australia/Brisbane] [debug] Notified event "kernel.exception" to listener "Symfony\Component\Security\Http\Firewall\ExceptionListener::onKernelException".
+[20-Sep-2024 04:44:12 Australia/Brisbane] [debug] Notified event "kernel.exception" to listener "Symfony\Component\HttpKernel\EventListener\ErrorListener::logKernelException".
+[20-Sep-2024 04:44:12 Australia/Brisbane] [debug] Notified event "kernel.exception" to listener "Symfony\Component\HttpKernel\EventListener\RouterListener::onKernelException".
+[20-Sep-2024 04:44:12 Australia/Brisbane] [debug] Notified event "kernel.exception" to listener "ApiPlatform\Symfony\EventListener\ExceptionListener::onKernelException".
+[20-Sep-2024 04:44:12 Australia/Brisbane] [debug] Notified event "kernel.exception" to listener "Symfony\Component\HttpKernel\EventListener\ErrorListener::onKernelException".
+[20-Sep-2024 04:44:12 Australia/Brisbane] [debug] Listener "Symfony\Component\HttpKernel\EventListener\ErrorListener::onKernelException" stopped propagation of the event "kernel.exception".
+[20-Sep-2024 04:44:12 Australia/Brisbane] [debug] Notified event "kernel.response" to listener "Symfony\Component\Security\Http\Firewall\ContextListener::onKernelResponse".
+[20-Sep-2024 04:44:12 Australia/Brisbane] [debug] Notified event "kernel.response" to listener "Nelmio\CorsBundle\EventListener\CorsListener::onKernelResponse".
+[20-Sep-2024 04:44:12 Australia/Brisbane] [debug] Notified event "kernel.response" to listener "Symfony\Component\HttpKernel\EventListener\ResponseListener::onKernelResponse".
+[20-Sep-2024 04:44:12 Australia/Brisbane] [debug] Notified event "kernel.response" to listener "Symfony\Component\WebLink\EventListener\AddLinkHeaderListener::onKernelResponse".
+[20-Sep-2024 04:44:12 Australia/Brisbane] [debug] Notified event "kernel.response" to listener "Nelmio\CorsBundle\EventListener\CacheableResponseVaryListener::onResponse".
+[20-Sep-2024 04:44:12 Australia/Brisbane] [debug] Notified event "kernel.response" to listener "Symfony\Component\HttpKernel\EventListener\CacheAttributeListener::onKernelResponse".
+[20-Sep-2024 04:44:12 Australia/Brisbane] [debug] Notified event "kernel.response" to listener "Symfony\Component\HttpKernel\EventListener\ErrorListener::removeCspHeader".
+[20-Sep-2024 04:44:12 Australia/Brisbane] [debug] Notified event "kernel.response" to listener "Symfony\Component\HttpKernel\EventListener\DisallowRobotsIndexingListener::onResponse".
+[20-Sep-2024 04:44:12 Australia/Brisbane] [debug] Notified event "kernel.response" to listener "Symfony\Component\HttpKernel\EventListener\SessionListener::onKernelResponse".
+[20-Sep-2024 04:44:12 Australia/Brisbane] [debug] Notified event "kernel.finish_request" to listener "Symfony\Component\HttpKernel\EventListener\LocaleListener::onKernelFinishRequest".
+[20-Sep-2024 04:44:12 Australia/Brisbane] [debug] Notified event "kernel.finish_request" to listener "Symfony\Component\HttpKernel\EventListener\RouterListener::onKernelFinishRequest".
+[20-Sep-2024 04:44:12 Australia/Brisbane] [debug] Notified event "kernel.finish_request" to listener "Symfony\Bundle\SecurityBundle\Debug\TraceableFirewallListener::onKernelFinishRequest".
+[20-Sep-2024 04:44:12 Australia/Brisbane] [debug] Notified event "kernel.finish_request" to listener "Symfony\Component\HttpKernel\EventListener\LocaleAwareListener::onKernelFinishRequest".
+[20-Sep-2024 04:46:57 Australia/Brisbane] [info] User Deprecated: Since symfony/dependency-injection 6.4: "Symfony\Bridge\Doctrine\DataFixtures\ContainerAwareLoader" is deprecated, use dependency injection in your fixtures instead.
+[20-Sep-2024 04:46:57 Australia/Brisbane] [info] User Deprecated: Since api-platform/core 3.3: Use a "ApiPlatform\State\ProviderInterface" as first argument in "ApiPlatform\Symfony\EventListener\QueryParameterValidateListener" instead of "ApiPlatform\ParameterValidator\ParameterValidator".
+[20-Sep-2024 04:46:57 Australia/Brisbane] [info] User Deprecated: Support for MariaDB < 10.4 is deprecated and will be removed in DBAL 4. Consider upgrading to a more recent version of MariaDB. (AbstractMySQLDriver.php:65 called by AbstractDriverMiddleware.php:68, https://github.com/doctrine/dbal/pull/6110, package doctrine/dbal)
+[20-Sep-2024 04:46:57 Australia/Brisbane] [info] Matched route "app_weather_zipcode".
+[20-Sep-2024 04:46:57 Australia/Brisbane] [debug] Checking for authenticator support.
+[20-Sep-2024 04:46:57 Australia/Brisbane] [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\DebugHandlersListener::configure".
+[20-Sep-2024 04:46:57 Australia/Brisbane] [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\ValidateRequestListener::onKernelRequest".
+[20-Sep-2024 04:46:57 Australia/Brisbane] [debug] Notified event "kernel.request" to listener "Nelmio\CorsBundle\EventListener\CorsListener::onKernelRequest".
+[20-Sep-2024 04:46:57 Australia/Brisbane] [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\SessionListener::onKernelRequest".
+[20-Sep-2024 04:46:57 Australia/Brisbane] [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\LocaleListener::setDefaultLocale".
+[20-Sep-2024 04:46:57 Australia/Brisbane] [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\RouterListener::onKernelRequest".
+[20-Sep-2024 04:46:57 Australia/Brisbane] [debug] Notified event "kernel.request" to listener "ApiPlatform\Symfony\EventListener\AddFormatListener::onKernelRequest".
+[20-Sep-2024 04:46:57 Australia/Brisbane] [debug] Notified event "kernel.request" to listener "ApiPlatform\Symfony\EventListener\QueryParameterValidateListener::onKernelRequest".
+[20-Sep-2024 04:46:57 Australia/Brisbane] [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\LocaleListener::onKernelRequest".
+[20-Sep-2024 04:46:57 Australia/Brisbane] [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\LocaleAwareListener::onKernelRequest".
+[20-Sep-2024 04:46:57 Australia/Brisbane] [debug] Notified event "kernel.request" to listener "Symfony\Bundle\SecurityBundle\Debug\TraceableFirewallListener::configureLogoutUrlGenerator".
+[20-Sep-2024 04:46:57 Australia/Brisbane] [debug] Notified event "kernel.request" to listener "Symfony\Bundle\SecurityBundle\Debug\TraceableFirewallListener::onKernelRequest".
+[20-Sep-2024 04:46:57 Australia/Brisbane] [debug] Notified event "kernel.request" to listener "ApiPlatform\Symfony\EventListener\ReadListener::onKernelRequest".
+[20-Sep-2024 04:46:57 Australia/Brisbane] [debug] Notified event "kernel.request" to listener "ApiPlatform\Symfony\EventListener\DeserializeListener::onKernelRequest".
+[20-Sep-2024 04:46:57 Australia/Brisbane] [debug] Notified event "kernel.controller_arguments" to listener "Symfony\Component\Security\Http\EventListener\IsGrantedAttributeListener::onKernelControllerArguments".
+[20-Sep-2024 04:46:57 Australia/Brisbane] [debug] Notified event "kernel.controller_arguments" to listener "Symfony\Component\HttpKernel\EventListener\CacheAttributeListener::onKernelControllerArguments".
+[20-Sep-2024 04:46:57 Australia/Brisbane] [debug] Notified event "kernel.controller_arguments" to listener "ContainerBcpHvvd\RequestPayloadValueResolverGhost3590451::onKernelControllerArguments".
+[20-Sep-2024 04:46:57 Australia/Brisbane] [debug] Notified event "kernel.controller_arguments" to listener "Symfony\Component\HttpKernel\EventListener\ErrorListener::onControllerArguments".
+[20-Sep-2024 04:46:57 Australia/Brisbane] [info] Request: "GET http://api.openweathermap.org/geo/1.0/zip?zip=29200,FR&appid=91af50c169584fba9f8beb8400ba5e74"
+[20-Sep-2024 04:46:57 Australia/Brisbane] [info] Response: "401 http://api.openweathermap.org/geo/1.0/zip?zip=29200,FR&appid=91af50c169584fba9f8beb8400ba5e74"
+[20-Sep-2024 04:46:57 Australia/Brisbane] [critical] Uncaught PHP Exception Symfony\Component\HttpClient\Exception\ClientException: "HTTP/1.1 401 Unauthorized returned for "http://api.openweathermap.org/geo/1.0/zip?zip=29200,FR&appid=91af50c169584fba9f8beb8400ba5e74"." at CommonResponseTrait.php line 173
+[20-Sep-2024 04:46:57 Australia/Brisbane] [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\DebugHandlersListener::configure".
+[20-Sep-2024 04:46:57 Australia/Brisbane] [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\ValidateRequestListener::onKernelRequest".
+[20-Sep-2024 04:46:57 Australia/Brisbane] [debug] Notified event "kernel.request" to listener "Nelmio\CorsBundle\EventListener\CorsListener::onKernelRequest".
+[20-Sep-2024 04:46:57 Australia/Brisbane] [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\SessionListener::onKernelRequest".
+[20-Sep-2024 04:46:57 Australia/Brisbane] [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\LocaleListener::setDefaultLocale".
+[20-Sep-2024 04:46:57 Australia/Brisbane] [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\RouterListener::onKernelRequest".
+[20-Sep-2024 04:46:57 Australia/Brisbane] [debug] Notified event "kernel.request" to listener "ApiPlatform\Symfony\EventListener\AddFormatListener::onKernelRequest".
+[20-Sep-2024 04:46:57 Australia/Brisbane] [debug] Notified event "kernel.request" to listener "ApiPlatform\Symfony\EventListener\QueryParameterValidateListener::onKernelRequest".
+[20-Sep-2024 04:46:57 Australia/Brisbane] [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\LocaleListener::onKernelRequest".
+[20-Sep-2024 04:46:57 Australia/Brisbane] [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\LocaleAwareListener::onKernelRequest".
+[20-Sep-2024 04:46:57 Australia/Brisbane] [debug] Notified event "kernel.request" to listener "Symfony\Bundle\SecurityBundle\Debug\TraceableFirewallListener::configureLogoutUrlGenerator".
+[20-Sep-2024 04:46:57 Australia/Brisbane] [debug] Notified event "kernel.request" to listener "Symfony\Bundle\SecurityBundle\Debug\TraceableFirewallListener::onKernelRequest".
+[20-Sep-2024 04:46:57 Australia/Brisbane] [debug] Notified event "kernel.request" to listener "ApiPlatform\Symfony\EventListener\ReadListener::onKernelRequest".
+[20-Sep-2024 04:46:57 Australia/Brisbane] [debug] Notified event "kernel.request" to listener "ApiPlatform\Symfony\EventListener\DeserializeListener::onKernelRequest".
+[20-Sep-2024 04:46:57 Australia/Brisbane] [debug] Notified event "kernel.controller_arguments" to listener "Symfony\Component\Security\Http\EventListener\IsGrantedAttributeListener::onKernelControllerArguments".
+[20-Sep-2024 04:46:57 Australia/Brisbane] [debug] Notified event "kernel.controller_arguments" to listener "Symfony\Component\HttpKernel\EventListener\CacheAttributeListener::onKernelControllerArguments".
+[20-Sep-2024 04:46:57 Australia/Brisbane] [debug] Notified event "kernel.controller_arguments" to listener "ContainerBcpHvvd\RequestPayloadValueResolverGhost3590451::onKernelControllerArguments".
+[20-Sep-2024 04:46:57 Australia/Brisbane] [debug] Notified event "kernel.controller_arguments" to listener "Symfony\Component\HttpKernel\EventListener\ErrorListener::onControllerArguments".
+[20-Sep-2024 04:46:57 Australia/Brisbane] [debug] Notified event "kernel.response" to listener "Symfony\Component\Security\Http\Firewall\ContextListener::onKernelResponse".
+[20-Sep-2024 04:46:57 Australia/Brisbane] [debug] Notified event "kernel.response" to listener "Nelmio\CorsBundle\EventListener\CorsListener::onKernelResponse".
+[20-Sep-2024 04:46:57 Australia/Brisbane] [debug] Notified event "kernel.response" to listener "Symfony\Component\HttpKernel\EventListener\ResponseListener::onKernelResponse".
+[20-Sep-2024 04:46:57 Australia/Brisbane] [debug] Notified event "kernel.response" to listener "Symfony\Component\WebLink\EventListener\AddLinkHeaderListener::onKernelResponse".
+[20-Sep-2024 04:46:57 Australia/Brisbane] [debug] Notified event "kernel.response" to listener "Nelmio\CorsBundle\EventListener\CacheableResponseVaryListener::onResponse".
+[20-Sep-2024 04:46:57 Australia/Brisbane] [debug] Notified event "kernel.response" to listener "Symfony\Component\HttpKernel\EventListener\CacheAttributeListener::onKernelResponse".
+[20-Sep-2024 04:46:57 Australia/Brisbane] [debug] Notified event "kernel.response" to listener "Symfony\Component\HttpKernel\EventListener\ErrorListener::removeCspHeader".
+[20-Sep-2024 04:46:57 Australia/Brisbane] [debug] Notified event "kernel.response" to listener "Symfony\Component\HttpKernel\EventListener\DisallowRobotsIndexingListener::onResponse".
+[20-Sep-2024 04:46:57 Australia/Brisbane] [debug] Notified event "kernel.response" to listener "Symfony\Component\HttpKernel\EventListener\SessionListener::onKernelResponse".
+[20-Sep-2024 04:46:57 Australia/Brisbane] [debug] Notified event "kernel.finish_request" to listener "Symfony\Component\HttpKernel\EventListener\LocaleListener::onKernelFinishRequest".
+[20-Sep-2024 04:46:57 Australia/Brisbane] [debug] Notified event "kernel.finish_request" to listener "Symfony\Component\HttpKernel\EventListener\RouterListener::onKernelFinishRequest".
+[20-Sep-2024 04:46:57 Australia/Brisbane] [debug] Notified event "kernel.finish_request" to listener "Symfony\Bundle\SecurityBundle\Debug\TraceableFirewallListener::onKernelFinishRequest".
+[20-Sep-2024 04:46:57 Australia/Brisbane] [debug] Notified event "kernel.finish_request" to listener "Symfony\Component\HttpKernel\EventListener\LocaleAwareListener::onKernelFinishRequest".
+[20-Sep-2024 04:46:57 Australia/Brisbane] [debug] Notified event "kernel.exception" to listener "Symfony\Component\Security\Http\Firewall\ExceptionListener::onKernelException".
+[20-Sep-2024 04:46:57 Australia/Brisbane] [debug] Notified event "kernel.exception" to listener "Symfony\Component\HttpKernel\EventListener\ErrorListener::logKernelException".
+[20-Sep-2024 04:46:57 Australia/Brisbane] [debug] Notified event "kernel.exception" to listener "Symfony\Component\HttpKernel\EventListener\RouterListener::onKernelException".
+[20-Sep-2024 04:46:57 Australia/Brisbane] [debug] Notified event "kernel.exception" to listener "ApiPlatform\Symfony\EventListener\ExceptionListener::onKernelException".
+[20-Sep-2024 04:46:57 Australia/Brisbane] [debug] Notified event "kernel.exception" to listener "Symfony\Component\HttpKernel\EventListener\ErrorListener::onKernelException".
+[20-Sep-2024 04:46:57 Australia/Brisbane] [debug] Listener "Symfony\Component\HttpKernel\EventListener\ErrorListener::onKernelException" stopped propagation of the event "kernel.exception".
+[20-Sep-2024 04:46:57 Australia/Brisbane] [debug] Notified event "kernel.response" to listener "Symfony\Component\Security\Http\Firewall\ContextListener::onKernelResponse".
+[20-Sep-2024 04:46:57 Australia/Brisbane] [debug] Notified event "kernel.response" to listener "Nelmio\CorsBundle\EventListener\CorsListener::onKernelResponse".
+[20-Sep-2024 04:46:57 Australia/Brisbane] [debug] Notified event "kernel.response" to listener "Symfony\Component\HttpKernel\EventListener\ResponseListener::onKernelResponse".
+[20-Sep-2024 04:46:57 Australia/Brisbane] [debug] Notified event "kernel.response" to listener "Symfony\Component\WebLink\EventListener\AddLinkHeaderListener::onKernelResponse".
+[20-Sep-2024 04:46:57 Australia/Brisbane] [debug] Notified event "kernel.response" to listener "Nelmio\CorsBundle\EventListener\CacheableResponseVaryListener::onResponse".
+[20-Sep-2024 04:46:57 Australia/Brisbane] [debug] Notified event "kernel.response" to listener "Symfony\Component\HttpKernel\EventListener\CacheAttributeListener::onKernelResponse".
+[20-Sep-2024 04:46:57 Australia/Brisbane] [debug] Notified event "kernel.response" to listener "Symfony\Component\HttpKernel\EventListener\ErrorListener::removeCspHeader".
+[20-Sep-2024 04:46:57 Australia/Brisbane] [debug] Notified event "kernel.response" to listener "Symfony\Component\HttpKernel\EventListener\DisallowRobotsIndexingListener::onResponse".
+[20-Sep-2024 04:46:57 Australia/Brisbane] [debug] Notified event "kernel.response" to listener "Symfony\Component\HttpKernel\EventListener\SessionListener::onKernelResponse".
+[20-Sep-2024 04:46:57 Australia/Brisbane] [debug] Notified event "kernel.finish_request" to listener "Symfony\Component\HttpKernel\EventListener\LocaleListener::onKernelFinishRequest".
+[20-Sep-2024 04:46:57 Australia/Brisbane] [debug] Notified event "kernel.finish_request" to listener "Symfony\Component\HttpKernel\EventListener\RouterListener::onKernelFinishRequest".
+[20-Sep-2024 04:46:57 Australia/Brisbane] [debug] Notified event "kernel.finish_request" to listener "Symfony\Bundle\SecurityBundle\Debug\TraceableFirewallListener::onKernelFinishRequest".
+[20-Sep-2024 04:46:57 Australia/Brisbane] [debug] Notified event "kernel.finish_request" to listener "Symfony\Component\HttpKernel\EventListener\LocaleAwareListener::onKernelFinishRequest".
+[20-Sep-2024 04:56:03 Australia/Brisbane] [info] User Deprecated: Since api-platform/core 3.3: Use a "ApiPlatform\State\ProviderInterface" as first argument in "ApiPlatform\Symfony\EventListener\QueryParameterValidateListener" instead of "ApiPlatform\ParameterValidator\ParameterValidator".
+[20-Sep-2024 04:56:03 Australia/Brisbane] [info] Matched route "app_weather_zipcode".
+[20-Sep-2024 04:56:03 Australia/Brisbane] [debug] Checking for authenticator support.
+[20-Sep-2024 04:56:03 Australia/Brisbane] [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\DebugHandlersListener::configure".
+[20-Sep-2024 04:56:03 Australia/Brisbane] [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\ValidateRequestListener::onKernelRequest".
+[20-Sep-2024 04:56:03 Australia/Brisbane] [debug] Notified event "kernel.request" to listener "Nelmio\CorsBundle\EventListener\CorsListener::onKernelRequest".
+[20-Sep-2024 04:56:03 Australia/Brisbane] [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\SessionListener::onKernelRequest".
+[20-Sep-2024 04:56:03 Australia/Brisbane] [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\LocaleListener::setDefaultLocale".
+[20-Sep-2024 04:56:03 Australia/Brisbane] [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\RouterListener::onKernelRequest".
+[20-Sep-2024 04:56:03 Australia/Brisbane] [debug] Notified event "kernel.request" to listener "ApiPlatform\Symfony\EventListener\AddFormatListener::onKernelRequest".
+[20-Sep-2024 04:56:03 Australia/Brisbane] [debug] Notified event "kernel.request" to listener "ApiPlatform\Symfony\EventListener\QueryParameterValidateListener::onKernelRequest".
+[20-Sep-2024 04:56:03 Australia/Brisbane] [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\LocaleListener::onKernelRequest".
+[20-Sep-2024 04:56:03 Australia/Brisbane] [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\LocaleAwareListener::onKernelRequest".
+[20-Sep-2024 04:56:03 Australia/Brisbane] [debug] Notified event "kernel.request" to listener "Symfony\Bundle\SecurityBundle\Debug\TraceableFirewallListener::configureLogoutUrlGenerator".
+[20-Sep-2024 04:56:03 Australia/Brisbane] [debug] Notified event "kernel.request" to listener "Symfony\Bundle\SecurityBundle\Debug\TraceableFirewallListener::onKernelRequest".
+[20-Sep-2024 04:56:03 Australia/Brisbane] [debug] Notified event "kernel.request" to listener "ApiPlatform\Symfony\EventListener\ReadListener::onKernelRequest".
+[20-Sep-2024 04:56:03 Australia/Brisbane] [debug] Notified event "kernel.request" to listener "ApiPlatform\Symfony\EventListener\DeserializeListener::onKernelRequest".
+[20-Sep-2024 04:56:03 Australia/Brisbane] [debug] Notified event "kernel.controller_arguments" to listener "Symfony\Component\Security\Http\EventListener\IsGrantedAttributeListener::onKernelControllerArguments".
+[20-Sep-2024 04:56:03 Australia/Brisbane] [debug] Notified event "kernel.controller_arguments" to listener "Symfony\Component\HttpKernel\EventListener\CacheAttributeListener::onKernelControllerArguments".
+[20-Sep-2024 04:56:03 Australia/Brisbane] [debug] Notified event "kernel.controller_arguments" to listener "ContainerBcpHvvd\RequestPayloadValueResolverGhost3590451::onKernelControllerArguments".
+[20-Sep-2024 04:56:03 Australia/Brisbane] [debug] Notified event "kernel.controller_arguments" to listener "Symfony\Component\HttpKernel\EventListener\ErrorListener::onControllerArguments".
+[20-Sep-2024 04:56:03 Australia/Brisbane] [info] Request: "GET http://api.openweathermap.org/geo/1.0/zip?zip=29200,FR&appid=91af50c169584fba9f8beb8400ba5e74"
+[20-Sep-2024 04:56:03 Australia/Brisbane] [info] Response: "200 http://api.openweathermap.org/geo/1.0/zip?zip=29200,FR&appid=91af50c169584fba9f8beb8400ba5e74"
+[20-Sep-2024 04:56:03 Australia/Brisbane] [info] Request: "GET http://api.openweathermap.org/data/3.0/onecall?lat={%22zip%22:%2229200%22,%22name%22:%22Brest%22,%22lat%22:48.3903,%22lon%22:-4.4863,%22country%22:%22FR%22}&lon={%22zip%22:%2229200%22,%22name%22:%22Brest%22,%22lat%22:48.3903,%22lon%22:-4.4863,%22country%22:%22FR%22}&appid=91af50c169584fba9f8beb8400ba5e74"
+[20-Sep-2024 04:56:03 Australia/Brisbane] [info] Response: "401 http://api.openweathermap.org/data/3.0/onecall?lat={%22zip%22:%2229200%22,%22name%22:%22Brest%22,%22lat%22:48.3903,%22lon%22:-4.4863,%22country%22:%22FR%22}&lon={%22zip%22:%2229200%22,%22name%22:%22Brest%22,%22lat%22:48.3903,%22lon%22:-4.4863,%22country%22:%22FR%22}&appid=91af50c169584fba9f8beb8400ba5e74"
+[20-Sep-2024 04:56:03 Australia/Brisbane] [critical] Uncaught PHP Exception Symfony\Component\HttpClient\Exception\ClientException: "HTTP/1.1 401 Unauthorized returned for "http://api.openweathermap.org/data/3.0/onecall?lat={%22zip%22:%2229200%22,%22name%22:%22Brest%22,%22lat%22:48.3903,%22lon%22:-4.4863,%22country%22:%22FR%22}&lon={%22zip%22:%2229200%22,%22name%22:%22Brest%22,%22lat%22:48.3903,%22lon%22:-4.4863,%22country%22:%22FR%22}&appid=91af50c169584fba9f8beb8400ba5e74"." at CommonResponseTrait.php line 173
+[20-Sep-2024 04:56:03 Australia/Brisbane] [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\DebugHandlersListener::configure".
+[20-Sep-2024 04:56:03 Australia/Brisbane] [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\ValidateRequestListener::onKernelRequest".
+[20-Sep-2024 04:56:03 Australia/Brisbane] [debug] Notified event "kernel.request" to listener "Nelmio\CorsBundle\EventListener\CorsListener::onKernelRequest".
+[20-Sep-2024 04:56:03 Australia/Brisbane] [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\SessionListener::onKernelRequest".
+[20-Sep-2024 04:56:03 Australia/Brisbane] [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\LocaleListener::setDefaultLocale".
+[20-Sep-2024 04:56:03 Australia/Brisbane] [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\RouterListener::onKernelRequest".
+[20-Sep-2024 04:56:03 Australia/Brisbane] [debug] Notified event "kernel.request" to listener "ApiPlatform\Symfony\EventListener\AddFormatListener::onKernelRequest".
+[20-Sep-2024 04:56:03 Australia/Brisbane] [debug] Notified event "kernel.request" to listener "ApiPlatform\Symfony\EventListener\QueryParameterValidateListener::onKernelRequest".
+[20-Sep-2024 04:56:03 Australia/Brisbane] [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\LocaleListener::onKernelRequest".
+[20-Sep-2024 04:56:03 Australia/Brisbane] [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\LocaleAwareListener::onKernelRequest".
+[20-Sep-2024 04:56:03 Australia/Brisbane] [debug] Notified event "kernel.request" to listener "Symfony\Bundle\SecurityBundle\Debug\TraceableFirewallListener::configureLogoutUrlGenerator".
+[20-Sep-2024 04:56:03 Australia/Brisbane] [debug] Notified event "kernel.request" to listener "Symfony\Bundle\SecurityBundle\Debug\TraceableFirewallListener::onKernelRequest".
+[20-Sep-2024 04:56:03 Australia/Brisbane] [debug] Notified event "kernel.request" to listener "ApiPlatform\Symfony\EventListener\ReadListener::onKernelRequest".
+[20-Sep-2024 04:56:03 Australia/Brisbane] [debug] Notified event "kernel.request" to listener "ApiPlatform\Symfony\EventListener\DeserializeListener::onKernelRequest".
+[20-Sep-2024 04:56:03 Australia/Brisbane] [debug] Notified event "kernel.controller_arguments" to listener "Symfony\Component\Security\Http\EventListener\IsGrantedAttributeListener::onKernelControllerArguments".
+[20-Sep-2024 04:56:03 Australia/Brisbane] [debug] Notified event "kernel.controller_arguments" to listener "Symfony\Component\HttpKernel\EventListener\CacheAttributeListener::onKernelControllerArguments".
+[20-Sep-2024 04:56:03 Australia/Brisbane] [debug] Notified event "kernel.controller_arguments" to listener "ContainerBcpHvvd\RequestPayloadValueResolverGhost3590451::onKernelControllerArguments".
+[20-Sep-2024 04:56:03 Australia/Brisbane] [debug] Notified event "kernel.controller_arguments" to listener "Symfony\Component\HttpKernel\EventListener\ErrorListener::onControllerArguments".
+[20-Sep-2024 04:56:03 Australia/Brisbane] [debug] Notified event "kernel.response" to listener "Symfony\Component\Security\Http\Firewall\ContextListener::onKernelResponse".
+[20-Sep-2024 04:56:03 Australia/Brisbane] [debug] Notified event "kernel.response" to listener "Nelmio\CorsBundle\EventListener\CorsListener::onKernelResponse".
+[20-Sep-2024 04:56:03 Australia/Brisbane] [debug] Notified event "kernel.response" to listener "Symfony\Component\HttpKernel\EventListener\ResponseListener::onKernelResponse".
+[20-Sep-2024 04:56:03 Australia/Brisbane] [debug] Notified event "kernel.response" to listener "Symfony\Component\WebLink\EventListener\AddLinkHeaderListener::onKernelResponse".
+[20-Sep-2024 04:56:03 Australia/Brisbane] [debug] Notified event "kernel.response" to listener "Nelmio\CorsBundle\EventListener\CacheableResponseVaryListener::onResponse".
+[20-Sep-2024 04:56:03 Australia/Brisbane] [debug] Notified event "kernel.response" to listener "Symfony\Component\HttpKernel\EventListener\CacheAttributeListener::onKernelResponse".
+[20-Sep-2024 04:56:03 Australia/Brisbane] [debug] Notified event "kernel.response" to listener "Symfony\Component\HttpKernel\EventListener\ErrorListener::removeCspHeader".
+[20-Sep-2024 04:56:03 Australia/Brisbane] [debug] Notified event "kernel.response" to listener "Symfony\Component\HttpKernel\EventListener\DisallowRobotsIndexingListener::onResponse".
+[20-Sep-2024 04:56:03 Australia/Brisbane] [debug] Notified event "kernel.response" to listener "Symfony\Component\HttpKernel\EventListener\SessionListener::onKernelResponse".
+[20-Sep-2024 04:56:03 Australia/Brisbane] [debug] Notified event "kernel.finish_request" to listener "Symfony\Component\HttpKernel\EventListener\LocaleListener::onKernelFinishRequest".
+[20-Sep-2024 04:56:03 Australia/Brisbane] [debug] Notified event "kernel.finish_request" to listener "Symfony\Component\HttpKernel\EventListener\RouterListener::onKernelFinishRequest".
+[20-Sep-2024 04:56:03 Australia/Brisbane] [debug] Notified event "kernel.finish_request" to listener "Symfony\Bundle\SecurityBundle\Debug\TraceableFirewallListener::onKernelFinishRequest".
+[20-Sep-2024 04:56:03 Australia/Brisbane] [debug] Notified event "kernel.finish_request" to listener "Symfony\Component\HttpKernel\EventListener\LocaleAwareListener::onKernelFinishRequest".
+[20-Sep-2024 04:56:03 Australia/Brisbane] [debug] Notified event "kernel.exception" to listener "Symfony\Component\Security\Http\Firewall\ExceptionListener::onKernelException".
+[20-Sep-2024 04:56:03 Australia/Brisbane] [debug] Notified event "kernel.exception" to listener "Symfony\Component\HttpKernel\EventListener\ErrorListener::logKernelException".
+[20-Sep-2024 04:56:03 Australia/Brisbane] [debug] Notified event "kernel.exception" to listener "Symfony\Component\HttpKernel\EventListener\RouterListener::onKernelException".
+[20-Sep-2024 04:56:03 Australia/Brisbane] [debug] Notified event "kernel.exception" to listener "ApiPlatform\Symfony\EventListener\ExceptionListener::onKernelException".
+[20-Sep-2024 04:56:03 Australia/Brisbane] [debug] Notified event "kernel.exception" to listener "Symfony\Component\HttpKernel\EventListener\ErrorListener::onKernelException".
+[20-Sep-2024 04:56:03 Australia/Brisbane] [debug] Listener "Symfony\Component\HttpKernel\EventListener\ErrorListener::onKernelException" stopped propagation of the event "kernel.exception".
+[20-Sep-2024 04:56:03 Australia/Brisbane] [debug] Notified event "kernel.response" to listener "Symfony\Component\Security\Http\Firewall\ContextListener::onKernelResponse".
+[20-Sep-2024 04:56:03 Australia/Brisbane] [debug] Notified event "kernel.response" to listener "Nelmio\CorsBundle\EventListener\CorsListener::onKernelResponse".
+[20-Sep-2024 04:56:03 Australia/Brisbane] [debug] Notified event "kernel.response" to listener "Symfony\Component\HttpKernel\EventListener\ResponseListener::onKernelResponse".
+[20-Sep-2024 04:56:03 Australia/Brisbane] [debug] Notified event "kernel.response" to listener "Symfony\Component\WebLink\EventListener\AddLinkHeaderListener::onKernelResponse".
+[20-Sep-2024 04:56:03 Australia/Brisbane] [debug] Notified event "kernel.response" to listener "Nelmio\CorsBundle\EventListener\CacheableResponseVaryListener::onResponse".
+[20-Sep-2024 04:56:03 Australia/Brisbane] [debug] Notified event "kernel.response" to listener "Symfony\Component\HttpKernel\EventListener\CacheAttributeListener::onKernelResponse".
+[20-Sep-2024 04:56:03 Australia/Brisbane] [debug] Notified event "kernel.response" to listener "Symfony\Component\HttpKernel\EventListener\ErrorListener::removeCspHeader".
+[20-Sep-2024 04:56:03 Australia/Brisbane] [debug] Notified event "kernel.response" to listener "Symfony\Component\HttpKernel\EventListener\DisallowRobotsIndexingListener::onResponse".
+[20-Sep-2024 04:56:03 Australia/Brisbane] [debug] Notified event "kernel.response" to listener "Symfony\Component\HttpKernel\EventListener\SessionListener::onKernelResponse".
+[20-Sep-2024 04:56:03 Australia/Brisbane] [debug] Notified event "kernel.finish_request" to listener "Symfony\Component\HttpKernel\EventListener\LocaleListener::onKernelFinishRequest".
+[20-Sep-2024 04:56:03 Australia/Brisbane] [debug] Notified event "kernel.finish_request" to listener "Symfony\Component\HttpKernel\EventListener\RouterListener::onKernelFinishRequest".
+[20-Sep-2024 04:56:03 Australia/Brisbane] [debug] Notified event "kernel.finish_request" to listener "Symfony\Bundle\SecurityBundle\Debug\TraceableFirewallListener::onKernelFinishRequest".
+[20-Sep-2024 04:56:03 Australia/Brisbane] [debug] Notified event "kernel.finish_request" to listener "Symfony\Component\HttpKernel\EventListener\LocaleAwareListener::onKernelFinishRequest".
+[20-Sep-2024 04:58:06 Australia/Brisbane] [info] User Deprecated: Since api-platform/core 3.3: Use a "ApiPlatform\State\ProviderInterface" as first argument in "ApiPlatform\Symfony\EventListener\QueryParameterValidateListener" instead of "ApiPlatform\ParameterValidator\ParameterValidator".
+[20-Sep-2024 04:58:06 Australia/Brisbane] [info] Matched route "app_weather_zipcode".
+[20-Sep-2024 04:58:06 Australia/Brisbane] [debug] Checking for authenticator support.
+[20-Sep-2024 04:58:06 Australia/Brisbane] [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\DebugHandlersListener::configure".
+[20-Sep-2024 04:58:06 Australia/Brisbane] [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\ValidateRequestListener::onKernelRequest".
+[20-Sep-2024 04:58:06 Australia/Brisbane] [debug] Notified event "kernel.request" to listener "Nelmio\CorsBundle\EventListener\CorsListener::onKernelRequest".
+[20-Sep-2024 04:58:06 Australia/Brisbane] [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\SessionListener::onKernelRequest".
+[20-Sep-2024 04:58:06 Australia/Brisbane] [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\LocaleListener::setDefaultLocale".
+[20-Sep-2024 04:58:06 Australia/Brisbane] [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\RouterListener::onKernelRequest".
+[20-Sep-2024 04:58:06 Australia/Brisbane] [debug] Notified event "kernel.request" to listener "ApiPlatform\Symfony\EventListener\AddFormatListener::onKernelRequest".
+[20-Sep-2024 04:58:06 Australia/Brisbane] [debug] Notified event "kernel.request" to listener "ApiPlatform\Symfony\EventListener\QueryParameterValidateListener::onKernelRequest".
+[20-Sep-2024 04:58:06 Australia/Brisbane] [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\LocaleListener::onKernelRequest".
+[20-Sep-2024 04:58:06 Australia/Brisbane] [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\LocaleAwareListener::onKernelRequest".
+[20-Sep-2024 04:58:06 Australia/Brisbane] [debug] Notified event "kernel.request" to listener "Symfony\Bundle\SecurityBundle\Debug\TraceableFirewallListener::configureLogoutUrlGenerator".
+[20-Sep-2024 04:58:06 Australia/Brisbane] [debug] Notified event "kernel.request" to listener "Symfony\Bundle\SecurityBundle\Debug\TraceableFirewallListener::onKernelRequest".
+[20-Sep-2024 04:58:06 Australia/Brisbane] [debug] Notified event "kernel.request" to listener "ApiPlatform\Symfony\EventListener\ReadListener::onKernelRequest".
+[20-Sep-2024 04:58:06 Australia/Brisbane] [debug] Notified event "kernel.request" to listener "ApiPlatform\Symfony\EventListener\DeserializeListener::onKernelRequest".
+[20-Sep-2024 04:58:06 Australia/Brisbane] [debug] Notified event "kernel.controller_arguments" to listener "Symfony\Component\Security\Http\EventListener\IsGrantedAttributeListener::onKernelControllerArguments".
+[20-Sep-2024 04:58:06 Australia/Brisbane] [debug] Notified event "kernel.controller_arguments" to listener "Symfony\Component\HttpKernel\EventListener\CacheAttributeListener::onKernelControllerArguments".
+[20-Sep-2024 04:58:06 Australia/Brisbane] [debug] Notified event "kernel.controller_arguments" to listener "ContainerBcpHvvd\RequestPayloadValueResolverGhost3590451::onKernelControllerArguments".
+[20-Sep-2024 04:58:06 Australia/Brisbane] [debug] Notified event "kernel.controller_arguments" to listener "Symfony\Component\HttpKernel\EventListener\ErrorListener::onControllerArguments".
+[20-Sep-2024 04:58:06 Australia/Brisbane] [info] Request: "GET http://api.openweathermap.org/geo/1.0/zip?zip=29200,FR&appid=91af50c169584fba9f8beb8400ba5e74"
+[20-Sep-2024 04:58:06 Australia/Brisbane] [info] Response: "200 http://api.openweathermap.org/geo/1.0/zip?zip=29200,FR&appid=91af50c169584fba9f8beb8400ba5e74"
+[20-Sep-2024 04:58:06 Australia/Brisbane] [info] Request: "GET http://api.openweathermap.org/data/3.0/onecall?lat={%22zip%22:%2229200%22,%22name%22:%22Brest%22,%22lat%22:48.3903,%22lon%22:-4.4863,%22country%22:%22FR%22}&lon={%22zip%22:%2229200%22,%22name%22:%22Brest%22,%22lat%22:48.3903,%22lon%22:-4.4863,%22country%22:%22FR%22}&appid=91af50c169584fba9f8beb8400ba5e74"
+[20-Sep-2024 04:58:06 Australia/Brisbane] [info] Response: "401 http://api.openweathermap.org/data/3.0/onecall?lat={%22zip%22:%2229200%22,%22name%22:%22Brest%22,%22lat%22:48.3903,%22lon%22:-4.4863,%22country%22:%22FR%22}&lon={%22zip%22:%2229200%22,%22name%22:%22Brest%22,%22lat%22:48.3903,%22lon%22:-4.4863,%22country%22:%22FR%22}&appid=91af50c169584fba9f8beb8400ba5e74"
+[20-Sep-2024 04:58:06 Australia/Brisbane] [critical] Uncaught PHP Exception Symfony\Component\HttpClient\Exception\ClientException: "HTTP/1.1 401 Unauthorized returned for "http://api.openweathermap.org/data/3.0/onecall?lat={%22zip%22:%2229200%22,%22name%22:%22Brest%22,%22lat%22:48.3903,%22lon%22:-4.4863,%22country%22:%22FR%22}&lon={%22zip%22:%2229200%22,%22name%22:%22Brest%22,%22lat%22:48.3903,%22lon%22:-4.4863,%22country%22:%22FR%22}&appid=91af50c169584fba9f8beb8400ba5e74"." at CommonResponseTrait.php line 173
+[20-Sep-2024 04:58:06 Australia/Brisbane] [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\DebugHandlersListener::configure".
+[20-Sep-2024 04:58:06 Australia/Brisbane] [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\ValidateRequestListener::onKernelRequest".
+[20-Sep-2024 04:58:06 Australia/Brisbane] [debug] Notified event "kernel.request" to listener "Nelmio\CorsBundle\EventListener\CorsListener::onKernelRequest".
+[20-Sep-2024 04:58:06 Australia/Brisbane] [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\SessionListener::onKernelRequest".
+[20-Sep-2024 04:58:06 Australia/Brisbane] [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\LocaleListener::setDefaultLocale".
+[20-Sep-2024 04:58:06 Australia/Brisbane] [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\RouterListener::onKernelRequest".
+[20-Sep-2024 04:58:06 Australia/Brisbane] [debug] Notified event "kernel.request" to listener "ApiPlatform\Symfony\EventListener\AddFormatListener::onKernelRequest".
+[20-Sep-2024 04:58:06 Australia/Brisbane] [debug] Notified event "kernel.request" to listener "ApiPlatform\Symfony\EventListener\QueryParameterValidateListener::onKernelRequest".
+[20-Sep-2024 04:58:06 Australia/Brisbane] [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\LocaleListener::onKernelRequest".
+[20-Sep-2024 04:58:06 Australia/Brisbane] [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\LocaleAwareListener::onKernelRequest".
+[20-Sep-2024 04:58:06 Australia/Brisbane] [debug] Notified event "kernel.request" to listener "Symfony\Bundle\SecurityBundle\Debug\TraceableFirewallListener::configureLogoutUrlGenerator".
+[20-Sep-2024 04:58:06 Australia/Brisbane] [debug] Notified event "kernel.request" to listener "Symfony\Bundle\SecurityBundle\Debug\TraceableFirewallListener::onKernelRequest".
+[20-Sep-2024 04:58:06 Australia/Brisbane] [debug] Notified event "kernel.request" to listener "ApiPlatform\Symfony\EventListener\ReadListener::onKernelRequest".
+[20-Sep-2024 04:58:06 Australia/Brisbane] [debug] Notified event "kernel.request" to listener "ApiPlatform\Symfony\EventListener\DeserializeListener::onKernelRequest".
+[20-Sep-2024 04:58:06 Australia/Brisbane] [debug] Notified event "kernel.controller_arguments" to listener "Symfony\Component\Security\Http\EventListener\IsGrantedAttributeListener::onKernelControllerArguments".
+[20-Sep-2024 04:58:06 Australia/Brisbane] [debug] Notified event "kernel.controller_arguments" to listener "Symfony\Component\HttpKernel\EventListener\CacheAttributeListener::onKernelControllerArguments".
+[20-Sep-2024 04:58:06 Australia/Brisbane] [debug] Notified event "kernel.controller_arguments" to listener "ContainerBcpHvvd\RequestPayloadValueResolverGhost3590451::onKernelControllerArguments".
+[20-Sep-2024 04:58:06 Australia/Brisbane] [debug] Notified event "kernel.controller_arguments" to listener "Symfony\Component\HttpKernel\EventListener\ErrorListener::onControllerArguments".
+[20-Sep-2024 04:58:06 Australia/Brisbane] [debug] Notified event "kernel.response" to listener "Symfony\Component\Security\Http\Firewall\ContextListener::onKernelResponse".
+[20-Sep-2024 04:58:06 Australia/Brisbane] [debug] Notified event "kernel.response" to listener "Nelmio\CorsBundle\EventListener\CorsListener::onKernelResponse".
+[20-Sep-2024 04:58:06 Australia/Brisbane] [debug] Notified event "kernel.response" to listener "Symfony\Component\HttpKernel\EventListener\ResponseListener::onKernelResponse".
+[20-Sep-2024 04:58:06 Australia/Brisbane] [debug] Notified event "kernel.response" to listener "Symfony\Component\WebLink\EventListener\AddLinkHeaderListener::onKernelResponse".
+[20-Sep-2024 04:58:06 Australia/Brisbane] [debug] Notified event "kernel.response" to listener "Nelmio\CorsBundle\EventListener\CacheableResponseVaryListener::onResponse".
+[20-Sep-2024 04:58:06 Australia/Brisbane] [debug] Notified event "kernel.response" to listener "Symfony\Component\HttpKernel\EventListener\CacheAttributeListener::onKernelResponse".
+[20-Sep-2024 04:58:06 Australia/Brisbane] [debug] Notified event "kernel.response" to listener "Symfony\Component\HttpKernel\EventListener\ErrorListener::removeCspHeader".
+[20-Sep-2024 04:58:06 Australia/Brisbane] [debug] Notified event "kernel.response" to listener "Symfony\Component\HttpKernel\EventListener\DisallowRobotsIndexingListener::onResponse".
+[20-Sep-2024 04:58:06 Australia/Brisbane] [debug] Notified event "kernel.response" to listener "Symfony\Component\HttpKernel\EventListener\SessionListener::onKernelResponse".
+[20-Sep-2024 04:58:06 Australia/Brisbane] [debug] Notified event "kernel.finish_request" to listener "Symfony\Component\HttpKernel\EventListener\LocaleListener::onKernelFinishRequest".
+[20-Sep-2024 04:58:06 Australia/Brisbane] [debug] Notified event "kernel.finish_request" to listener "Symfony\Component\HttpKernel\EventListener\RouterListener::onKernelFinishRequest".
+[20-Sep-2024 04:58:06 Australia/Brisbane] [debug] Notified event "kernel.finish_request" to listener "Symfony\Bundle\SecurityBundle\Debug\TraceableFirewallListener::onKernelFinishRequest".
+[20-Sep-2024 04:58:06 Australia/Brisbane] [debug] Notified event "kernel.finish_request" to listener "Symfony\Component\HttpKernel\EventListener\LocaleAwareListener::onKernelFinishRequest".
+[20-Sep-2024 04:58:06 Australia/Brisbane] [debug] Notified event "kernel.exception" to listener "Symfony\Component\Security\Http\Firewall\ExceptionListener::onKernelException".
+[20-Sep-2024 04:58:06 Australia/Brisbane] [debug] Notified event "kernel.exception" to listener "Symfony\Component\HttpKernel\EventListener\ErrorListener::logKernelException".
+[20-Sep-2024 04:58:06 Australia/Brisbane] [debug] Notified event "kernel.exception" to listener "Symfony\Component\HttpKernel\EventListener\RouterListener::onKernelException".
+[20-Sep-2024 04:58:06 Australia/Brisbane] [debug] Notified event "kernel.exception" to listener "ApiPlatform\Symfony\EventListener\ExceptionListener::onKernelException".
+[20-Sep-2024 04:58:06 Australia/Brisbane] [debug] Notified event "kernel.exception" to listener "Symfony\Component\HttpKernel\EventListener\ErrorListener::onKernelException".
+[20-Sep-2024 04:58:06 Australia/Brisbane] [debug] Listener "Symfony\Component\HttpKernel\EventListener\ErrorListener::onKernelException" stopped propagation of the event "kernel.exception".
+[20-Sep-2024 04:58:06 Australia/Brisbane] [debug] Notified event "kernel.response" to listener "Symfony\Component\Security\Http\Firewall\ContextListener::onKernelResponse".
+[20-Sep-2024 04:58:06 Australia/Brisbane] [debug] Notified event "kernel.response" to listener "Nelmio\CorsBundle\EventListener\CorsListener::onKernelResponse".
+[20-Sep-2024 04:58:06 Australia/Brisbane] [debug] Notified event "kernel.response" to listener "Symfony\Component\HttpKernel\EventListener\ResponseListener::onKernelResponse".
+[20-Sep-2024 04:58:06 Australia/Brisbane] [debug] Notified event "kernel.response" to listener "Symfony\Component\WebLink\EventListener\AddLinkHeaderListener::onKernelResponse".
+[20-Sep-2024 04:58:06 Australia/Brisbane] [debug] Notified event "kernel.response" to listener "Nelmio\CorsBundle\EventListener\CacheableResponseVaryListener::onResponse".
+[20-Sep-2024 04:58:06 Australia/Brisbane] [debug] Notified event "kernel.response" to listener "Symfony\Component\HttpKernel\EventListener\CacheAttributeListener::onKernelResponse".
+[20-Sep-2024 04:58:06 Australia/Brisbane] [debug] Notified event "kernel.response" to listener "Symfony\Component\HttpKernel\EventListener\ErrorListener::removeCspHeader".
+[20-Sep-2024 04:58:06 Australia/Brisbane] [debug] Notified event "kernel.response" to listener "Symfony\Component\HttpKernel\EventListener\DisallowRobotsIndexingListener::onResponse".
+[20-Sep-2024 04:58:06 Australia/Brisbane] [debug] Notified event "kernel.response" to listener "Symfony\Component\HttpKernel\EventListener\SessionListener::onKernelResponse".
+[20-Sep-2024 04:58:06 Australia/Brisbane] [debug] Notified event "kernel.finish_request" to listener "Symfony\Component\HttpKernel\EventListener\LocaleListener::onKernelFinishRequest".
+[20-Sep-2024 04:58:06 Australia/Brisbane] [debug] Notified event "kernel.finish_request" to listener "Symfony\Component\HttpKernel\EventListener\RouterListener::onKernelFinishRequest".
+[20-Sep-2024 04:58:06 Australia/Brisbane] [debug] Notified event "kernel.finish_request" to listener "Symfony\Bundle\SecurityBundle\Debug\TraceableFirewallListener::onKernelFinishRequest".
+[20-Sep-2024 04:58:06 Australia/Brisbane] [debug] Notified event "kernel.finish_request" to listener "Symfony\Component\HttpKernel\EventListener\LocaleAwareListener::onKernelFinishRequest".
+[20-Sep-2024 07:24:21 Australia/Brisbane] [info] User Deprecated: Since api-platform/core 3.3: Use a "ApiPlatform\State\ProviderInterface" as first argument in "ApiPlatform\Symfony\EventListener\QueryParameterValidateListener" instead of "ApiPlatform\ParameterValidator\ParameterValidator".
+[20-Sep-2024 07:24:21 Australia/Brisbane] [info] Matched route "api_entrypoint".
+[20-Sep-2024 07:24:21 Australia/Brisbane] [debug] Checking for authenticator support.
+[20-Sep-2024 07:24:21 Australia/Brisbane] [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\DebugHandlersListener::configure".
+[20-Sep-2024 07:24:21 Australia/Brisbane] [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\ValidateRequestListener::onKernelRequest".
+[20-Sep-2024 07:24:21 Australia/Brisbane] [debug] Notified event "kernel.request" to listener "Nelmio\CorsBundle\EventListener\CorsListener::onKernelRequest".
+[20-Sep-2024 07:24:21 Australia/Brisbane] [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\SessionListener::onKernelRequest".
+[20-Sep-2024 07:24:21 Australia/Brisbane] [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\LocaleListener::setDefaultLocale".
+[20-Sep-2024 07:24:21 Australia/Brisbane] [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\RouterListener::onKernelRequest".
+[20-Sep-2024 07:24:21 Australia/Brisbane] [debug] Notified event "kernel.request" to listener "ApiPlatform\Symfony\EventListener\AddFormatListener::onKernelRequest".
+[20-Sep-2024 07:24:21 Australia/Brisbane] [debug] Notified event "kernel.request" to listener "ApiPlatform\Symfony\EventListener\QueryParameterValidateListener::onKernelRequest".
+[20-Sep-2024 07:24:21 Australia/Brisbane] [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\LocaleListener::onKernelRequest".
+[20-Sep-2024 07:24:21 Australia/Brisbane] [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\LocaleAwareListener::onKernelRequest".
+[20-Sep-2024 07:24:21 Australia/Brisbane] [debug] Notified event "kernel.request" to listener "Symfony\Bundle\SecurityBundle\Debug\TraceableFirewallListener::configureLogoutUrlGenerator".
+[20-Sep-2024 07:24:21 Australia/Brisbane] [debug] Notified event "kernel.request" to listener "Symfony\Bundle\SecurityBundle\Debug\TraceableFirewallListener::onKernelRequest".
+[20-Sep-2024 07:24:21 Australia/Brisbane] [debug] Notified event "kernel.request" to listener "ApiPlatform\Symfony\EventListener\ReadListener::onKernelRequest".
+[20-Sep-2024 07:24:21 Australia/Brisbane] [debug] Notified event "kernel.request" to listener "ApiPlatform\Symfony\EventListener\DeserializeListener::onKernelRequest".
+[20-Sep-2024 07:24:21 Australia/Brisbane] [debug] Notified event "kernel.controller_arguments" to listener "Symfony\Component\Security\Http\EventListener\IsGrantedAttributeListener::onKernelControllerArguments".
+[20-Sep-2024 07:24:21 Australia/Brisbane] [debug] Notified event "kernel.controller_arguments" to listener "Symfony\Component\HttpKernel\EventListener\CacheAttributeListener::onKernelControllerArguments".
+[20-Sep-2024 07:24:21 Australia/Brisbane] [debug] Notified event "kernel.controller_arguments" to listener "ContainerBcpHvvd\RequestPayloadValueResolverGhost3590451::onKernelControllerArguments".
+[20-Sep-2024 07:24:21 Australia/Brisbane] [debug] Notified event "kernel.controller_arguments" to listener "Symfony\Component\HttpKernel\EventListener\ErrorListener::onControllerArguments".
+[20-Sep-2024 07:24:21 Australia/Brisbane] [info] User Deprecated: Support for MariaDB < 10.4 is deprecated and will be removed in DBAL 4. Consider upgrading to a more recent version of MariaDB. (AbstractMySQLDriver.php:65 called by AbstractDriverMiddleware.php:68, https://github.com/doctrine/dbal/pull/6110, package doctrine/dbal)
+[20-Sep-2024 07:24:21 Australia/Brisbane] [debug] Warning: filemtime(): stat failed for /home/alan/apps/test-apps/Projet12/Ecogarden/config/routes/api_platform.yaml
+[20-Sep-2024 07:24:21 Australia/Brisbane] [debug] Notified event "kernel.response" to listener "Symfony\Component\Security\Http\Firewall\ContextListener::onKernelResponse".
+[20-Sep-2024 07:24:21 Australia/Brisbane] [debug] Notified event "kernel.response" to listener "Nelmio\CorsBundle\EventListener\CorsListener::onKernelResponse".
+[20-Sep-2024 07:24:21 Australia/Brisbane] [debug] Notified event "kernel.response" to listener "Symfony\Component\HttpKernel\EventListener\ResponseListener::onKernelResponse".
+[20-Sep-2024 07:24:21 Australia/Brisbane] [debug] Notified event "kernel.response" to listener "Symfony\Component\WebLink\EventListener\AddLinkHeaderListener::onKernelResponse".
+[20-Sep-2024 07:24:21 Australia/Brisbane] [debug] Notified event "kernel.response" to listener "Nelmio\CorsBundle\EventListener\CacheableResponseVaryListener::onResponse".
+[20-Sep-2024 07:24:21 Australia/Brisbane] [debug] Notified event "kernel.response" to listener "Symfony\Component\HttpKernel\EventListener\CacheAttributeListener::onKernelResponse".
+[20-Sep-2024 07:24:21 Australia/Brisbane] [debug] Notified event "kernel.response" to listener "Symfony\Component\HttpKernel\EventListener\ErrorListener::removeCspHeader".
+[20-Sep-2024 07:24:21 Australia/Brisbane] [debug] Notified event "kernel.response" to listener "Symfony\Component\HttpKernel\EventListener\DisallowRobotsIndexingListener::onResponse".
+[20-Sep-2024 07:24:21 Australia/Brisbane] [debug] Notified event "kernel.response" to listener "Symfony\Component\HttpKernel\EventListener\SessionListener::onKernelResponse".
+[20-Sep-2024 07:24:21 Australia/Brisbane] [debug] Notified event "kernel.finish_request" to listener "Symfony\Component\HttpKernel\EventListener\LocaleListener::onKernelFinishRequest".
+[20-Sep-2024 07:24:21 Australia/Brisbane] [debug] Notified event "kernel.finish_request" to listener "Symfony\Component\HttpKernel\EventListener\RouterListener::onKernelFinishRequest".
+[20-Sep-2024 07:24:21 Australia/Brisbane] [debug] Notified event "kernel.finish_request" to listener "Symfony\Bundle\SecurityBundle\Debug\TraceableFirewallListener::onKernelFinishRequest".
+[20-Sep-2024 07:24:21 Australia/Brisbane] [debug] Notified event "kernel.finish_request" to listener "Symfony\Component\HttpKernel\EventListener\LocaleAwareListener::onKernelFinishRequest".
+[20-Sep-2024 07:24:42 Australia/Brisbane] [info] User Deprecated: Since api-platform/core 3.3: Use a "ApiPlatform\State\ProviderInterface" as first argument in "ApiPlatform\Symfony\EventListener\QueryParameterValidateListener" instead of "ApiPlatform\ParameterValidator\ParameterValidator".
+[20-Sep-2024 07:24:42 Australia/Brisbane] [info] Matched route "api_entrypoint".
+[20-Sep-2024 07:24:42 Australia/Brisbane] [debug] Checking for authenticator support.
+[20-Sep-2024 07:24:42 Australia/Brisbane] [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\DebugHandlersListener::configure".
+[20-Sep-2024 07:24:42 Australia/Brisbane] [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\ValidateRequestListener::onKernelRequest".
+[20-Sep-2024 07:24:42 Australia/Brisbane] [debug] Notified event "kernel.request" to listener "Nelmio\CorsBundle\EventListener\CorsListener::onKernelRequest".
+[20-Sep-2024 07:24:42 Australia/Brisbane] [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\SessionListener::onKernelRequest".
+[20-Sep-2024 07:24:42 Australia/Brisbane] [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\LocaleListener::setDefaultLocale".
+[20-Sep-2024 07:24:42 Australia/Brisbane] [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\RouterListener::onKernelRequest".
+[20-Sep-2024 07:24:42 Australia/Brisbane] [debug] Notified event "kernel.request" to listener "ApiPlatform\Symfony\EventListener\AddFormatListener::onKernelRequest".
+[20-Sep-2024 07:24:42 Australia/Brisbane] [debug] Notified event "kernel.request" to listener "ApiPlatform\Symfony\EventListener\QueryParameterValidateListener::onKernelRequest".
+[20-Sep-2024 07:24:42 Australia/Brisbane] [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\LocaleListener::onKernelRequest".
+[20-Sep-2024 07:24:42 Australia/Brisbane] [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\LocaleAwareListener::onKernelRequest".
+[20-Sep-2024 07:24:42 Australia/Brisbane] [debug] Notified event "kernel.request" to listener "Symfony\Bundle\SecurityBundle\Debug\TraceableFirewallListener::configureLogoutUrlGenerator".
+[20-Sep-2024 07:24:42 Australia/Brisbane] [debug] Notified event "kernel.request" to listener "Symfony\Bundle\SecurityBundle\Debug\TraceableFirewallListener::onKernelRequest".
+[20-Sep-2024 07:24:42 Australia/Brisbane] [debug] Notified event "kernel.request" to listener "ApiPlatform\Symfony\EventListener\ReadListener::onKernelRequest".
+[20-Sep-2024 07:24:42 Australia/Brisbane] [debug] Notified event "kernel.request" to listener "ApiPlatform\Symfony\EventListener\DeserializeListener::onKernelRequest".
+[20-Sep-2024 07:24:42 Australia/Brisbane] [debug] Notified event "kernel.controller_arguments" to listener "Symfony\Component\Security\Http\EventListener\IsGrantedAttributeListener::onKernelControllerArguments".
+[20-Sep-2024 07:24:42 Australia/Brisbane] [debug] Notified event "kernel.controller_arguments" to listener "Symfony\Component\HttpKernel\EventListener\CacheAttributeListener::onKernelControllerArguments".
+[20-Sep-2024 07:24:42 Australia/Brisbane] [debug] Notified event "kernel.controller_arguments" to listener "ContainerBcpHvvd\RequestPayloadValueResolverGhost3590451::onKernelControllerArguments".
+[20-Sep-2024 07:24:42 Australia/Brisbane] [debug] Notified event "kernel.controller_arguments" to listener "Symfony\Component\HttpKernel\EventListener\ErrorListener::onControllerArguments".
+[20-Sep-2024 07:24:43 Australia/Brisbane] [debug] Notified event "kernel.response" to listener "Symfony\Component\Security\Http\Firewall\ContextListener::onKernelResponse".
+[20-Sep-2024 07:24:43 Australia/Brisbane] [debug] Notified event "kernel.response" to listener "Nelmio\CorsBundle\EventListener\CorsListener::onKernelResponse".
+[20-Sep-2024 07:24:43 Australia/Brisbane] [debug] Notified event "kernel.response" to listener "Symfony\Component\HttpKernel\EventListener\ResponseListener::onKernelResponse".
+[20-Sep-2024 07:24:43 Australia/Brisbane] [debug] Notified event "kernel.response" to listener "Symfony\Component\WebLink\EventListener\AddLinkHeaderListener::onKernelResponse".
+[20-Sep-2024 07:24:43 Australia/Brisbane] [debug] Notified event "kernel.response" to listener "Nelmio\CorsBundle\EventListener\CacheableResponseVaryListener::onResponse".
+[20-Sep-2024 07:24:43 Australia/Brisbane] [debug] Notified event "kernel.response" to listener "Symfony\Component\HttpKernel\EventListener\CacheAttributeListener::onKernelResponse".
+[20-Sep-2024 07:24:43 Australia/Brisbane] [debug] Notified event "kernel.response" to listener "Symfony\Component\HttpKernel\EventListener\ErrorListener::removeCspHeader".
+[20-Sep-2024 07:24:43 Australia/Brisbane] [debug] Notified event "kernel.response" to listener "Symfony\Component\HttpKernel\EventListener\DisallowRobotsIndexingListener::onResponse".
+[20-Sep-2024 07:24:43 Australia/Brisbane] [debug] Notified event "kernel.response" to listener "Symfony\Component\HttpKernel\EventListener\SessionListener::onKernelResponse".
+[20-Sep-2024 07:24:43 Australia/Brisbane] [debug] Notified event "kernel.finish_request" to listener "Symfony\Component\HttpKernel\EventListener\LocaleListener::onKernelFinishRequest".
+[20-Sep-2024 07:24:43 Australia/Brisbane] [debug] Notified event "kernel.finish_request" to listener "Symfony\Component\HttpKernel\EventListener\RouterListener::onKernelFinishRequest".
+[20-Sep-2024 07:24:43 Australia/Brisbane] [debug] Notified event "kernel.finish_request" to listener "Symfony\Bundle\SecurityBundle\Debug\TraceableFirewallListener::onKernelFinishRequest".
+[20-Sep-2024 07:24:43 Australia/Brisbane] [debug] Notified event "kernel.finish_request" to listener "Symfony\Component\HttpKernel\EventListener\LocaleAwareListener::onKernelFinishRequest".
+[20-Sep-2024 07:25:17 Australia/Brisbane] [info] User Deprecated: Since api-platform/core 3.3: Use a "ApiPlatform\State\ProviderInterface" as first argument in "ApiPlatform\Symfony\EventListener\QueryParameterValidateListener" instead of "ApiPlatform\ParameterValidator\ParameterValidator".
+[20-Sep-2024 07:25:17 Australia/Brisbane] [info] Matched route "api_entrypoint".
+[20-Sep-2024 07:25:17 Australia/Brisbane] [debug] Checking for authenticator support.
+[20-Sep-2024 07:25:17 Australia/Brisbane] [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\DebugHandlersListener::configure".
+[20-Sep-2024 07:25:17 Australia/Brisbane] [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\ValidateRequestListener::onKernelRequest".
+[20-Sep-2024 07:25:17 Australia/Brisbane] [debug] Notified event "kernel.request" to listener "Nelmio\CorsBundle\EventListener\CorsListener::onKernelRequest".
+[20-Sep-2024 07:25:17 Australia/Brisbane] [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\SessionListener::onKernelRequest".
+[20-Sep-2024 07:25:17 Australia/Brisbane] [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\LocaleListener::setDefaultLocale".
+[20-Sep-2024 07:25:17 Australia/Brisbane] [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\RouterListener::onKernelRequest".
+[20-Sep-2024 07:25:17 Australia/Brisbane] [debug] Notified event "kernel.request" to listener "ApiPlatform\Symfony\EventListener\AddFormatListener::onKernelRequest".
+[20-Sep-2024 07:25:17 Australia/Brisbane] [debug] Notified event "kernel.request" to listener "ApiPlatform\Symfony\EventListener\QueryParameterValidateListener::onKernelRequest".
+[20-Sep-2024 07:25:17 Australia/Brisbane] [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\LocaleListener::onKernelRequest".
+[20-Sep-2024 07:25:17 Australia/Brisbane] [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\LocaleAwareListener::onKernelRequest".
+[20-Sep-2024 07:25:17 Australia/Brisbane] [debug] Notified event "kernel.request" to listener "Symfony\Bundle\SecurityBundle\Debug\TraceableFirewallListener::configureLogoutUrlGenerator".
+[20-Sep-2024 07:25:17 Australia/Brisbane] [debug] Notified event "kernel.request" to listener "Symfony\Bundle\SecurityBundle\Debug\TraceableFirewallListener::onKernelRequest".
+[20-Sep-2024 07:25:17 Australia/Brisbane] [debug] Notified event "kernel.request" to listener "ApiPlatform\Symfony\EventListener\ReadListener::onKernelRequest".
+[20-Sep-2024 07:25:17 Australia/Brisbane] [debug] Notified event "kernel.request" to listener "ApiPlatform\Symfony\EventListener\DeserializeListener::onKernelRequest".
+[20-Sep-2024 07:25:17 Australia/Brisbane] [debug] Notified event "kernel.controller_arguments" to listener "Symfony\Component\Security\Http\EventListener\IsGrantedAttributeListener::onKernelControllerArguments".
+[20-Sep-2024 07:25:17 Australia/Brisbane] [debug] Notified event "kernel.controller_arguments" to listener "Symfony\Component\HttpKernel\EventListener\CacheAttributeListener::onKernelControllerArguments".
+[20-Sep-2024 07:25:17 Australia/Brisbane] [debug] Notified event "kernel.controller_arguments" to listener "ContainerBcpHvvd\RequestPayloadValueResolverGhost3590451::onKernelControllerArguments".
+[20-Sep-2024 07:25:17 Australia/Brisbane] [debug] Notified event "kernel.controller_arguments" to listener "Symfony\Component\HttpKernel\EventListener\ErrorListener::onControllerArguments".
+[20-Sep-2024 07:25:17 Australia/Brisbane] [debug] Notified event "kernel.response" to listener "Symfony\Component\Security\Http\Firewall\ContextListener::onKernelResponse".
+[20-Sep-2024 07:25:17 Australia/Brisbane] [debug] Notified event "kernel.response" to listener "Nelmio\CorsBundle\EventListener\CorsListener::onKernelResponse".
+[20-Sep-2024 07:25:17 Australia/Brisbane] [debug] Notified event "kernel.response" to listener "Symfony\Component\HttpKernel\EventListener\ResponseListener::onKernelResponse".
+[20-Sep-2024 07:25:17 Australia/Brisbane] [debug] Notified event "kernel.response" to listener "Symfony\Component\WebLink\EventListener\AddLinkHeaderListener::onKernelResponse".
+[20-Sep-2024 07:25:17 Australia/Brisbane] [debug] Notified event "kernel.response" to listener "Nelmio\CorsBundle\EventListener\CacheableResponseVaryListener::onResponse".
+[20-Sep-2024 07:25:17 Australia/Brisbane] [debug] Notified event "kernel.response" to listener "Symfony\Component\HttpKernel\EventListener\CacheAttributeListener::onKernelResponse".
+[20-Sep-2024 07:25:17 Australia/Brisbane] [debug] Notified event "kernel.response" to listener "Symfony\Component\HttpKernel\EventListener\ErrorListener::removeCspHeader".
+[20-Sep-2024 07:25:17 Australia/Brisbane] [debug] Notified event "kernel.response" to listener "Symfony\Component\HttpKernel\EventListener\DisallowRobotsIndexingListener::onResponse".
+[20-Sep-2024 07:25:17 Australia/Brisbane] [debug] Notified event "kernel.response" to listener "Symfony\Component\HttpKernel\EventListener\SessionListener::onKernelResponse".
+[20-Sep-2024 07:25:17 Australia/Brisbane] [debug] Notified event "kernel.finish_request" to listener "Symfony\Component\HttpKernel\EventListener\LocaleListener::onKernelFinishRequest".
+[20-Sep-2024 07:25:17 Australia/Brisbane] [debug] Notified event "kernel.finish_request" to listener "Symfony\Component\HttpKernel\EventListener\RouterListener::onKernelFinishRequest".
+[20-Sep-2024 07:25:17 Australia/Brisbane] [debug] Notified event "kernel.finish_request" to listener "Symfony\Bundle\SecurityBundle\Debug\TraceableFirewallListener::onKernelFinishRequest".
+[20-Sep-2024 07:25:17 Australia/Brisbane] [debug] Notified event "kernel.finish_request" to listener "Symfony\Component\HttpKernel\EventListener\LocaleAwareListener::onKernelFinishRequest".
+[20-Sep-2024 07:25:30 Australia/Brisbane] [info] User Deprecated: Since api-platform/core 3.3: Use a "ApiPlatform\State\ProviderInterface" as first argument in "ApiPlatform\Symfony\EventListener\QueryParameterValidateListener" instead of "ApiPlatform\ParameterValidator\ParameterValidator".
+[20-Sep-2024 07:25:30 Australia/Brisbane] [info] Matched route "api_entrypoint".
+[20-Sep-2024 07:25:30 Australia/Brisbane] [debug] Checking for authenticator support.
+[20-Sep-2024 07:25:30 Australia/Brisbane] [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\DebugHandlersListener::configure".
+[20-Sep-2024 07:25:30 Australia/Brisbane] [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\ValidateRequestListener::onKernelRequest".
+[20-Sep-2024 07:25:30 Australia/Brisbane] [debug] Notified event "kernel.request" to listener "Nelmio\CorsBundle\EventListener\CorsListener::onKernelRequest".
+[20-Sep-2024 07:25:30 Australia/Brisbane] [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\SessionListener::onKernelRequest".
+[20-Sep-2024 07:25:30 Australia/Brisbane] [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\LocaleListener::setDefaultLocale".
+[20-Sep-2024 07:25:30 Australia/Brisbane] [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\RouterListener::onKernelRequest".
+[20-Sep-2024 07:25:30 Australia/Brisbane] [debug] Notified event "kernel.request" to listener "ApiPlatform\Symfony\EventListener\AddFormatListener::onKernelRequest".
+[20-Sep-2024 07:25:30 Australia/Brisbane] [debug] Notified event "kernel.request" to listener "ApiPlatform\Symfony\EventListener\QueryParameterValidateListener::onKernelRequest".
+[20-Sep-2024 07:25:30 Australia/Brisbane] [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\LocaleListener::onKernelRequest".
+[20-Sep-2024 07:25:30 Australia/Brisbane] [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\LocaleAwareListener::onKernelRequest".
+[20-Sep-2024 07:25:30 Australia/Brisbane] [debug] Notified event "kernel.request" to listener "Symfony\Bundle\SecurityBundle\Debug\TraceableFirewallListener::configureLogoutUrlGenerator".
+[20-Sep-2024 07:25:30 Australia/Brisbane] [debug] Notified event "kernel.request" to listener "Symfony\Bundle\SecurityBundle\Debug\TraceableFirewallListener::onKernelRequest".
+[20-Sep-2024 07:25:30 Australia/Brisbane] [debug] Notified event "kernel.request" to listener "ApiPlatform\Symfony\EventListener\ReadListener::onKernelRequest".
+[20-Sep-2024 07:25:30 Australia/Brisbane] [debug] Notified event "kernel.request" to listener "ApiPlatform\Symfony\EventListener\DeserializeListener::onKernelRequest".
+[20-Sep-2024 07:25:30 Australia/Brisbane] [debug] Notified event "kernel.controller_arguments" to listener "Symfony\Component\Security\Http\EventListener\IsGrantedAttributeListener::onKernelControllerArguments".
+[20-Sep-2024 07:25:30 Australia/Brisbane] [debug] Notified event "kernel.controller_arguments" to listener "Symfony\Component\HttpKernel\EventListener\CacheAttributeListener::onKernelControllerArguments".
+[20-Sep-2024 07:25:30 Australia/Brisbane] [debug] Notified event "kernel.controller_arguments" to listener "ContainerBcpHvvd\RequestPayloadValueResolverGhost3590451::onKernelControllerArguments".
+[20-Sep-2024 07:25:30 Australia/Brisbane] [debug] Notified event "kernel.controller_arguments" to listener "Symfony\Component\HttpKernel\EventListener\ErrorListener::onControllerArguments".
+[20-Sep-2024 07:25:30 Australia/Brisbane] [debug] Notified event "kernel.response" to listener "Symfony\Component\Security\Http\Firewall\ContextListener::onKernelResponse".
+[20-Sep-2024 07:25:30 Australia/Brisbane] [debug] Notified event "kernel.response" to listener "Nelmio\CorsBundle\EventListener\CorsListener::onKernelResponse".
+[20-Sep-2024 07:25:30 Australia/Brisbane] [debug] Notified event "kernel.response" to listener "Symfony\Component\HttpKernel\EventListener\ResponseListener::onKernelResponse".
+[20-Sep-2024 07:25:30 Australia/Brisbane] [debug] Notified event "kernel.response" to listener "Symfony\Component\WebLink\EventListener\AddLinkHeaderListener::onKernelResponse".
+[20-Sep-2024 07:25:30 Australia/Brisbane] [debug] Notified event "kernel.response" to listener "Nelmio\CorsBundle\EventListener\CacheableResponseVaryListener::onResponse".
+[20-Sep-2024 07:25:30 Australia/Brisbane] [debug] Notified event "kernel.response" to listener "Symfony\Component\HttpKernel\EventListener\CacheAttributeListener::onKernelResponse".
+[20-Sep-2024 07:25:30 Australia/Brisbane] [debug] Notified event "kernel.response" to listener "Symfony\Component\HttpKernel\EventListener\ErrorListener::removeCspHeader".
+[20-Sep-2024 07:25:30 Australia/Brisbane] [debug] Notified event "kernel.response" to listener "Symfony\Component\HttpKernel\EventListener\DisallowRobotsIndexingListener::onResponse".
+[20-Sep-2024 07:25:30 Australia/Brisbane] [debug] Notified event "kernel.response" to listener "Symfony\Component\HttpKernel\EventListener\SessionListener::onKernelResponse".
+[20-Sep-2024 07:25:30 Australia/Brisbane] [debug] Notified event "kernel.finish_request" to listener "Symfony\Component\HttpKernel\EventListener\LocaleListener::onKernelFinishRequest".
+[20-Sep-2024 07:25:30 Australia/Brisbane] [debug] Notified event "kernel.finish_request" to listener "Symfony\Component\HttpKernel\EventListener\RouterListener::onKernelFinishRequest".
+[20-Sep-2024 07:25:30 Australia/Brisbane] [debug] Notified event "kernel.finish_request" to listener "Symfony\Bundle\SecurityBundle\Debug\TraceableFirewallListener::onKernelFinishRequest".
+[20-Sep-2024 07:25:30 Australia/Brisbane] [debug] Notified event "kernel.finish_request" to listener "Symfony\Component\HttpKernel\EventListener\LocaleAwareListener::onKernelFinishRequest".
+[20-Sep-2024 07:26:26 Australia/Brisbane] [info] User Deprecated: Since api-platform/core 3.3: Use a "ApiPlatform\State\ProviderInterface" as first argument in "ApiPlatform\Symfony\EventListener\QueryParameterValidateListener" instead of "ApiPlatform\ParameterValidator\ParameterValidator".
+[20-Sep-2024 07:26:26 Australia/Brisbane] [info] Matched route "app_weather_zipcode".
+[20-Sep-2024 07:26:26 Australia/Brisbane] [debug] Checking for authenticator support.
+[20-Sep-2024 07:26:26 Australia/Brisbane] [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\DebugHandlersListener::configure".
+[20-Sep-2024 07:26:26 Australia/Brisbane] [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\ValidateRequestListener::onKernelRequest".
+[20-Sep-2024 07:26:26 Australia/Brisbane] [debug] Notified event "kernel.request" to listener "Nelmio\CorsBundle\EventListener\CorsListener::onKernelRequest".
+[20-Sep-2024 07:26:26 Australia/Brisbane] [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\SessionListener::onKernelRequest".
+[20-Sep-2024 07:26:26 Australia/Brisbane] [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\LocaleListener::setDefaultLocale".
+[20-Sep-2024 07:26:26 Australia/Brisbane] [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\RouterListener::onKernelRequest".
+[20-Sep-2024 07:26:26 Australia/Brisbane] [debug] Notified event "kernel.request" to listener "ApiPlatform\Symfony\EventListener\AddFormatListener::onKernelRequest".
+[20-Sep-2024 07:26:26 Australia/Brisbane] [debug] Notified event "kernel.request" to listener "ApiPlatform\Symfony\EventListener\QueryParameterValidateListener::onKernelRequest".
+[20-Sep-2024 07:26:26 Australia/Brisbane] [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\LocaleListener::onKernelRequest".
+[20-Sep-2024 07:26:26 Australia/Brisbane] [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\LocaleAwareListener::onKernelRequest".
+[20-Sep-2024 07:26:26 Australia/Brisbane] [debug] Notified event "kernel.request" to listener "Symfony\Bundle\SecurityBundle\Debug\TraceableFirewallListener::configureLogoutUrlGenerator".
+[20-Sep-2024 07:26:26 Australia/Brisbane] [debug] Notified event "kernel.request" to listener "Symfony\Bundle\SecurityBundle\Debug\TraceableFirewallListener::onKernelRequest".
+[20-Sep-2024 07:26:26 Australia/Brisbane] [debug] Notified event "kernel.request" to listener "ApiPlatform\Symfony\EventListener\ReadListener::onKernelRequest".
+[20-Sep-2024 07:26:26 Australia/Brisbane] [debug] Notified event "kernel.request" to listener "ApiPlatform\Symfony\EventListener\DeserializeListener::onKernelRequest".
+[20-Sep-2024 07:26:26 Australia/Brisbane] [debug] Notified event "kernel.controller_arguments" to listener "Symfony\Component\Security\Http\EventListener\IsGrantedAttributeListener::onKernelControllerArguments".
+[20-Sep-2024 07:26:26 Australia/Brisbane] [debug] Notified event "kernel.controller_arguments" to listener "Symfony\Component\HttpKernel\EventListener\CacheAttributeListener::onKernelControllerArguments".
+[20-Sep-2024 07:26:26 Australia/Brisbane] [debug] Notified event "kernel.controller_arguments" to listener "ContainerBcpHvvd\RequestPayloadValueResolverGhost3590451::onKernelControllerArguments".
+[20-Sep-2024 07:26:26 Australia/Brisbane] [debug] Notified event "kernel.controller_arguments" to listener "Symfony\Component\HttpKernel\EventListener\ErrorListener::onControllerArguments".
+[20-Sep-2024 07:26:26 Australia/Brisbane] [info] Request: "GET http://api.openweathermap.org/geo/1.0/zip?zip=29200,FR&appid=91af50c169584fba9f8beb8400ba5e74"
+[20-Sep-2024 07:26:27 Australia/Brisbane] [info] Response: "200 http://api.openweathermap.org/geo/1.0/zip?zip=29200,FR&appid=91af50c169584fba9f8beb8400ba5e74"
+[20-Sep-2024 07:26:27 Australia/Brisbane] [info] Request: "GET http://api.openweathermap.org/data/3.0/onecall?lat={%22zip%22:%2229200%22,%22name%22:%22Brest%22,%22lat%22:48.3903,%22lon%22:-4.4863,%22country%22:%22FR%22}&lon={%22zip%22:%2229200%22,%22name%22:%22Brest%22,%22lat%22:48.3903,%22lon%22:-4.4863,%22country%22:%22FR%22}&appid=91af50c169584fba9f8beb8400ba5e74"
+[20-Sep-2024 07:26:27 Australia/Brisbane] [info] Response: "401 http://api.openweathermap.org/data/3.0/onecall?lat={%22zip%22:%2229200%22,%22name%22:%22Brest%22,%22lat%22:48.3903,%22lon%22:-4.4863,%22country%22:%22FR%22}&lon={%22zip%22:%2229200%22,%22name%22:%22Brest%22,%22lat%22:48.3903,%22lon%22:-4.4863,%22country%22:%22FR%22}&appid=91af50c169584fba9f8beb8400ba5e74"
+[20-Sep-2024 07:26:27 Australia/Brisbane] [critical] Uncaught PHP Exception Symfony\Component\HttpClient\Exception\ClientException: "HTTP/1.1 401 Unauthorized returned for "http://api.openweathermap.org/data/3.0/onecall?lat={%22zip%22:%2229200%22,%22name%22:%22Brest%22,%22lat%22:48.3903,%22lon%22:-4.4863,%22country%22:%22FR%22}&lon={%22zip%22:%2229200%22,%22name%22:%22Brest%22,%22lat%22:48.3903,%22lon%22:-4.4863,%22country%22:%22FR%22}&appid=91af50c169584fba9f8beb8400ba5e74"." at CommonResponseTrait.php line 173
+[20-Sep-2024 07:26:27 Australia/Brisbane] [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\DebugHandlersListener::configure".
+[20-Sep-2024 07:26:27 Australia/Brisbane] [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\ValidateRequestListener::onKernelRequest".
+[20-Sep-2024 07:26:27 Australia/Brisbane] [debug] Notified event "kernel.request" to listener "Nelmio\CorsBundle\EventListener\CorsListener::onKernelRequest".
+[20-Sep-2024 07:26:27 Australia/Brisbane] [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\SessionListener::onKernelRequest".
+[20-Sep-2024 07:26:27 Australia/Brisbane] [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\LocaleListener::setDefaultLocale".
+[20-Sep-2024 07:26:27 Australia/Brisbane] [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\RouterListener::onKernelRequest".
+[20-Sep-2024 07:26:27 Australia/Brisbane] [debug] Notified event "kernel.request" to listener "ApiPlatform\Symfony\EventListener\AddFormatListener::onKernelRequest".
+[20-Sep-2024 07:26:27 Australia/Brisbane] [debug] Notified event "kernel.request" to listener "ApiPlatform\Symfony\EventListener\QueryParameterValidateListener::onKernelRequest".
+[20-Sep-2024 07:26:27 Australia/Brisbane] [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\LocaleListener::onKernelRequest".
+[20-Sep-2024 07:26:27 Australia/Brisbane] [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\LocaleAwareListener::onKernelRequest".
+[20-Sep-2024 07:26:27 Australia/Brisbane] [debug] Notified event "kernel.request" to listener "Symfony\Bundle\SecurityBundle\Debug\TraceableFirewallListener::configureLogoutUrlGenerator".
+[20-Sep-2024 07:26:27 Australia/Brisbane] [debug] Notified event "kernel.request" to listener "Symfony\Bundle\SecurityBundle\Debug\TraceableFirewallListener::onKernelRequest".
+[20-Sep-2024 07:26:27 Australia/Brisbane] [debug] Notified event "kernel.request" to listener "ApiPlatform\Symfony\EventListener\ReadListener::onKernelRequest".
+[20-Sep-2024 07:26:27 Australia/Brisbane] [debug] Notified event "kernel.request" to listener "ApiPlatform\Symfony\EventListener\DeserializeListener::onKernelRequest".
+[20-Sep-2024 07:26:27 Australia/Brisbane] [debug] Notified event "kernel.controller_arguments" to listener "Symfony\Component\Security\Http\EventListener\IsGrantedAttributeListener::onKernelControllerArguments".
+[20-Sep-2024 07:26:27 Australia/Brisbane] [debug] Notified event "kernel.controller_arguments" to listener "Symfony\Component\HttpKernel\EventListener\CacheAttributeListener::onKernelControllerArguments".
+[20-Sep-2024 07:26:27 Australia/Brisbane] [debug] Notified event "kernel.controller_arguments" to listener "ContainerBcpHvvd\RequestPayloadValueResolverGhost3590451::onKernelControllerArguments".
+[20-Sep-2024 07:26:27 Australia/Brisbane] [debug] Notified event "kernel.controller_arguments" to listener "Symfony\Component\HttpKernel\EventListener\ErrorListener::onControllerArguments".
+[20-Sep-2024 07:26:27 Australia/Brisbane] [debug] Notified event "kernel.response" to listener "Symfony\Component\Security\Http\Firewall\ContextListener::onKernelResponse".
+[20-Sep-2024 07:26:27 Australia/Brisbane] [debug] Notified event "kernel.response" to listener "Nelmio\CorsBundle\EventListener\CorsListener::onKernelResponse".
+[20-Sep-2024 07:26:27 Australia/Brisbane] [debug] Notified event "kernel.response" to listener "Symfony\Component\HttpKernel\EventListener\ResponseListener::onKernelResponse".
+[20-Sep-2024 07:26:27 Australia/Brisbane] [debug] Notified event "kernel.response" to listener "Symfony\Component\WebLink\EventListener\AddLinkHeaderListener::onKernelResponse".
+[20-Sep-2024 07:26:27 Australia/Brisbane] [debug] Notified event "kernel.response" to listener "Nelmio\CorsBundle\EventListener\CacheableResponseVaryListener::onResponse".
+[20-Sep-2024 07:26:27 Australia/Brisbane] [debug] Notified event "kernel.response" to listener "Symfony\Component\HttpKernel\EventListener\CacheAttributeListener::onKernelResponse".
+[20-Sep-2024 07:26:27 Australia/Brisbane] [debug] Notified event "kernel.response" to listener "Symfony\Component\HttpKernel\EventListener\ErrorListener::removeCspHeader".
+[20-Sep-2024 07:26:27 Australia/Brisbane] [debug] Notified event "kernel.response" to listener "Symfony\Component\HttpKernel\EventListener\DisallowRobotsIndexingListener::onResponse".
+[20-Sep-2024 07:26:27 Australia/Brisbane] [debug] Notified event "kernel.response" to listener "Symfony\Component\HttpKernel\EventListener\SessionListener::onKernelResponse".
+[20-Sep-2024 07:26:27 Australia/Brisbane] [debug] Notified event "kernel.finish_request" to listener "Symfony\Component\HttpKernel\EventListener\LocaleListener::onKernelFinishRequest".
+[20-Sep-2024 07:26:27 Australia/Brisbane] [debug] Notified event "kernel.finish_request" to listener "Symfony\Component\HttpKernel\EventListener\RouterListener::onKernelFinishRequest".
+[20-Sep-2024 07:26:27 Australia/Brisbane] [debug] Notified event "kernel.finish_request" to listener "Symfony\Bundle\SecurityBundle\Debug\TraceableFirewallListener::onKernelFinishRequest".
+[20-Sep-2024 07:26:27 Australia/Brisbane] [debug] Notified event "kernel.finish_request" to listener "Symfony\Component\HttpKernel\EventListener\LocaleAwareListener::onKernelFinishRequest".
+[20-Sep-2024 07:26:27 Australia/Brisbane] [debug] Notified event "kernel.exception" to listener "Symfony\Component\Security\Http\Firewall\ExceptionListener::onKernelException".
+[20-Sep-2024 07:26:27 Australia/Brisbane] [debug] Notified event "kernel.exception" to listener "Symfony\Component\HttpKernel\EventListener\ErrorListener::logKernelException".
+[20-Sep-2024 07:26:27 Australia/Brisbane] [debug] Notified event "kernel.exception" to listener "Symfony\Component\HttpKernel\EventListener\RouterListener::onKernelException".
+[20-Sep-2024 07:26:27 Australia/Brisbane] [debug] Notified event "kernel.exception" to listener "ApiPlatform\Symfony\EventListener\ExceptionListener::onKernelException".
+[20-Sep-2024 07:26:27 Australia/Brisbane] [debug] Notified event "kernel.exception" to listener "Symfony\Component\HttpKernel\EventListener\ErrorListener::onKernelException".
+[20-Sep-2024 07:26:27 Australia/Brisbane] [debug] Listener "Symfony\Component\HttpKernel\EventListener\ErrorListener::onKernelException" stopped propagation of the event "kernel.exception".
+[20-Sep-2024 07:26:27 Australia/Brisbane] [debug] Notified event "kernel.response" to listener "Symfony\Component\Security\Http\Firewall\ContextListener::onKernelResponse".
+[20-Sep-2024 07:26:27 Australia/Brisbane] [debug] Notified event "kernel.response" to listener "Nelmio\CorsBundle\EventListener\CorsListener::onKernelResponse".
+[20-Sep-2024 07:26:27 Australia/Brisbane] [debug] Notified event "kernel.response" to listener "Symfony\Component\HttpKernel\EventListener\ResponseListener::onKernelResponse".
+[20-Sep-2024 07:26:27 Australia/Brisbane] [debug] Notified event "kernel.response" to listener "Symfony\Component\WebLink\EventListener\AddLinkHeaderListener::onKernelResponse".
+[20-Sep-2024 07:26:27 Australia/Brisbane] [debug] Notified event "kernel.response" to listener "Nelmio\CorsBundle\EventListener\CacheableResponseVaryListener::onResponse".
+[20-Sep-2024 07:26:27 Australia/Brisbane] [debug] Notified event "kernel.response" to listener "Symfony\Component\HttpKernel\EventListener\CacheAttributeListener::onKernelResponse".
+[20-Sep-2024 07:26:27 Australia/Brisbane] [debug] Notified event "kernel.response" to listener "Symfony\Component\HttpKernel\EventListener\ErrorListener::removeCspHeader".
+[20-Sep-2024 07:26:27 Australia/Brisbane] [debug] Notified event "kernel.response" to listener "Symfony\Component\HttpKernel\EventListener\DisallowRobotsIndexingListener::onResponse".
+[20-Sep-2024 07:26:27 Australia/Brisbane] [debug] Notified event "kernel.response" to listener "Symfony\Component\HttpKernel\EventListener\SessionListener::onKernelResponse".
+[20-Sep-2024 07:26:27 Australia/Brisbane] [debug] Notified event "kernel.finish_request" to listener "Symfony\Component\HttpKernel\EventListener\LocaleListener::onKernelFinishRequest".
+[20-Sep-2024 07:26:27 Australia/Brisbane] [debug] Notified event "kernel.finish_request" to listener "Symfony\Component\HttpKernel\EventListener\RouterListener::onKernelFinishRequest".
+[20-Sep-2024 07:26:27 Australia/Brisbane] [debug] Notified event "kernel.finish_request" to listener "Symfony\Bundle\SecurityBundle\Debug\TraceableFirewallListener::onKernelFinishRequest".
+[20-Sep-2024 07:26:27 Australia/Brisbane] [debug] Notified event "kernel.finish_request" to listener "Symfony\Component\HttpKernel\EventListener\LocaleAwareListener::onKernelFinishRequest".
+[20-Sep-2024 07:31:17 Australia/Brisbane] [info] User Deprecated: Since symfony/dependency-injection 6.4: "Symfony\Bridge\Doctrine\DataFixtures\ContainerAwareLoader" is deprecated, use dependency injection in your fixtures instead.
+[20-Sep-2024 07:31:17 Australia/Brisbane] [info] User Deprecated: Since api-platform/core 3.3: Use a "ApiPlatform\State\ProviderInterface" as first argument in "ApiPlatform\Symfony\EventListener\QueryParameterValidateListener" instead of "ApiPlatform\ParameterValidator\ParameterValidator".
+[20-Sep-2024 07:31:17 Australia/Brisbane] [info] User Deprecated: Support for MariaDB < 10.4 is deprecated and will be removed in DBAL 4. Consider upgrading to a more recent version of MariaDB. (AbstractMySQLDriver.php:65 called by AbstractDriverMiddleware.php:68, https://github.com/doctrine/dbal/pull/6110, package doctrine/dbal)
+[20-Sep-2024 07:31:17 Australia/Brisbane] [info] Matched route "app_weather_zipcode".
+[20-Sep-2024 07:31:17 Australia/Brisbane] [debug] Checking for authenticator support.
+[20-Sep-2024 07:31:17 Australia/Brisbane] [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\DebugHandlersListener::configure".
+[20-Sep-2024 07:31:17 Australia/Brisbane] [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\ValidateRequestListener::onKernelRequest".
+[20-Sep-2024 07:31:17 Australia/Brisbane] [debug] Notified event "kernel.request" to listener "Nelmio\CorsBundle\EventListener\CorsListener::onKernelRequest".
+[20-Sep-2024 07:31:17 Australia/Brisbane] [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\SessionListener::onKernelRequest".
+[20-Sep-2024 07:31:17 Australia/Brisbane] [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\LocaleListener::setDefaultLocale".
+[20-Sep-2024 07:31:17 Australia/Brisbane] [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\RouterListener::onKernelRequest".
+[20-Sep-2024 07:31:17 Australia/Brisbane] [debug] Notified event "kernel.request" to listener "ApiPlatform\Symfony\EventListener\AddFormatListener::onKernelRequest".
+[20-Sep-2024 07:31:17 Australia/Brisbane] [debug] Notified event "kernel.request" to listener "ApiPlatform\Symfony\EventListener\QueryParameterValidateListener::onKernelRequest".
+[20-Sep-2024 07:31:17 Australia/Brisbane] [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\LocaleListener::onKernelRequest".
+[20-Sep-2024 07:31:17 Australia/Brisbane] [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\LocaleAwareListener::onKernelRequest".
+[20-Sep-2024 07:31:17 Australia/Brisbane] [debug] Notified event "kernel.request" to listener "Symfony\Bundle\SecurityBundle\Debug\TraceableFirewallListener::configureLogoutUrlGenerator".
+[20-Sep-2024 07:31:17 Australia/Brisbane] [debug] Notified event "kernel.request" to listener "Symfony\Bundle\SecurityBundle\Debug\TraceableFirewallListener::onKernelRequest".
+[20-Sep-2024 07:31:17 Australia/Brisbane] [debug] Notified event "kernel.request" to listener "ApiPlatform\Symfony\EventListener\ReadListener::onKernelRequest".
+[20-Sep-2024 07:31:17 Australia/Brisbane] [debug] Notified event "kernel.request" to listener "ApiPlatform\Symfony\EventListener\DeserializeListener::onKernelRequest".
+[20-Sep-2024 07:31:17 Australia/Brisbane] [critical] Uncaught PHP Exception Symfony\Component\DependencyInjection\Exception\RuntimeException: "Cannot autowire argument $serializer of "App\Controller\WeatherController::zipcodeWeather()": it references class "Symfony\Component\Serializer\Serializer" but no such service exists. Try changing the type-hint to one of its parents: interface "Symfony\Component\Serializer\SerializerInterface", interface "Symfony\Component\Serializer\Normalizer\NormalizerInterface", interface "Symfony\Component\Serializer\Normalizer\DenormalizerInterface", interface "Symfony\Component\Serializer\Encoder\EncoderInterface", or interface "Symfony\Component\Serializer\Encoder\DecoderInterface"." at Container.php line 397
+[20-Sep-2024 07:31:17 Australia/Brisbane] [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\DebugHandlersListener::configure".
+[20-Sep-2024 07:31:17 Australia/Brisbane] [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\ValidateRequestListener::onKernelRequest".
+[20-Sep-2024 07:31:17 Australia/Brisbane] [debug] Notified event "kernel.request" to listener "Nelmio\CorsBundle\EventListener\CorsListener::onKernelRequest".
+[20-Sep-2024 07:31:17 Australia/Brisbane] [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\SessionListener::onKernelRequest".
+[20-Sep-2024 07:31:17 Australia/Brisbane] [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\LocaleListener::setDefaultLocale".
+[20-Sep-2024 07:31:17 Australia/Brisbane] [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\RouterListener::onKernelRequest".
+[20-Sep-2024 07:31:17 Australia/Brisbane] [debug] Notified event "kernel.request" to listener "ApiPlatform\Symfony\EventListener\AddFormatListener::onKernelRequest".
+[20-Sep-2024 07:31:17 Australia/Brisbane] [debug] Notified event "kernel.request" to listener "ApiPlatform\Symfony\EventListener\QueryParameterValidateListener::onKernelRequest".
+[20-Sep-2024 07:31:17 Australia/Brisbane] [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\LocaleListener::onKernelRequest".
+[20-Sep-2024 07:31:17 Australia/Brisbane] [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\LocaleAwareListener::onKernelRequest".
+[20-Sep-2024 07:31:17 Australia/Brisbane] [debug] Notified event "kernel.request" to listener "Symfony\Bundle\SecurityBundle\Debug\TraceableFirewallListener::configureLogoutUrlGenerator".
+[20-Sep-2024 07:31:17 Australia/Brisbane] [debug] Notified event "kernel.request" to listener "Symfony\Bundle\SecurityBundle\Debug\TraceableFirewallListener::onKernelRequest".
+[20-Sep-2024 07:31:17 Australia/Brisbane] [debug] Notified event "kernel.request" to listener "ApiPlatform\Symfony\EventListener\ReadListener::onKernelRequest".
+[20-Sep-2024 07:31:17 Australia/Brisbane] [debug] Notified event "kernel.request" to listener "ApiPlatform\Symfony\EventListener\DeserializeListener::onKernelRequest".
+[20-Sep-2024 07:31:17 Australia/Brisbane] [debug] Notified event "kernel.controller_arguments" to listener "Symfony\Component\Security\Http\EventListener\IsGrantedAttributeListener::onKernelControllerArguments".
+[20-Sep-2024 07:31:17 Australia/Brisbane] [debug] Notified event "kernel.controller_arguments" to listener "Symfony\Component\HttpKernel\EventListener\CacheAttributeListener::onKernelControllerArguments".
+[20-Sep-2024 07:31:17 Australia/Brisbane] [debug] Notified event "kernel.controller_arguments" to listener "ContainerMHUgJ40\RequestPayloadValueResolverGhost3590451::onKernelControllerArguments".
+[20-Sep-2024 07:31:17 Australia/Brisbane] [debug] Notified event "kernel.controller_arguments" to listener "Symfony\Component\HttpKernel\EventListener\ErrorListener::onControllerArguments".
+[20-Sep-2024 07:31:17 Australia/Brisbane] [debug] Notified event "kernel.response" to listener "Symfony\Component\Security\Http\Firewall\ContextListener::onKernelResponse".
+[20-Sep-2024 07:31:17 Australia/Brisbane] [debug] Notified event "kernel.response" to listener "Nelmio\CorsBundle\EventListener\CorsListener::onKernelResponse".
+[20-Sep-2024 07:31:17 Australia/Brisbane] [debug] Notified event "kernel.response" to listener "Symfony\Component\HttpKernel\EventListener\ResponseListener::onKernelResponse".
+[20-Sep-2024 07:31:17 Australia/Brisbane] [debug] Notified event "kernel.response" to listener "Symfony\Component\WebLink\EventListener\AddLinkHeaderListener::onKernelResponse".
+[20-Sep-2024 07:31:17 Australia/Brisbane] [debug] Notified event "kernel.response" to listener "Nelmio\CorsBundle\EventListener\CacheableResponseVaryListener::onResponse".
+[20-Sep-2024 07:31:17 Australia/Brisbane] [debug] Notified event "kernel.response" to listener "Symfony\Component\HttpKernel\EventListener\CacheAttributeListener::onKernelResponse".
+[20-Sep-2024 07:31:17 Australia/Brisbane] [debug] Notified event "kernel.response" to listener "Symfony\Component\HttpKernel\EventListener\ErrorListener::removeCspHeader".
+[20-Sep-2024 07:31:17 Australia/Brisbane] [debug] Notified event "kernel.response" to listener "Symfony\Component\HttpKernel\EventListener\DisallowRobotsIndexingListener::onResponse".
+[20-Sep-2024 07:31:17 Australia/Brisbane] [debug] Notified event "kernel.response" to listener "Symfony\Component\HttpKernel\EventListener\SessionListener::onKernelResponse".
+[20-Sep-2024 07:31:17 Australia/Brisbane] [debug] Notified event "kernel.finish_request" to listener "Symfony\Component\HttpKernel\EventListener\LocaleListener::onKernelFinishRequest".
+[20-Sep-2024 07:31:17 Australia/Brisbane] [debug] Notified event "kernel.finish_request" to listener "Symfony\Component\HttpKernel\EventListener\RouterListener::onKernelFinishRequest".
+[20-Sep-2024 07:31:17 Australia/Brisbane] [debug] Notified event "kernel.finish_request" to listener "Symfony\Bundle\SecurityBundle\Debug\TraceableFirewallListener::onKernelFinishRequest".
+[20-Sep-2024 07:31:17 Australia/Brisbane] [debug] Notified event "kernel.finish_request" to listener "Symfony\Component\HttpKernel\EventListener\LocaleAwareListener::onKernelFinishRequest".
+[20-Sep-2024 07:31:17 Australia/Brisbane] [debug] Notified event "kernel.exception" to listener "Symfony\Component\Security\Http\Firewall\ExceptionListener::onKernelException".
+[20-Sep-2024 07:31:17 Australia/Brisbane] [debug] Notified event "kernel.exception" to listener "Symfony\Component\HttpKernel\EventListener\ErrorListener::logKernelException".
+[20-Sep-2024 07:31:17 Australia/Brisbane] [debug] Notified event "kernel.exception" to listener "Symfony\Component\HttpKernel\EventListener\RouterListener::onKernelException".
+[20-Sep-2024 07:31:17 Australia/Brisbane] [debug] Notified event "kernel.exception" to listener "ApiPlatform\Symfony\EventListener\ExceptionListener::onKernelException".
+[20-Sep-2024 07:31:17 Australia/Brisbane] [debug] Notified event "kernel.exception" to listener "Symfony\Component\HttpKernel\EventListener\ErrorListener::onKernelException".
+[20-Sep-2024 07:31:17 Australia/Brisbane] [debug] Listener "Symfony\Component\HttpKernel\EventListener\ErrorListener::onKernelException" stopped propagation of the event "kernel.exception".
+[20-Sep-2024 07:31:17 Australia/Brisbane] [debug] Notified event "kernel.response" to listener "Symfony\Component\Security\Http\Firewall\ContextListener::onKernelResponse".
+[20-Sep-2024 07:31:17 Australia/Brisbane] [debug] Notified event "kernel.response" to listener "Nelmio\CorsBundle\EventListener\CorsListener::onKernelResponse".
+[20-Sep-2024 07:31:17 Australia/Brisbane] [debug] Notified event "kernel.response" to listener "Symfony\Component\HttpKernel\EventListener\ResponseListener::onKernelResponse".
+[20-Sep-2024 07:31:17 Australia/Brisbane] [debug] Notified event "kernel.response" to listener "Symfony\Component\WebLink\EventListener\AddLinkHeaderListener::onKernelResponse".
+[20-Sep-2024 07:31:17 Australia/Brisbane] [debug] Notified event "kernel.response" to listener "Nelmio\CorsBundle\EventListener\CacheableResponseVaryListener::onResponse".
+[20-Sep-2024 07:31:17 Australia/Brisbane] [debug] Notified event "kernel.response" to listener "Symfony\Component\HttpKernel\EventListener\CacheAttributeListener::onKernelResponse".
+[20-Sep-2024 07:31:17 Australia/Brisbane] [debug] Notified event "kernel.response" to listener "Symfony\Component\HttpKernel\EventListener\ErrorListener::removeCspHeader".
+[20-Sep-2024 07:31:17 Australia/Brisbane] [debug] Notified event "kernel.response" to listener "Symfony\Component\HttpKernel\EventListener\DisallowRobotsIndexingListener::onResponse".
+[20-Sep-2024 07:31:17 Australia/Brisbane] [debug] Notified event "kernel.response" to listener "Symfony\Component\HttpKernel\EventListener\SessionListener::onKernelResponse".
+[20-Sep-2024 07:31:17 Australia/Brisbane] [debug] Notified event "kernel.finish_request" to listener "Symfony\Component\HttpKernel\EventListener\LocaleListener::onKernelFinishRequest".
+[20-Sep-2024 07:31:17 Australia/Brisbane] [debug] Notified event "kernel.finish_request" to listener "Symfony\Component\HttpKernel\EventListener\RouterListener::onKernelFinishRequest".
+[20-Sep-2024 07:31:17 Australia/Brisbane] [debug] Notified event "kernel.finish_request" to listener "Symfony\Bundle\SecurityBundle\Debug\TraceableFirewallListener::onKernelFinishRequest".
+[20-Sep-2024 07:31:17 Australia/Brisbane] [debug] Notified event "kernel.finish_request" to listener "Symfony\Component\HttpKernel\EventListener\LocaleAwareListener::onKernelFinishRequest".
+[20-Sep-2024 07:31:48 Australia/Brisbane] [info] User Deprecated: Since api-platform/core 3.3: Use a "ApiPlatform\State\ProviderInterface" as first argument in "ApiPlatform\Symfony\EventListener\QueryParameterValidateListener" instead of "ApiPlatform\ParameterValidator\ParameterValidator".
+[20-Sep-2024 07:31:48 Australia/Brisbane] [info] Matched route "app_weather_zipcode".
+[20-Sep-2024 07:31:48 Australia/Brisbane] [debug] Checking for authenticator support.
+[20-Sep-2024 07:31:48 Australia/Brisbane] [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\DebugHandlersListener::configure".
+[20-Sep-2024 07:31:48 Australia/Brisbane] [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\ValidateRequestListener::onKernelRequest".
+[20-Sep-2024 07:31:48 Australia/Brisbane] [debug] Notified event "kernel.request" to listener "Nelmio\CorsBundle\EventListener\CorsListener::onKernelRequest".
+[20-Sep-2024 07:31:48 Australia/Brisbane] [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\SessionListener::onKernelRequest".
+[20-Sep-2024 07:31:48 Australia/Brisbane] [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\LocaleListener::setDefaultLocale".
+[20-Sep-2024 07:31:48 Australia/Brisbane] [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\RouterListener::onKernelRequest".
+[20-Sep-2024 07:31:48 Australia/Brisbane] [debug] Notified event "kernel.request" to listener "ApiPlatform\Symfony\EventListener\AddFormatListener::onKernelRequest".
+[20-Sep-2024 07:31:48 Australia/Brisbane] [debug] Notified event "kernel.request" to listener "ApiPlatform\Symfony\EventListener\QueryParameterValidateListener::onKernelRequest".
+[20-Sep-2024 07:31:48 Australia/Brisbane] [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\LocaleListener::onKernelRequest".
+[20-Sep-2024 07:31:48 Australia/Brisbane] [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\LocaleAwareListener::onKernelRequest".
+[20-Sep-2024 07:31:48 Australia/Brisbane] [debug] Notified event "kernel.request" to listener "Symfony\Bundle\SecurityBundle\Debug\TraceableFirewallListener::configureLogoutUrlGenerator".
+[20-Sep-2024 07:31:48 Australia/Brisbane] [debug] Notified event "kernel.request" to listener "Symfony\Bundle\SecurityBundle\Debug\TraceableFirewallListener::onKernelRequest".
+[20-Sep-2024 07:31:48 Australia/Brisbane] [debug] Notified event "kernel.request" to listener "ApiPlatform\Symfony\EventListener\ReadListener::onKernelRequest".
+[20-Sep-2024 07:31:48 Australia/Brisbane] [debug] Notified event "kernel.request" to listener "ApiPlatform\Symfony\EventListener\DeserializeListener::onKernelRequest".
+[20-Sep-2024 07:31:48 Australia/Brisbane] [critical] Uncaught PHP Exception Symfony\Component\DependencyInjection\Exception\RuntimeException: "Cannot autowire argument $serializer of "App\Controller\WeatherController::zipcodeWeather()": it references class "Symfony\Component\Serializer\Serializer" but no such service exists. Try changing the type-hint to one of its parents: interface "Symfony\Component\Serializer\SerializerInterface", interface "Symfony\Component\Serializer\Normalizer\NormalizerInterface", interface "Symfony\Component\Serializer\Normalizer\DenormalizerInterface", interface "Symfony\Component\Serializer\Encoder\EncoderInterface", or interface "Symfony\Component\Serializer\Encoder\DecoderInterface"." at Container.php line 397
+[20-Sep-2024 07:31:48 Australia/Brisbane] [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\DebugHandlersListener::configure".
+[20-Sep-2024 07:31:48 Australia/Brisbane] [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\ValidateRequestListener::onKernelRequest".
+[20-Sep-2024 07:31:48 Australia/Brisbane] [debug] Notified event "kernel.request" to listener "Nelmio\CorsBundle\EventListener\CorsListener::onKernelRequest".
+[20-Sep-2024 07:31:48 Australia/Brisbane] [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\SessionListener::onKernelRequest".
+[20-Sep-2024 07:31:48 Australia/Brisbane] [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\LocaleListener::setDefaultLocale".
+[20-Sep-2024 07:31:48 Australia/Brisbane] [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\RouterListener::onKernelRequest".
+[20-Sep-2024 07:31:48 Australia/Brisbane] [debug] Notified event "kernel.request" to listener "ApiPlatform\Symfony\EventListener\AddFormatListener::onKernelRequest".
+[20-Sep-2024 07:31:48 Australia/Brisbane] [debug] Notified event "kernel.request" to listener "ApiPlatform\Symfony\EventListener\QueryParameterValidateListener::onKernelRequest".
+[20-Sep-2024 07:31:48 Australia/Brisbane] [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\LocaleListener::onKernelRequest".
+[20-Sep-2024 07:31:48 Australia/Brisbane] [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\LocaleAwareListener::onKernelRequest".
+[20-Sep-2024 07:31:48 Australia/Brisbane] [debug] Notified event "kernel.request" to listener "Symfony\Bundle\SecurityBundle\Debug\TraceableFirewallListener::configureLogoutUrlGenerator".
+[20-Sep-2024 07:31:48 Australia/Brisbane] [debug] Notified event "kernel.request" to listener "Symfony\Bundle\SecurityBundle\Debug\TraceableFirewallListener::onKernelRequest".
+[20-Sep-2024 07:31:48 Australia/Brisbane] [debug] Notified event "kernel.request" to listener "ApiPlatform\Symfony\EventListener\ReadListener::onKernelRequest".
+[20-Sep-2024 07:31:48 Australia/Brisbane] [debug] Notified event "kernel.request" to listener "ApiPlatform\Symfony\EventListener\DeserializeListener::onKernelRequest".
+[20-Sep-2024 07:31:48 Australia/Brisbane] [debug] Notified event "kernel.controller_arguments" to listener "Symfony\Component\Security\Http\EventListener\IsGrantedAttributeListener::onKernelControllerArguments".
+[20-Sep-2024 07:31:48 Australia/Brisbane] [debug] Notified event "kernel.controller_arguments" to listener "Symfony\Component\HttpKernel\EventListener\CacheAttributeListener::onKernelControllerArguments".
+[20-Sep-2024 07:31:48 Australia/Brisbane] [debug] Notified event "kernel.controller_arguments" to listener "ContainerMHUgJ40\RequestPayloadValueResolverGhost3590451::onKernelControllerArguments".
+[20-Sep-2024 07:31:48 Australia/Brisbane] [debug] Notified event "kernel.controller_arguments" to listener "Symfony\Component\HttpKernel\EventListener\ErrorListener::onControllerArguments".
+[20-Sep-2024 07:31:48 Australia/Brisbane] [debug] Notified event "kernel.response" to listener "Symfony\Component\Security\Http\Firewall\ContextListener::onKernelResponse".
+[20-Sep-2024 07:31:48 Australia/Brisbane] [debug] Notified event "kernel.response" to listener "Nelmio\CorsBundle\EventListener\CorsListener::onKernelResponse".
+[20-Sep-2024 07:31:48 Australia/Brisbane] [debug] Notified event "kernel.response" to listener "Symfony\Component\HttpKernel\EventListener\ResponseListener::onKernelResponse".
+[20-Sep-2024 07:31:48 Australia/Brisbane] [debug] Notified event "kernel.response" to listener "Symfony\Component\WebLink\EventListener\AddLinkHeaderListener::onKernelResponse".
+[20-Sep-2024 07:31:48 Australia/Brisbane] [debug] Notified event "kernel.response" to listener "Nelmio\CorsBundle\EventListener\CacheableResponseVaryListener::onResponse".
+[20-Sep-2024 07:31:48 Australia/Brisbane] [debug] Notified event "kernel.response" to listener "Symfony\Component\HttpKernel\EventListener\CacheAttributeListener::onKernelResponse".
+[20-Sep-2024 07:31:48 Australia/Brisbane] [debug] Notified event "kernel.response" to listener "Symfony\Component\HttpKernel\EventListener\ErrorListener::removeCspHeader".
+[20-Sep-2024 07:31:48 Australia/Brisbane] [debug] Notified event "kernel.response" to listener "Symfony\Component\HttpKernel\EventListener\DisallowRobotsIndexingListener::onResponse".
+[20-Sep-2024 07:31:48 Australia/Brisbane] [debug] Notified event "kernel.response" to listener "Symfony\Component\HttpKernel\EventListener\SessionListener::onKernelResponse".
+[20-Sep-2024 07:31:48 Australia/Brisbane] [debug] Notified event "kernel.finish_request" to listener "Symfony\Component\HttpKernel\EventListener\LocaleListener::onKernelFinishRequest".
+[20-Sep-2024 07:31:48 Australia/Brisbane] [debug] Notified event "kernel.finish_request" to listener "Symfony\Component\HttpKernel\EventListener\RouterListener::onKernelFinishRequest".
+[20-Sep-2024 07:31:48 Australia/Brisbane] [debug] Notified event "kernel.finish_request" to listener "Symfony\Bundle\SecurityBundle\Debug\TraceableFirewallListener::onKernelFinishRequest".
+[20-Sep-2024 07:31:48 Australia/Brisbane] [debug] Notified event "kernel.finish_request" to listener "Symfony\Component\HttpKernel\EventListener\LocaleAwareListener::onKernelFinishRequest".
+[20-Sep-2024 07:31:48 Australia/Brisbane] [debug] Notified event "kernel.exception" to listener "Symfony\Component\Security\Http\Firewall\ExceptionListener::onKernelException".
+[20-Sep-2024 07:31:48 Australia/Brisbane] [debug] Notified event "kernel.exception" to listener "Symfony\Component\HttpKernel\EventListener\ErrorListener::logKernelException".
+[20-Sep-2024 07:31:48 Australia/Brisbane] [debug] Notified event "kernel.exception" to listener "Symfony\Component\HttpKernel\EventListener\RouterListener::onKernelException".
+[20-Sep-2024 07:31:48 Australia/Brisbane] [debug] Notified event "kernel.exception" to listener "ApiPlatform\Symfony\EventListener\ExceptionListener::onKernelException".
+[20-Sep-2024 07:31:48 Australia/Brisbane] [debug] Notified event "kernel.exception" to listener "Symfony\Component\HttpKernel\EventListener\ErrorListener::onKernelException".
+[20-Sep-2024 07:31:48 Australia/Brisbane] [debug] Listener "Symfony\Component\HttpKernel\EventListener\ErrorListener::onKernelException" stopped propagation of the event "kernel.exception".
+[20-Sep-2024 07:31:48 Australia/Brisbane] [debug] Notified event "kernel.response" to listener "Symfony\Component\Security\Http\Firewall\ContextListener::onKernelResponse".
+[20-Sep-2024 07:31:48 Australia/Brisbane] [debug] Notified event "kernel.response" to listener "Nelmio\CorsBundle\EventListener\CorsListener::onKernelResponse".
+[20-Sep-2024 07:31:48 Australia/Brisbane] [debug] Notified event "kernel.response" to listener "Symfony\Component\HttpKernel\EventListener\ResponseListener::onKernelResponse".
+[20-Sep-2024 07:31:48 Australia/Brisbane] [debug] Notified event "kernel.response" to listener "Symfony\Component\WebLink\EventListener\AddLinkHeaderListener::onKernelResponse".
+[20-Sep-2024 07:31:48 Australia/Brisbane] [debug] Notified event "kernel.response" to listener "Nelmio\CorsBundle\EventListener\CacheableResponseVaryListener::onResponse".
+[20-Sep-2024 07:31:48 Australia/Brisbane] [debug] Notified event "kernel.response" to listener "Symfony\Component\HttpKernel\EventListener\CacheAttributeListener::onKernelResponse".
+[20-Sep-2024 07:31:48 Australia/Brisbane] [debug] Notified event "kernel.response" to listener "Symfony\Component\HttpKernel\EventListener\ErrorListener::removeCspHeader".
+[20-Sep-2024 07:31:48 Australia/Brisbane] [debug] Notified event "kernel.response" to listener "Symfony\Component\HttpKernel\EventListener\DisallowRobotsIndexingListener::onResponse".
+[20-Sep-2024 07:31:48 Australia/Brisbane] [debug] Notified event "kernel.response" to listener "Symfony\Component\HttpKernel\EventListener\SessionListener::onKernelResponse".
+[20-Sep-2024 07:31:48 Australia/Brisbane] [debug] Notified event "kernel.finish_request" to listener "Symfony\Component\HttpKernel\EventListener\LocaleListener::onKernelFinishRequest".
+[20-Sep-2024 07:31:48 Australia/Brisbane] [debug] Notified event "kernel.finish_request" to listener "Symfony\Component\HttpKernel\EventListener\RouterListener::onKernelFinishRequest".
+[20-Sep-2024 07:31:48 Australia/Brisbane] [debug] Notified event "kernel.finish_request" to listener "Symfony\Bundle\SecurityBundle\Debug\TraceableFirewallListener::onKernelFinishRequest".
+[20-Sep-2024 07:31:48 Australia/Brisbane] [debug] Notified event "kernel.finish_request" to listener "Symfony\Component\HttpKernel\EventListener\LocaleAwareListener::onKernelFinishRequest".
+[20-Sep-2024 07:40:17 Australia/Brisbane] [info] User Deprecated: Since symfony/dependency-injection 6.4: "Symfony\Bridge\Doctrine\DataFixtures\ContainerAwareLoader" is deprecated, use dependency injection in your fixtures instead.
+[20-Sep-2024 07:40:17 Australia/Brisbane] [info] User Deprecated: Since api-platform/core 3.3: Use a "ApiPlatform\State\ProviderInterface" as first argument in "ApiPlatform\Symfony\EventListener\QueryParameterValidateListener" instead of "ApiPlatform\ParameterValidator\ParameterValidator".
+[20-Sep-2024 07:40:17 Australia/Brisbane] [info] User Deprecated: Support for MariaDB < 10.4 is deprecated and will be removed in DBAL 4. Consider upgrading to a more recent version of MariaDB. (AbstractMySQLDriver.php:65 called by AbstractDriverMiddleware.php:68, https://github.com/doctrine/dbal/pull/6110, package doctrine/dbal)
+[20-Sep-2024 07:40:17 Australia/Brisbane] [info] Matched route "app_weather_zipcode".
+[20-Sep-2024 07:40:17 Australia/Brisbane] [debug] Checking for authenticator support.
+[20-Sep-2024 07:40:17 Australia/Brisbane] [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\DebugHandlersListener::configure".
+[20-Sep-2024 07:40:17 Australia/Brisbane] [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\ValidateRequestListener::onKernelRequest".
+[20-Sep-2024 07:40:17 Australia/Brisbane] [debug] Notified event "kernel.request" to listener "Nelmio\CorsBundle\EventListener\CorsListener::onKernelRequest".
+[20-Sep-2024 07:40:17 Australia/Brisbane] [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\SessionListener::onKernelRequest".
+[20-Sep-2024 07:40:17 Australia/Brisbane] [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\LocaleListener::setDefaultLocale".
+[20-Sep-2024 07:40:17 Australia/Brisbane] [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\RouterListener::onKernelRequest".
+[20-Sep-2024 07:40:17 Australia/Brisbane] [debug] Notified event "kernel.request" to listener "ApiPlatform\Symfony\EventListener\AddFormatListener::onKernelRequest".
+[20-Sep-2024 07:40:17 Australia/Brisbane] [debug] Notified event "kernel.request" to listener "ApiPlatform\Symfony\EventListener\QueryParameterValidateListener::onKernelRequest".
+[20-Sep-2024 07:40:17 Australia/Brisbane] [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\LocaleListener::onKernelRequest".
+[20-Sep-2024 07:40:17 Australia/Brisbane] [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\LocaleAwareListener::onKernelRequest".
+[20-Sep-2024 07:40:17 Australia/Brisbane] [debug] Notified event "kernel.request" to listener "Symfony\Bundle\SecurityBundle\Debug\TraceableFirewallListener::configureLogoutUrlGenerator".
+[20-Sep-2024 07:40:17 Australia/Brisbane] [debug] Notified event "kernel.request" to listener "Symfony\Bundle\SecurityBundle\Debug\TraceableFirewallListener::onKernelRequest".
+[20-Sep-2024 07:40:17 Australia/Brisbane] [debug] Notified event "kernel.request" to listener "ApiPlatform\Symfony\EventListener\ReadListener::onKernelRequest".
+[20-Sep-2024 07:40:17 Australia/Brisbane] [debug] Notified event "kernel.request" to listener "ApiPlatform\Symfony\EventListener\DeserializeListener::onKernelRequest".
+[20-Sep-2024 07:40:17 Australia/Brisbane] [critical] Uncaught PHP Exception Symfony\Component\DependencyInjection\Exception\RuntimeException: "Cannot autowire argument $serializer of "App\Controller\WeatherController::zipcodeWeather()": it references class "Symfony\Component\Serializer\Serializer" but no such service exists. Try changing the type-hint to one of its parents: interface "Symfony\Component\Serializer\SerializerInterface", interface "Symfony\Component\Serializer\Normalizer\NormalizerInterface", interface "Symfony\Component\Serializer\Normalizer\DenormalizerInterface", interface "Symfony\Component\Serializer\Encoder\EncoderInterface", or interface "Symfony\Component\Serializer\Encoder\DecoderInterface"." at Container.php line 397
+[20-Sep-2024 07:40:17 Australia/Brisbane] [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\DebugHandlersListener::configure".
+[20-Sep-2024 07:40:17 Australia/Brisbane] [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\ValidateRequestListener::onKernelRequest".
+[20-Sep-2024 07:40:17 Australia/Brisbane] [debug] Notified event "kernel.request" to listener "Nelmio\CorsBundle\EventListener\CorsListener::onKernelRequest".
+[20-Sep-2024 07:40:17 Australia/Brisbane] [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\SessionListener::onKernelRequest".
+[20-Sep-2024 07:40:17 Australia/Brisbane] [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\LocaleListener::setDefaultLocale".
+[20-Sep-2024 07:40:17 Australia/Brisbane] [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\RouterListener::onKernelRequest".
+[20-Sep-2024 07:40:17 Australia/Brisbane] [debug] Notified event "kernel.request" to listener "ApiPlatform\Symfony\EventListener\AddFormatListener::onKernelRequest".
+[20-Sep-2024 07:40:17 Australia/Brisbane] [debug] Notified event "kernel.request" to listener "ApiPlatform\Symfony\EventListener\QueryParameterValidateListener::onKernelRequest".
+[20-Sep-2024 07:40:17 Australia/Brisbane] [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\LocaleListener::onKernelRequest".
+[20-Sep-2024 07:40:17 Australia/Brisbane] [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\LocaleAwareListener::onKernelRequest".
+[20-Sep-2024 07:40:17 Australia/Brisbane] [debug] Notified event "kernel.request" to listener "Symfony\Bundle\SecurityBundle\Debug\TraceableFirewallListener::configureLogoutUrlGenerator".
+[20-Sep-2024 07:40:17 Australia/Brisbane] [debug] Notified event "kernel.request" to listener "Symfony\Bundle\SecurityBundle\Debug\TraceableFirewallListener::onKernelRequest".
+[20-Sep-2024 07:40:17 Australia/Brisbane] [debug] Notified event "kernel.request" to listener "ApiPlatform\Symfony\EventListener\ReadListener::onKernelRequest".
+[20-Sep-2024 07:40:17 Australia/Brisbane] [debug] Notified event "kernel.request" to listener "ApiPlatform\Symfony\EventListener\DeserializeListener::onKernelRequest".
+[20-Sep-2024 07:40:17 Australia/Brisbane] [debug] Notified event "kernel.controller_arguments" to listener "Symfony\Component\Security\Http\EventListener\IsGrantedAttributeListener::onKernelControllerArguments".
+[20-Sep-2024 07:40:17 Australia/Brisbane] [debug] Notified event "kernel.controller_arguments" to listener "Symfony\Component\HttpKernel\EventListener\CacheAttributeListener::onKernelControllerArguments".
+[20-Sep-2024 07:40:17 Australia/Brisbane] [debug] Notified event "kernel.controller_arguments" to listener "ContainerMHUgJ40\RequestPayloadValueResolverGhost3590451::onKernelControllerArguments".
+[20-Sep-2024 07:40:17 Australia/Brisbane] [debug] Notified event "kernel.controller_arguments" to listener "Symfony\Component\HttpKernel\EventListener\ErrorListener::onControllerArguments".
+[20-Sep-2024 07:40:17 Australia/Brisbane] [debug] Notified event "kernel.response" to listener "Symfony\Component\Security\Http\Firewall\ContextListener::onKernelResponse".
+[20-Sep-2024 07:40:17 Australia/Brisbane] [debug] Notified event "kernel.response" to listener "Nelmio\CorsBundle\EventListener\CorsListener::onKernelResponse".
+[20-Sep-2024 07:40:17 Australia/Brisbane] [debug] Notified event "kernel.response" to listener "Symfony\Component\HttpKernel\EventListener\ResponseListener::onKernelResponse".
+[20-Sep-2024 07:40:17 Australia/Brisbane] [debug] Notified event "kernel.response" to listener "Symfony\Component\WebLink\EventListener\AddLinkHeaderListener::onKernelResponse".
+[20-Sep-2024 07:40:17 Australia/Brisbane] [debug] Notified event "kernel.response" to listener "Nelmio\CorsBundle\EventListener\CacheableResponseVaryListener::onResponse".
+[20-Sep-2024 07:40:17 Australia/Brisbane] [debug] Notified event "kernel.response" to listener "Symfony\Component\HttpKernel\EventListener\CacheAttributeListener::onKernelResponse".
+[20-Sep-2024 07:40:17 Australia/Brisbane] [debug] Notified event "kernel.response" to listener "Symfony\Component\HttpKernel\EventListener\ErrorListener::removeCspHeader".
+[20-Sep-2024 07:40:17 Australia/Brisbane] [debug] Notified event "kernel.response" to listener "Symfony\Component\HttpKernel\EventListener\DisallowRobotsIndexingListener::onResponse".
+[20-Sep-2024 07:40:17 Australia/Brisbane] [debug] Notified event "kernel.response" to listener "Symfony\Component\HttpKernel\EventListener\SessionListener::onKernelResponse".
+[20-Sep-2024 07:40:17 Australia/Brisbane] [debug] Notified event "kernel.finish_request" to listener "Symfony\Component\HttpKernel\EventListener\LocaleListener::onKernelFinishRequest".
+[20-Sep-2024 07:40:17 Australia/Brisbane] [debug] Notified event "kernel.finish_request" to listener "Symfony\Component\HttpKernel\EventListener\RouterListener::onKernelFinishRequest".
+[20-Sep-2024 07:40:17 Australia/Brisbane] [debug] Notified event "kernel.finish_request" to listener "Symfony\Bundle\SecurityBundle\Debug\TraceableFirewallListener::onKernelFinishRequest".
+[20-Sep-2024 07:40:17 Australia/Brisbane] [debug] Notified event "kernel.finish_request" to listener "Symfony\Component\HttpKernel\EventListener\LocaleAwareListener::onKernelFinishRequest".
+[20-Sep-2024 07:40:17 Australia/Brisbane] [debug] Notified event "kernel.exception" to listener "Symfony\Component\Security\Http\Firewall\ExceptionListener::onKernelException".
+[20-Sep-2024 07:40:17 Australia/Brisbane] [debug] Notified event "kernel.exception" to listener "Symfony\Component\HttpKernel\EventListener\ErrorListener::logKernelException".
+[20-Sep-2024 07:40:17 Australia/Brisbane] [debug] Notified event "kernel.exception" to listener "Symfony\Component\HttpKernel\EventListener\RouterListener::onKernelException".
+[20-Sep-2024 07:40:17 Australia/Brisbane] [debug] Notified event "kernel.exception" to listener "ApiPlatform\Symfony\EventListener\ExceptionListener::onKernelException".
+[20-Sep-2024 07:40:17 Australia/Brisbane] [debug] Notified event "kernel.exception" to listener "Symfony\Component\HttpKernel\EventListener\ErrorListener::onKernelException".
+[20-Sep-2024 07:40:17 Australia/Brisbane] [debug] Listener "Symfony\Component\HttpKernel\EventListener\ErrorListener::onKernelException" stopped propagation of the event "kernel.exception".
+[20-Sep-2024 07:40:17 Australia/Brisbane] [debug] Notified event "kernel.response" to listener "Symfony\Component\Security\Http\Firewall\ContextListener::onKernelResponse".
+[20-Sep-2024 07:40:17 Australia/Brisbane] [debug] Notified event "kernel.response" to listener "Nelmio\CorsBundle\EventListener\CorsListener::onKernelResponse".
+[20-Sep-2024 07:40:17 Australia/Brisbane] [debug] Notified event "kernel.response" to listener "Symfony\Component\HttpKernel\EventListener\ResponseListener::onKernelResponse".
+[20-Sep-2024 07:40:17 Australia/Brisbane] [debug] Notified event "kernel.response" to listener "Symfony\Component\WebLink\EventListener\AddLinkHeaderListener::onKernelResponse".
+[20-Sep-2024 07:40:17 Australia/Brisbane] [debug] Notified event "kernel.response" to listener "Nelmio\CorsBundle\EventListener\CacheableResponseVaryListener::onResponse".
+[20-Sep-2024 07:40:17 Australia/Brisbane] [debug] Notified event "kernel.response" to listener "Symfony\Component\HttpKernel\EventListener\CacheAttributeListener::onKernelResponse".
+[20-Sep-2024 07:40:17 Australia/Brisbane] [debug] Notified event "kernel.response" to listener "Symfony\Component\HttpKernel\EventListener\ErrorListener::removeCspHeader".
+[20-Sep-2024 07:40:17 Australia/Brisbane] [debug] Notified event "kernel.response" to listener "Symfony\Component\HttpKernel\EventListener\DisallowRobotsIndexingListener::onResponse".
+[20-Sep-2024 07:40:17 Australia/Brisbane] [debug] Notified event "kernel.response" to listener "Symfony\Component\HttpKernel\EventListener\SessionListener::onKernelResponse".
+[20-Sep-2024 07:40:17 Australia/Brisbane] [debug] Notified event "kernel.finish_request" to listener "Symfony\Component\HttpKernel\EventListener\LocaleListener::onKernelFinishRequest".
+[20-Sep-2024 07:40:17 Australia/Brisbane] [debug] Notified event "kernel.finish_request" to listener "Symfony\Component\HttpKernel\EventListener\RouterListener::onKernelFinishRequest".
+[20-Sep-2024 07:40:17 Australia/Brisbane] [debug] Notified event "kernel.finish_request" to listener "Symfony\Bundle\SecurityBundle\Debug\TraceableFirewallListener::onKernelFinishRequest".
+[20-Sep-2024 07:40:17 Australia/Brisbane] [debug] Notified event "kernel.finish_request" to listener "Symfony\Component\HttpKernel\EventListener\LocaleAwareListener::onKernelFinishRequest".
+[20-Sep-2024 07:42:05 Australia/Brisbane] [info] User Deprecated: Since symfony/dependency-injection 6.4: "Symfony\Bridge\Doctrine\DataFixtures\ContainerAwareLoader" is deprecated, use dependency injection in your fixtures instead.
+[20-Sep-2024 07:42:05 Australia/Brisbane] [info] User Deprecated: Since api-platform/core 3.3: Use a "ApiPlatform\State\ProviderInterface" as first argument in "ApiPlatform\Symfony\EventListener\QueryParameterValidateListener" instead of "ApiPlatform\ParameterValidator\ParameterValidator".
+[20-Sep-2024 07:42:05 Australia/Brisbane] [info] User Deprecated: Support for MariaDB < 10.4 is deprecated and will be removed in DBAL 4. Consider upgrading to a more recent version of MariaDB. (AbstractMySQLDriver.php:65 called by AbstractDriverMiddleware.php:68, https://github.com/doctrine/dbal/pull/6110, package doctrine/dbal)
+[20-Sep-2024 07:42:05 Australia/Brisbane] [info] Matched route "app_weather_zipcode".
+[20-Sep-2024 07:42:05 Australia/Brisbane] [debug] Checking for authenticator support.
+[20-Sep-2024 07:42:05 Australia/Brisbane] [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\DebugHandlersListener::configure".
+[20-Sep-2024 07:42:05 Australia/Brisbane] [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\ValidateRequestListener::onKernelRequest".
+[20-Sep-2024 07:42:05 Australia/Brisbane] [debug] Notified event "kernel.request" to listener "Nelmio\CorsBundle\EventListener\CorsListener::onKernelRequest".
+[20-Sep-2024 07:42:05 Australia/Brisbane] [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\SessionListener::onKernelRequest".
+[20-Sep-2024 07:42:05 Australia/Brisbane] [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\LocaleListener::setDefaultLocale".
+[20-Sep-2024 07:42:05 Australia/Brisbane] [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\RouterListener::onKernelRequest".
+[20-Sep-2024 07:42:05 Australia/Brisbane] [debug] Notified event "kernel.request" to listener "ApiPlatform\Symfony\EventListener\AddFormatListener::onKernelRequest".
+[20-Sep-2024 07:42:05 Australia/Brisbane] [debug] Notified event "kernel.request" to listener "ApiPlatform\Symfony\EventListener\QueryParameterValidateListener::onKernelRequest".
+[20-Sep-2024 07:42:05 Australia/Brisbane] [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\LocaleListener::onKernelRequest".
+[20-Sep-2024 07:42:05 Australia/Brisbane] [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\LocaleAwareListener::onKernelRequest".
+[20-Sep-2024 07:42:05 Australia/Brisbane] [debug] Notified event "kernel.request" to listener "Symfony\Bundle\SecurityBundle\Debug\TraceableFirewallListener::configureLogoutUrlGenerator".
+[20-Sep-2024 07:42:05 Australia/Brisbane] [debug] Notified event "kernel.request" to listener "Symfony\Bundle\SecurityBundle\Debug\TraceableFirewallListener::onKernelRequest".
+[20-Sep-2024 07:42:05 Australia/Brisbane] [debug] Notified event "kernel.request" to listener "ApiPlatform\Symfony\EventListener\ReadListener::onKernelRequest".
+[20-Sep-2024 07:42:05 Australia/Brisbane] [debug] Notified event "kernel.request" to listener "ApiPlatform\Symfony\EventListener\DeserializeListener::onKernelRequest".
+[20-Sep-2024 07:42:05 Australia/Brisbane] [debug] Notified event "kernel.controller_arguments" to listener "Symfony\Component\Security\Http\EventListener\IsGrantedAttributeListener::onKernelControllerArguments".
+[20-Sep-2024 07:42:05 Australia/Brisbane] [debug] Notified event "kernel.controller_arguments" to listener "Symfony\Component\HttpKernel\EventListener\CacheAttributeListener::onKernelControllerArguments".
+[20-Sep-2024 07:42:05 Australia/Brisbane] [debug] Notified event "kernel.controller_arguments" to listener "ContainerS4MHNFP\RequestPayloadValueResolverGhost3590451::onKernelControllerArguments".
+[20-Sep-2024 07:42:05 Australia/Brisbane] [debug] Notified event "kernel.controller_arguments" to listener "Symfony\Component\HttpKernel\EventListener\ErrorListener::onControllerArguments".
+[20-Sep-2024 07:42:05 Australia/Brisbane] [info] Request: "GET http://api.openweathermap.org/geo/1.0/zip?zip=29200,FR&appid=91af50c169584fba9f8beb8400ba5e74"
+[20-Sep-2024 07:42:05 Australia/Brisbane] [info] Response: "200 http://api.openweathermap.org/geo/1.0/zip?zip=29200,FR&appid=91af50c169584fba9f8beb8400ba5e74"
+[20-Sep-2024 07:42:06 Australia/Brisbane] [info] Request: "GET http://api.openweathermap.org/data/3.0/onecall?lat=48.3903&lon=-4.4863&appid=91af50c169584fba9f8beb8400ba5e74"
+[20-Sep-2024 07:42:06 Australia/Brisbane] [info] Response: "401 http://api.openweathermap.org/data/3.0/onecall?lat=48.3903&lon=-4.4863&appid=91af50c169584fba9f8beb8400ba5e74"
+[20-Sep-2024 07:42:06 Australia/Brisbane] [critical] Uncaught PHP Exception Symfony\Component\HttpClient\Exception\ClientException: "HTTP/1.1 401 Unauthorized returned for "http://api.openweathermap.org/data/3.0/onecall?lat=48.3903&lon=-4.4863&appid=91af50c169584fba9f8beb8400ba5e74"." at CommonResponseTrait.php line 173
+[20-Sep-2024 07:42:06 Australia/Brisbane] [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\DebugHandlersListener::configure".
+[20-Sep-2024 07:42:06 Australia/Brisbane] [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\ValidateRequestListener::onKernelRequest".
+[20-Sep-2024 07:42:06 Australia/Brisbane] [debug] Notified event "kernel.request" to listener "Nelmio\CorsBundle\EventListener\CorsListener::onKernelRequest".
+[20-Sep-2024 07:42:06 Australia/Brisbane] [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\SessionListener::onKernelRequest".
+[20-Sep-2024 07:42:06 Australia/Brisbane] [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\LocaleListener::setDefaultLocale".
+[20-Sep-2024 07:42:06 Australia/Brisbane] [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\RouterListener::onKernelRequest".
+[20-Sep-2024 07:42:06 Australia/Brisbane] [debug] Notified event "kernel.request" to listener "ApiPlatform\Symfony\EventListener\AddFormatListener::onKernelRequest".
+[20-Sep-2024 07:42:06 Australia/Brisbane] [debug] Notified event "kernel.request" to listener "ApiPlatform\Symfony\EventListener\QueryParameterValidateListener::onKernelRequest".
+[20-Sep-2024 07:42:06 Australia/Brisbane] [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\LocaleListener::onKernelRequest".
+[20-Sep-2024 07:42:06 Australia/Brisbane] [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\LocaleAwareListener::onKernelRequest".
+[20-Sep-2024 07:42:06 Australia/Brisbane] [debug] Notified event "kernel.request" to listener "Symfony\Bundle\SecurityBundle\Debug\TraceableFirewallListener::configureLogoutUrlGenerator".
+[20-Sep-2024 07:42:06 Australia/Brisbane] [debug] Notified event "kernel.request" to listener "Symfony\Bundle\SecurityBundle\Debug\TraceableFirewallListener::onKernelRequest".
+[20-Sep-2024 07:42:06 Australia/Brisbane] [debug] Notified event "kernel.request" to listener "ApiPlatform\Symfony\EventListener\ReadListener::onKernelRequest".
+[20-Sep-2024 07:42:06 Australia/Brisbane] [debug] Notified event "kernel.request" to listener "ApiPlatform\Symfony\EventListener\DeserializeListener::onKernelRequest".
+[20-Sep-2024 07:42:06 Australia/Brisbane] [debug] Notified event "kernel.controller_arguments" to listener "Symfony\Component\Security\Http\EventListener\IsGrantedAttributeListener::onKernelControllerArguments".
+[20-Sep-2024 07:42:06 Australia/Brisbane] [debug] Notified event "kernel.controller_arguments" to listener "Symfony\Component\HttpKernel\EventListener\CacheAttributeListener::onKernelControllerArguments".
+[20-Sep-2024 07:42:06 Australia/Brisbane] [debug] Notified event "kernel.controller_arguments" to listener "ContainerS4MHNFP\RequestPayloadValueResolverGhost3590451::onKernelControllerArguments".
+[20-Sep-2024 07:42:06 Australia/Brisbane] [debug] Notified event "kernel.controller_arguments" to listener "Symfony\Component\HttpKernel\EventListener\ErrorListener::onControllerArguments".
+[20-Sep-2024 07:42:06 Australia/Brisbane] [debug] Notified event "kernel.response" to listener "Symfony\Component\Security\Http\Firewall\ContextListener::onKernelResponse".
+[20-Sep-2024 07:42:06 Australia/Brisbane] [debug] Notified event "kernel.response" to listener "Nelmio\CorsBundle\EventListener\CorsListener::onKernelResponse".
+[20-Sep-2024 07:42:06 Australia/Brisbane] [debug] Notified event "kernel.response" to listener "Symfony\Component\HttpKernel\EventListener\ResponseListener::onKernelResponse".
+[20-Sep-2024 07:42:06 Australia/Brisbane] [debug] Notified event "kernel.response" to listener "Symfony\Component\WebLink\EventListener\AddLinkHeaderListener::onKernelResponse".
+[20-Sep-2024 07:42:06 Australia/Brisbane] [debug] Notified event "kernel.response" to listener "Nelmio\CorsBundle\EventListener\CacheableResponseVaryListener::onResponse".
+[20-Sep-2024 07:42:06 Australia/Brisbane] [debug] Notified event "kernel.response" to listener "Symfony\Component\HttpKernel\EventListener\CacheAttributeListener::onKernelResponse".
+[20-Sep-2024 07:42:06 Australia/Brisbane] [debug] Notified event "kernel.response" to listener "Symfony\Component\HttpKernel\EventListener\ErrorListener::removeCspHeader".
+[20-Sep-2024 07:42:06 Australia/Brisbane] [debug] Notified event "kernel.response" to listener "Symfony\Component\HttpKernel\EventListener\DisallowRobotsIndexingListener::onResponse".
+[20-Sep-2024 07:42:06 Australia/Brisbane] [debug] Notified event "kernel.response" to listener "Symfony\Component\HttpKernel\EventListener\SessionListener::onKernelResponse".
+[20-Sep-2024 07:42:06 Australia/Brisbane] [debug] Notified event "kernel.finish_request" to listener "Symfony\Component\HttpKernel\EventListener\LocaleListener::onKernelFinishRequest".
+[20-Sep-2024 07:42:06 Australia/Brisbane] [debug] Notified event "kernel.finish_request" to listener "Symfony\Component\HttpKernel\EventListener\RouterListener::onKernelFinishRequest".
+[20-Sep-2024 07:42:06 Australia/Brisbane] [debug] Notified event "kernel.finish_request" to listener "Symfony\Bundle\SecurityBundle\Debug\TraceableFirewallListener::onKernelFinishRequest".
+[20-Sep-2024 07:42:06 Australia/Brisbane] [debug] Notified event "kernel.finish_request" to listener "Symfony\Component\HttpKernel\EventListener\LocaleAwareListener::onKernelFinishRequest".
+[20-Sep-2024 07:42:06 Australia/Brisbane] [debug] Notified event "kernel.exception" to listener "Symfony\Component\Security\Http\Firewall\ExceptionListener::onKernelException".
+[20-Sep-2024 07:42:06 Australia/Brisbane] [debug] Notified event "kernel.exception" to listener "Symfony\Component\HttpKernel\EventListener\ErrorListener::logKernelException".
+[20-Sep-2024 07:42:06 Australia/Brisbane] [debug] Notified event "kernel.exception" to listener "Symfony\Component\HttpKernel\EventListener\RouterListener::onKernelException".
+[20-Sep-2024 07:42:06 Australia/Brisbane] [debug] Notified event "kernel.exception" to listener "ApiPlatform\Symfony\EventListener\ExceptionListener::onKernelException".
+[20-Sep-2024 07:42:06 Australia/Brisbane] [debug] Notified event "kernel.exception" to listener "Symfony\Component\HttpKernel\EventListener\ErrorListener::onKernelException".
+[20-Sep-2024 07:42:06 Australia/Brisbane] [debug] Listener "Symfony\Component\HttpKernel\EventListener\ErrorListener::onKernelException" stopped propagation of the event "kernel.exception".
+[20-Sep-2024 07:42:06 Australia/Brisbane] [debug] Notified event "kernel.response" to listener "Symfony\Component\Security\Http\Firewall\ContextListener::onKernelResponse".
+[20-Sep-2024 07:42:06 Australia/Brisbane] [debug] Notified event "kernel.response" to listener "Nelmio\CorsBundle\EventListener\CorsListener::onKernelResponse".
+[20-Sep-2024 07:42:06 Australia/Brisbane] [debug] Notified event "kernel.response" to listener "Symfony\Component\HttpKernel\EventListener\ResponseListener::onKernelResponse".
+[20-Sep-2024 07:42:06 Australia/Brisbane] [debug] Notified event "kernel.response" to listener "Symfony\Component\WebLink\EventListener\AddLinkHeaderListener::onKernelResponse".
+[20-Sep-2024 07:42:06 Australia/Brisbane] [debug] Notified event "kernel.response" to listener "Nelmio\CorsBundle\EventListener\CacheableResponseVaryListener::onResponse".
+[20-Sep-2024 07:42:06 Australia/Brisbane] [debug] Notified event "kernel.response" to listener "Symfony\Component\HttpKernel\EventListener\CacheAttributeListener::onKernelResponse".
+[20-Sep-2024 07:42:06 Australia/Brisbane] [debug] Notified event "kernel.response" to listener "Symfony\Component\HttpKernel\EventListener\ErrorListener::removeCspHeader".
+[20-Sep-2024 07:42:06 Australia/Brisbane] [debug] Notified event "kernel.response" to listener "Symfony\Component\HttpKernel\EventListener\DisallowRobotsIndexingListener::onResponse".
+[20-Sep-2024 07:42:06 Australia/Brisbane] [debug] Notified event "kernel.response" to listener "Symfony\Component\HttpKernel\EventListener\SessionListener::onKernelResponse".
+[20-Sep-2024 07:42:06 Australia/Brisbane] [debug] Notified event "kernel.finish_request" to listener "Symfony\Component\HttpKernel\EventListener\LocaleListener::onKernelFinishRequest".
+[20-Sep-2024 07:42:06 Australia/Brisbane] [debug] Notified event "kernel.finish_request" to listener "Symfony\Component\HttpKernel\EventListener\RouterListener::onKernelFinishRequest".
+[20-Sep-2024 07:42:06 Australia/Brisbane] [debug] Notified event "kernel.finish_request" to listener "Symfony\Bundle\SecurityBundle\Debug\TraceableFirewallListener::onKernelFinishRequest".
+[20-Sep-2024 07:42:06 Australia/Brisbane] [debug] Notified event "kernel.finish_request" to listener "Symfony\Component\HttpKernel\EventListener\LocaleAwareListener::onKernelFinishRequest".
+[20-Sep-2024 08:20:21 Australia/Brisbane] [info] User Deprecated: Since api-platform/core 3.3: Use a "ApiPlatform\State\ProviderInterface" as first argument in "ApiPlatform\Symfony\EventListener\QueryParameterValidateListener" instead of "ApiPlatform\ParameterValidator\ParameterValidator".
+[20-Sep-2024 08:20:21 Australia/Brisbane] [info] Matched route "app_weather_zipcode".
+[20-Sep-2024 08:20:21 Australia/Brisbane] [debug] Checking for authenticator support.
+[20-Sep-2024 08:20:21 Australia/Brisbane] [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\DebugHandlersListener::configure".
+[20-Sep-2024 08:20:21 Australia/Brisbane] [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\ValidateRequestListener::onKernelRequest".
+[20-Sep-2024 08:20:21 Australia/Brisbane] [debug] Notified event "kernel.request" to listener "Nelmio\CorsBundle\EventListener\CorsListener::onKernelRequest".
+[20-Sep-2024 08:20:21 Australia/Brisbane] [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\SessionListener::onKernelRequest".
+[20-Sep-2024 08:20:21 Australia/Brisbane] [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\LocaleListener::setDefaultLocale".
+[20-Sep-2024 08:20:21 Australia/Brisbane] [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\RouterListener::onKernelRequest".
+[20-Sep-2024 08:20:21 Australia/Brisbane] [debug] Notified event "kernel.request" to listener "ApiPlatform\Symfony\EventListener\AddFormatListener::onKernelRequest".
+[20-Sep-2024 08:20:21 Australia/Brisbane] [debug] Notified event "kernel.request" to listener "ApiPlatform\Symfony\EventListener\QueryParameterValidateListener::onKernelRequest".
+[20-Sep-2024 08:20:21 Australia/Brisbane] [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\LocaleListener::onKernelRequest".
+[20-Sep-2024 08:20:21 Australia/Brisbane] [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\LocaleAwareListener::onKernelRequest".
+[20-Sep-2024 08:20:21 Australia/Brisbane] [debug] Notified event "kernel.request" to listener "Symfony\Bundle\SecurityBundle\Debug\TraceableFirewallListener::configureLogoutUrlGenerator".
+[20-Sep-2024 08:20:21 Australia/Brisbane] [debug] Notified event "kernel.request" to listener "Symfony\Bundle\SecurityBundle\Debug\TraceableFirewallListener::onKernelRequest".
+[20-Sep-2024 08:20:21 Australia/Brisbane] [debug] Notified event "kernel.request" to listener "ApiPlatform\Symfony\EventListener\ReadListener::onKernelRequest".
+[20-Sep-2024 08:20:21 Australia/Brisbane] [debug] Notified event "kernel.request" to listener "ApiPlatform\Symfony\EventListener\DeserializeListener::onKernelRequest".
+[20-Sep-2024 08:20:21 Australia/Brisbane] [debug] Notified event "kernel.controller_arguments" to listener "Symfony\Component\Security\Http\EventListener\IsGrantedAttributeListener::onKernelControllerArguments".
+[20-Sep-2024 08:20:21 Australia/Brisbane] [debug] Notified event "kernel.controller_arguments" to listener "Symfony\Component\HttpKernel\EventListener\CacheAttributeListener::onKernelControllerArguments".
+[20-Sep-2024 08:20:21 Australia/Brisbane] [debug] Notified event "kernel.controller_arguments" to listener "ContainerS4MHNFP\RequestPayloadValueResolverGhost3590451::onKernelControllerArguments".
+[20-Sep-2024 08:20:21 Australia/Brisbane] [debug] Notified event "kernel.controller_arguments" to listener "Symfony\Component\HttpKernel\EventListener\ErrorListener::onControllerArguments".
+[20-Sep-2024 08:20:21 Australia/Brisbane] [info] Request: "GET http://api.openweathermap.org/geo/1.0/zip?zip=29200,FR&appid=91af50c169584fba9f8beb8400ba5e74"
+[20-Sep-2024 08:20:22 Australia/Brisbane] [info] Response: "200 http://api.openweathermap.org/geo/1.0/zip?zip=29200,FR&appid=91af50c169584fba9f8beb8400ba5e74"
+[20-Sep-2024 08:20:22 Australia/Brisbane] [info] Request: "GET http://api.openweathermap.org/data/3.0/onecall?lat=48.3903&lon=-4.4863&appid=91af50c169584fba9f8beb8400ba5e74"
+[20-Sep-2024 08:20:22 Australia/Brisbane] [info] Response: "200 http://api.openweathermap.org/data/3.0/onecall?lat=48.3903&lon=-4.4863&appid=91af50c169584fba9f8beb8400ba5e74"
+[20-Sep-2024 08:20:22 Australia/Brisbane] [debug] Notified event "kernel.response" to listener "Symfony\Component\Security\Http\Firewall\ContextListener::onKernelResponse".
+[20-Sep-2024 08:20:22 Australia/Brisbane] [debug] Notified event "kernel.response" to listener "Nelmio\CorsBundle\EventListener\CorsListener::onKernelResponse".
+[20-Sep-2024 08:20:22 Australia/Brisbane] [debug] Notified event "kernel.response" to listener "Symfony\Component\HttpKernel\EventListener\ResponseListener::onKernelResponse".
+[20-Sep-2024 08:20:22 Australia/Brisbane] [debug] Notified event "kernel.response" to listener "Symfony\Component\WebLink\EventListener\AddLinkHeaderListener::onKernelResponse".
+[20-Sep-2024 08:20:22 Australia/Brisbane] [debug] Notified event "kernel.response" to listener "Nelmio\CorsBundle\EventListener\CacheableResponseVaryListener::onResponse".
+[20-Sep-2024 08:20:22 Australia/Brisbane] [debug] Notified event "kernel.response" to listener "Symfony\Component\HttpKernel\EventListener\CacheAttributeListener::onKernelResponse".
+[20-Sep-2024 08:20:22 Australia/Brisbane] [debug] Notified event "kernel.response" to listener "Symfony\Component\HttpKernel\EventListener\ErrorListener::removeCspHeader".
+[20-Sep-2024 08:20:22 Australia/Brisbane] [debug] Notified event "kernel.response" to listener "Symfony\Component\HttpKernel\EventListener\DisallowRobotsIndexingListener::onResponse".
+[20-Sep-2024 08:20:22 Australia/Brisbane] [debug] Notified event "kernel.response" to listener "Symfony\Component\HttpKernel\EventListener\SessionListener::onKernelResponse".
+[20-Sep-2024 08:20:22 Australia/Brisbane] [debug] Notified event "kernel.finish_request" to listener "Symfony\Component\HttpKernel\EventListener\LocaleListener::onKernelFinishRequest".
+[20-Sep-2024 08:20:22 Australia/Brisbane] [debug] Notified event "kernel.finish_request" to listener "Symfony\Component\HttpKernel\EventListener\RouterListener::onKernelFinishRequest".
+[20-Sep-2024 08:20:22 Australia/Brisbane] [debug] Notified event "kernel.finish_request" to listener "Symfony\Bundle\SecurityBundle\Debug\TraceableFirewallListener::onKernelFinishRequest".
+[20-Sep-2024 08:20:22 Australia/Brisbane] [debug] Notified event "kernel.finish_request" to listener "Symfony\Component\HttpKernel\EventListener\LocaleAwareListener::onKernelFinishRequest".
+[20-Sep-2024 08:23:26 Australia/Brisbane] [info] User Deprecated: Since api-platform/core 3.3: Use a "ApiPlatform\State\ProviderInterface" as first argument in "ApiPlatform\Symfony\EventListener\QueryParameterValidateListener" instead of "ApiPlatform\ParameterValidator\ParameterValidator".
+[20-Sep-2024 08:23:26 Australia/Brisbane] [info] Matched route "app_weather_zipcode".
+[20-Sep-2024 08:23:26 Australia/Brisbane] [debug] Checking for authenticator support.
+[20-Sep-2024 08:23:26 Australia/Brisbane] [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\DebugHandlersListener::configure".
+[20-Sep-2024 08:23:26 Australia/Brisbane] [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\ValidateRequestListener::onKernelRequest".
+[20-Sep-2024 08:23:26 Australia/Brisbane] [debug] Notified event "kernel.request" to listener "Nelmio\CorsBundle\EventListener\CorsListener::onKernelRequest".
+[20-Sep-2024 08:23:26 Australia/Brisbane] [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\SessionListener::onKernelRequest".
+[20-Sep-2024 08:23:26 Australia/Brisbane] [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\LocaleListener::setDefaultLocale".
+[20-Sep-2024 08:23:26 Australia/Brisbane] [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\RouterListener::onKernelRequest".
+[20-Sep-2024 08:23:26 Australia/Brisbane] [debug] Notified event "kernel.request" to listener "ApiPlatform\Symfony\EventListener\AddFormatListener::onKernelRequest".
+[20-Sep-2024 08:23:26 Australia/Brisbane] [debug] Notified event "kernel.request" to listener "ApiPlatform\Symfony\EventListener\QueryParameterValidateListener::onKernelRequest".
+[20-Sep-2024 08:23:26 Australia/Brisbane] [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\LocaleListener::onKernelRequest".
+[20-Sep-2024 08:23:26 Australia/Brisbane] [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\LocaleAwareListener::onKernelRequest".
+[20-Sep-2024 08:23:26 Australia/Brisbane] [debug] Notified event "kernel.request" to listener "Symfony\Bundle\SecurityBundle\Debug\TraceableFirewallListener::configureLogoutUrlGenerator".
+[20-Sep-2024 08:23:26 Australia/Brisbane] [debug] Notified event "kernel.request" to listener "Symfony\Bundle\SecurityBundle\Debug\TraceableFirewallListener::onKernelRequest".
+[20-Sep-2024 08:23:26 Australia/Brisbane] [debug] Notified event "kernel.request" to listener "ApiPlatform\Symfony\EventListener\ReadListener::onKernelRequest".
+[20-Sep-2024 08:23:26 Australia/Brisbane] [debug] Notified event "kernel.request" to listener "ApiPlatform\Symfony\EventListener\DeserializeListener::onKernelRequest".
+[20-Sep-2024 08:23:26 Australia/Brisbane] [debug] Notified event "kernel.controller_arguments" to listener "Symfony\Component\Security\Http\EventListener\IsGrantedAttributeListener::onKernelControllerArguments".
+[20-Sep-2024 08:23:26 Australia/Brisbane] [debug] Notified event "kernel.controller_arguments" to listener "Symfony\Component\HttpKernel\EventListener\CacheAttributeListener::onKernelControllerArguments".
+[20-Sep-2024 08:23:26 Australia/Brisbane] [debug] Notified event "kernel.controller_arguments" to listener "ContainerS4MHNFP\RequestPayloadValueResolverGhost3590451::onKernelControllerArguments".
+[20-Sep-2024 08:23:26 Australia/Brisbane] [debug] Notified event "kernel.controller_arguments" to listener "Symfony\Component\HttpKernel\EventListener\ErrorListener::onControllerArguments".
+[20-Sep-2024 08:23:26 Australia/Brisbane] [info] Request: "GET http://api.openweathermap.org/geo/1.0/zip?zip=29200,FR&appid=91af50c169584fba9f8beb8400ba5e74"
+[20-Sep-2024 08:23:26 Australia/Brisbane] [info] Response: "200 http://api.openweathermap.org/geo/1.0/zip?zip=29200,FR&appid=91af50c169584fba9f8beb8400ba5e74"
+[20-Sep-2024 08:23:26 Australia/Brisbane] [info] Request: "GET http://api.openweathermap.org/data/3.0/onecall?lat=48.3903&lon=-4.4863&appid=91af50c169584fba9f8beb8400ba5e74"
+[20-Sep-2024 08:23:26 Australia/Brisbane] [info] Response: "200 http://api.openweathermap.org/data/3.0/onecall?lat=48.3903&lon=-4.4863&appid=91af50c169584fba9f8beb8400ba5e74"
+[20-Sep-2024 08:23:26 Australia/Brisbane] [debug] Notified event "kernel.response" to listener "Symfony\Component\Security\Http\Firewall\ContextListener::onKernelResponse".
+[20-Sep-2024 08:23:26 Australia/Brisbane] [debug] Notified event "kernel.response" to listener "Nelmio\CorsBundle\EventListener\CorsListener::onKernelResponse".
+[20-Sep-2024 08:23:26 Australia/Brisbane] [debug] Notified event "kernel.response" to listener "Symfony\Component\HttpKernel\EventListener\ResponseListener::onKernelResponse".
+[20-Sep-2024 08:23:26 Australia/Brisbane] [debug] Notified event "kernel.response" to listener "Symfony\Component\WebLink\EventListener\AddLinkHeaderListener::onKernelResponse".
+[20-Sep-2024 08:23:26 Australia/Brisbane] [debug] Notified event "kernel.response" to listener "Nelmio\CorsBundle\EventListener\CacheableResponseVaryListener::onResponse".
+[20-Sep-2024 08:23:26 Australia/Brisbane] [debug] Notified event "kernel.response" to listener "Symfony\Component\HttpKernel\EventListener\CacheAttributeListener::onKernelResponse".
+[20-Sep-2024 08:23:26 Australia/Brisbane] [debug] Notified event "kernel.response" to listener "Symfony\Component\HttpKernel\EventListener\ErrorListener::removeCspHeader".
+[20-Sep-2024 08:23:26 Australia/Brisbane] [debug] Notified event "kernel.response" to listener "Symfony\Component\HttpKernel\EventListener\DisallowRobotsIndexingListener::onResponse".
+[20-Sep-2024 08:23:26 Australia/Brisbane] [debug] Notified event "kernel.response" to listener "Symfony\Component\HttpKernel\EventListener\SessionListener::onKernelResponse".
+[20-Sep-2024 08:23:26 Australia/Brisbane] [debug] Notified event "kernel.finish_request" to listener "Symfony\Component\HttpKernel\EventListener\LocaleListener::onKernelFinishRequest".
+[20-Sep-2024 08:23:26 Australia/Brisbane] [debug] Notified event "kernel.finish_request" to listener "Symfony\Component\HttpKernel\EventListener\RouterListener::onKernelFinishRequest".
+[20-Sep-2024 08:23:26 Australia/Brisbane] [debug] Notified event "kernel.finish_request" to listener "Symfony\Bundle\SecurityBundle\Debug\TraceableFirewallListener::onKernelFinishRequest".
+[20-Sep-2024 08:23:26 Australia/Brisbane] [debug] Notified event "kernel.finish_request" to listener "Symfony\Component\HttpKernel\EventListener\LocaleAwareListener::onKernelFinishRequest".
+[20-Sep-2024 23:07:56 Australia/Brisbane] [info] User Deprecated: Since symfony/dependency-injection 6.4: "Symfony\Bridge\Doctrine\DataFixtures\ContainerAwareLoader" is deprecated, use dependency injection in your fixtures instead.
+[20-Sep-2024 23:07:56 Australia/Brisbane] [info] User Deprecated: Since api-platform/core 3.3: Use a "ApiPlatform\State\ProviderInterface" as first argument in "ApiPlatform\Symfony\EventListener\QueryParameterValidateListener" instead of "ApiPlatform\ParameterValidator\ParameterValidator".
+[20-Sep-2024 23:07:56 Australia/Brisbane] [info] User Deprecated: Support for MariaDB < 10.4 is deprecated and will be removed in DBAL 4. Consider upgrading to a more recent version of MariaDB. (AbstractMySQLDriver.php:65 called by AbstractDriverMiddleware.php:68, https://github.com/doctrine/dbal/pull/6110, package doctrine/dbal)
+[20-Sep-2024 23:07:56 Australia/Brisbane] [info] Matched route "_api_/advices{._format}_post".
+[20-Sep-2024 23:07:56 Australia/Brisbane] [debug] Checking for authenticator support.
+[20-Sep-2024 23:07:56 Australia/Brisbane] [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\DebugHandlersListener::configure".
+[20-Sep-2024 23:07:56 Australia/Brisbane] [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\ValidateRequestListener::onKernelRequest".
+[20-Sep-2024 23:07:56 Australia/Brisbane] [debug] Notified event "kernel.request" to listener "Nelmio\CorsBundle\EventListener\CorsListener::onKernelRequest".
+[20-Sep-2024 23:07:56 Australia/Brisbane] [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\SessionListener::onKernelRequest".
+[20-Sep-2024 23:07:56 Australia/Brisbane] [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\LocaleListener::setDefaultLocale".
+[20-Sep-2024 23:07:56 Australia/Brisbane] [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\RouterListener::onKernelRequest".
+[20-Sep-2024 23:07:56 Australia/Brisbane] [debug] Notified event "kernel.request" to listener "ApiPlatform\Symfony\EventListener\AddFormatListener::onKernelRequest".
+[20-Sep-2024 23:07:56 Australia/Brisbane] [debug] Notified event "kernel.request" to listener "ApiPlatform\Symfony\EventListener\QueryParameterValidateListener::onKernelRequest".
+[20-Sep-2024 23:07:56 Australia/Brisbane] [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\LocaleListener::onKernelRequest".
+[20-Sep-2024 23:07:56 Australia/Brisbane] [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\LocaleAwareListener::onKernelRequest".
+[20-Sep-2024 23:07:56 Australia/Brisbane] [debug] Notified event "kernel.request" to listener "Symfony\Bundle\SecurityBundle\Debug\TraceableFirewallListener::configureLogoutUrlGenerator".
+[20-Sep-2024 23:07:56 Australia/Brisbane] [debug] Notified event "kernel.request" to listener "Symfony\Bundle\SecurityBundle\Debug\TraceableFirewallListener::onKernelRequest".
+[20-Sep-2024 23:07:56 Australia/Brisbane] [debug] Notified event "kernel.request" to listener "ApiPlatform\Symfony\EventListener\ReadListener::onKernelRequest".
+[20-Sep-2024 23:07:56 Australia/Brisbane] [debug] Notified event "kernel.request" to listener "ApiPlatform\Symfony\EventListener\DeserializeListener::onKernelRequest".
+[20-Sep-2024 23:07:56 Australia/Brisbane] [debug] Notified event "kernel.controller_arguments" to listener "Symfony\Component\Security\Http\EventListener\IsGrantedAttributeListener::onKernelControllerArguments".
+[20-Sep-2024 23:07:56 Australia/Brisbane] [debug] Notified event "kernel.controller_arguments" to listener "Symfony\Component\HttpKernel\EventListener\CacheAttributeListener::onKernelControllerArguments".
+[20-Sep-2024 23:07:56 Australia/Brisbane] [debug] Notified event "kernel.controller_arguments" to listener "ContainerQ24AmUi\RequestPayloadValueResolverGhost3590451::onKernelControllerArguments".
+[20-Sep-2024 23:07:56 Australia/Brisbane] [debug] Notified event "kernel.controller_arguments" to listener "Symfony\Component\HttpKernel\EventListener\ErrorListener::onControllerArguments".
+[20-Sep-2024 23:07:57 Australia/Brisbane] [debug] Notified event "kernel.view" to listener "ApiPlatform\Symfony\EventListener\ValidateListener::onKernelView".
+[20-Sep-2024 23:07:57 Australia/Brisbane] [debug] Notified event "kernel.view" to listener "ApiPlatform\Symfony\EventListener\WriteListener::onKernelView".
+[20-Sep-2024 23:07:57 Australia/Brisbane] [debug] Notified event "kernel.view" to listener "ApiPlatform\Symfony\EventListener\SerializeListener::onKernelView".
+[20-Sep-2024 23:07:57 Australia/Brisbane] [debug] Notified event "kernel.view" to listener "ApiPlatform\Symfony\EventListener\RespondListener::onKernelView".
+[20-Sep-2024 23:07:57 Australia/Brisbane] [debug] Listener "ApiPlatform\Symfony\EventListener\RespondListener::onKernelView" stopped propagation of the event "kernel.view".
+[20-Sep-2024 23:07:57 Australia/Brisbane] [debug] Listener "Symfony\Bridge\Twig\EventListener\TemplateAttributeListener::onKernelView" was not called for event "kernel.view".
+[20-Sep-2024 23:07:57 Australia/Brisbane] [debug] Notified event "kernel.response" to listener "Symfony\Component\Security\Http\Firewall\ContextListener::onKernelResponse".
+[20-Sep-2024 23:07:57 Australia/Brisbane] [debug] Notified event "kernel.response" to listener "Nelmio\CorsBundle\EventListener\CorsListener::onKernelResponse".
+[20-Sep-2024 23:07:57 Australia/Brisbane] [debug] Notified event "kernel.response" to listener "Symfony\Component\HttpKernel\EventListener\ResponseListener::onKernelResponse".
+[20-Sep-2024 23:07:57 Australia/Brisbane] [debug] Notified event "kernel.response" to listener "Symfony\Component\WebLink\EventListener\AddLinkHeaderListener::onKernelResponse".
+[20-Sep-2024 23:07:57 Australia/Brisbane] [debug] Notified event "kernel.response" to listener "Nelmio\CorsBundle\EventListener\CacheableResponseVaryListener::onResponse".
+[20-Sep-2024 23:07:57 Australia/Brisbane] [debug] Notified event "kernel.response" to listener "Symfony\Component\HttpKernel\EventListener\CacheAttributeListener::onKernelResponse".
+[20-Sep-2024 23:07:57 Australia/Brisbane] [debug] Notified event "kernel.response" to listener "Symfony\Component\HttpKernel\EventListener\ErrorListener::removeCspHeader".
+[20-Sep-2024 23:07:57 Australia/Brisbane] [debug] Notified event "kernel.response" to listener "Symfony\Component\HttpKernel\EventListener\DisallowRobotsIndexingListener::onResponse".
+[20-Sep-2024 23:07:57 Australia/Brisbane] [debug] Notified event "kernel.response" to listener "Symfony\Component\HttpKernel\EventListener\SessionListener::onKernelResponse".
+[20-Sep-2024 23:07:57 Australia/Brisbane] [debug] Notified event "kernel.finish_request" to listener "Symfony\Component\HttpKernel\EventListener\LocaleListener::onKernelFinishRequest".
+[20-Sep-2024 23:07:57 Australia/Brisbane] [debug] Notified event "kernel.finish_request" to listener "Symfony\Component\HttpKernel\EventListener\RouterListener::onKernelFinishRequest".
+[20-Sep-2024 23:07:57 Australia/Brisbane] [debug] Notified event "kernel.finish_request" to listener "Symfony\Bundle\SecurityBundle\Debug\TraceableFirewallListener::onKernelFinishRequest".
+[20-Sep-2024 23:07:57 Australia/Brisbane] [debug] Notified event "kernel.finish_request" to listener "Symfony\Component\HttpKernel\EventListener\LocaleAwareListener::onKernelFinishRequest".
+[20-Sep-2024 23:08:16 Australia/Brisbane] [info] User Deprecated: Since api-platform/core 3.3: Use a "ApiPlatform\State\ProviderInterface" as first argument in "ApiPlatform\Symfony\EventListener\QueryParameterValidateListener" instead of "ApiPlatform\ParameterValidator\ParameterValidator".
+[20-Sep-2024 23:08:16 Australia/Brisbane] [info] Matched route "_api_/advices{._format}_post".
+[20-Sep-2024 23:08:16 Australia/Brisbane] [debug] Checking for authenticator support.
+[20-Sep-2024 23:08:16 Australia/Brisbane] [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\DebugHandlersListener::configure".
+[20-Sep-2024 23:08:16 Australia/Brisbane] [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\ValidateRequestListener::onKernelRequest".
+[20-Sep-2024 23:08:16 Australia/Brisbane] [debug] Notified event "kernel.request" to listener "Nelmio\CorsBundle\EventListener\CorsListener::onKernelRequest".
+[20-Sep-2024 23:08:16 Australia/Brisbane] [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\SessionListener::onKernelRequest".
+[20-Sep-2024 23:08:16 Australia/Brisbane] [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\LocaleListener::setDefaultLocale".
+[20-Sep-2024 23:08:16 Australia/Brisbane] [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\RouterListener::onKernelRequest".
+[20-Sep-2024 23:08:16 Australia/Brisbane] [debug] Notified event "kernel.request" to listener "ApiPlatform\Symfony\EventListener\AddFormatListener::onKernelRequest".
+[20-Sep-2024 23:08:16 Australia/Brisbane] [debug] Notified event "kernel.request" to listener "ApiPlatform\Symfony\EventListener\QueryParameterValidateListener::onKernelRequest".
+[20-Sep-2024 23:08:16 Australia/Brisbane] [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\LocaleListener::onKernelRequest".
+[20-Sep-2024 23:08:16 Australia/Brisbane] [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\LocaleAwareListener::onKernelRequest".
+[20-Sep-2024 23:08:16 Australia/Brisbane] [debug] Notified event "kernel.request" to listener "Symfony\Bundle\SecurityBundle\Debug\TraceableFirewallListener::configureLogoutUrlGenerator".
+[20-Sep-2024 23:08:16 Australia/Brisbane] [debug] Notified event "kernel.request" to listener "Symfony\Bundle\SecurityBundle\Debug\TraceableFirewallListener::onKernelRequest".
+[20-Sep-2024 23:08:16 Australia/Brisbane] [debug] Notified event "kernel.request" to listener "ApiPlatform\Symfony\EventListener\ReadListener::onKernelRequest".
+[20-Sep-2024 23:08:16 Australia/Brisbane] [debug] Notified event "kernel.request" to listener "ApiPlatform\Symfony\EventListener\DeserializeListener::onKernelRequest".
+[20-Sep-2024 23:08:16 Australia/Brisbane] [debug] Notified event "kernel.controller_arguments" to listener "Symfony\Component\Security\Http\EventListener\IsGrantedAttributeListener::onKernelControllerArguments".
+[20-Sep-2024 23:08:16 Australia/Brisbane] [debug] Notified event "kernel.controller_arguments" to listener "Symfony\Component\HttpKernel\EventListener\CacheAttributeListener::onKernelControllerArguments".
+[20-Sep-2024 23:08:16 Australia/Brisbane] [debug] Notified event "kernel.controller_arguments" to listener "ContainerQ24AmUi\RequestPayloadValueResolverGhost3590451::onKernelControllerArguments".
+[20-Sep-2024 23:08:16 Australia/Brisbane] [debug] Notified event "kernel.controller_arguments" to listener "Symfony\Component\HttpKernel\EventListener\ErrorListener::onControllerArguments".
+[20-Sep-2024 23:08:16 Australia/Brisbane] [info] User Deprecated: Support for MariaDB < 10.4 is deprecated and will be removed in DBAL 4. Consider upgrading to a more recent version of MariaDB. (AbstractMySQLDriver.php:65 called by AbstractDriverMiddleware.php:68, https://github.com/doctrine/dbal/pull/6110, package doctrine/dbal)
+[20-Sep-2024 23:08:16 Australia/Brisbane] [debug] Notified event "kernel.view" to listener "ApiPlatform\Symfony\EventListener\ValidateListener::onKernelView".
+[20-Sep-2024 23:08:16 Australia/Brisbane] [debug] Notified event "kernel.view" to listener "ApiPlatform\Symfony\EventListener\WriteListener::onKernelView".
+[20-Sep-2024 23:08:16 Australia/Brisbane] [debug] Notified event "kernel.view" to listener "ApiPlatform\Symfony\EventListener\SerializeListener::onKernelView".
+[20-Sep-2024 23:08:16 Australia/Brisbane] [debug] Notified event "kernel.view" to listener "ApiPlatform\Symfony\EventListener\RespondListener::onKernelView".
+[20-Sep-2024 23:08:16 Australia/Brisbane] [debug] Listener "ApiPlatform\Symfony\EventListener\RespondListener::onKernelView" stopped propagation of the event "kernel.view".
+[20-Sep-2024 23:08:16 Australia/Brisbane] [debug] Listener "Symfony\Bridge\Twig\EventListener\TemplateAttributeListener::onKernelView" was not called for event "kernel.view".
+[20-Sep-2024 23:08:16 Australia/Brisbane] [debug] Notified event "kernel.response" to listener "Symfony\Component\Security\Http\Firewall\ContextListener::onKernelResponse".
+[20-Sep-2024 23:08:16 Australia/Brisbane] [debug] Notified event "kernel.response" to listener "Nelmio\CorsBundle\EventListener\CorsListener::onKernelResponse".
+[20-Sep-2024 23:08:16 Australia/Brisbane] [debug] Notified event "kernel.response" to listener "Symfony\Component\HttpKernel\EventListener\ResponseListener::onKernelResponse".
+[20-Sep-2024 23:08:16 Australia/Brisbane] [debug] Notified event "kernel.response" to listener "Symfony\Component\WebLink\EventListener\AddLinkHeaderListener::onKernelResponse".
+[20-Sep-2024 23:08:16 Australia/Brisbane] [debug] Notified event "kernel.response" to listener "Nelmio\CorsBundle\EventListener\CacheableResponseVaryListener::onResponse".
+[20-Sep-2024 23:08:16 Australia/Brisbane] [debug] Notified event "kernel.response" to listener "Symfony\Component\HttpKernel\EventListener\CacheAttributeListener::onKernelResponse".
+[20-Sep-2024 23:08:16 Australia/Brisbane] [debug] Notified event "kernel.response" to listener "Symfony\Component\HttpKernel\EventListener\ErrorListener::removeCspHeader".
+[20-Sep-2024 23:08:16 Australia/Brisbane] [debug] Notified event "kernel.response" to listener "Symfony\Component\HttpKernel\EventListener\DisallowRobotsIndexingListener::onResponse".
+[20-Sep-2024 23:08:16 Australia/Brisbane] [debug] Notified event "kernel.response" to listener "Symfony\Component\HttpKernel\EventListener\SessionListener::onKernelResponse".
+[20-Sep-2024 23:08:16 Australia/Brisbane] [debug] Notified event "kernel.finish_request" to listener "Symfony\Component\HttpKernel\EventListener\LocaleListener::onKernelFinishRequest".
+[20-Sep-2024 23:08:16 Australia/Brisbane] [debug] Notified event "kernel.finish_request" to listener "Symfony\Component\HttpKernel\EventListener\RouterListener::onKernelFinishRequest".
+[20-Sep-2024 23:08:16 Australia/Brisbane] [debug] Notified event "kernel.finish_request" to listener "Symfony\Bundle\SecurityBundle\Debug\TraceableFirewallListener::onKernelFinishRequest".
+[20-Sep-2024 23:08:16 Australia/Brisbane] [debug] Notified event "kernel.finish_request" to listener "Symfony\Component\HttpKernel\EventListener\LocaleAwareListener::onKernelFinishRequest".
