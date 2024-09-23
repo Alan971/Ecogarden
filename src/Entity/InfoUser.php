@@ -4,6 +4,7 @@ namespace App\Entity;
 
 use App\Repository\InfoUserRepository;
 use Doctrine\ORM\Mapping as ORM;
+use Symfony\Component\Validator\Constraints as Assert;
 
 #[ORM\Entity(repositoryClass: InfoUserRepository::class)]
 class InfoUser
@@ -23,6 +24,14 @@ class InfoUser
     private ?string $lastName = null;
 
     #[ORM\Column(nullable: true)]
+    #[Assert\GreaterThanOrEqual(value: 1000,
+        message: "Le code postal doit être supérieur à 01000"
+        )]
+    #[Assert\LessThan(
+        value: 100000,
+        message: "Le code postal doit être inférieur à 100000"
+        )]
+    #[Assert\NotBlank(message: "Le code postal est obligatoire")]
     private ?int $zipCode = null;
 
     #[ORM\Column(length: 255, nullable: true)]

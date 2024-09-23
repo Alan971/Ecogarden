@@ -9,6 +9,7 @@ class Location
     private $lat;
     private $lon;
     private $country;
+    private $cities = [];
     
     public function getZip()
     {
@@ -58,6 +59,16 @@ class Location
     public function setLon($lon)
     {
         $this->lon = $lon;
+        return $this;
+    }
+    public function getCities()
+    {
+        return $this->cities;
+    }
+
+    public function setCities($cities)
+    {
+        $this->cities = $cities;
         return $this;
     }
 }
