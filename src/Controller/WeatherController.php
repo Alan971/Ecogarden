@@ -13,6 +13,13 @@ use Symfony\Component\Serializer\SerializerInterface;
 
 class WeatherController extends AbstractController
 {
+    /**
+     *  affiche les informations météo du lieu de résidencede l'utilisateur
+     *
+     * @param SerializerInterface $serializer
+     * @param HttpClientInterface $httpClient
+     * @return JsonResponse
+     */
     #[Route('api/meteo', name: 'app_weather', methods: ['GET'])]
     #[IsGranted('IS_AUTHENTICATED_FULLY')]
     public function yourWeather(SerializerInterface $serializer, HttpClientInterface $httpClient): JsonResponse
@@ -47,9 +54,19 @@ class WeatherController extends AbstractController
          return new JsonResponse( $formatData . $response->getContent(), $response->getStatusCode(), [], true);
     }
 
-    #[Route('api/meteo/{zipcode}/{country}', name: 'app_weather_zipcode', methods: ['GET'])]
-    public function zipcodeWeather(int $zipcode, string $country, SerializerInterface $serializer, HttpClientInterface $httpClient): JsonResponse
+    /**
+     *  affiche les informations météo du lieu demandé par son code postal et son pays
+     *
+     * @param int $zipcode
+     * @param string $country
+     * @param SerializerInterface $serializer
+     * @param HttpClientInterface $httpClient
+     * @return JsonResponse
+     */
+    #[Route('api/meteo/{zipcode}', name: 'app_weather_zipcode', methods: ['GET'])]
+    public function zipcodeWeather(int $zipcode, SerializerInterface $serializer, HttpClientInterface $httpClient): JsonResponse
     {
+        $country='FR';
         // récupération de la latitude et longitude
         $response = $httpClient->request(
             'GET',

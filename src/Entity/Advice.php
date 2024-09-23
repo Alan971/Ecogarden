@@ -7,10 +7,12 @@ use App\Repository\AdviceRepository;
 use Doctrine\DBAL\Types\Types;
 use Doctrine\ORM\Mapping as ORM;
 use Doctrine\ORM\Query\AST\WhereClause;
+use Symfony\Component\Serializer\Annotation\Groups;
 
 #[ORM\Entity(repositoryClass: AdviceRepository::class)]
-#[ApiResource(
-)]
+// #[ApiResource(
+//     normalizationContext: ['groups' => ['read:collection']],
+// )]
 class Advice
 {
     #[ORM\Id]
@@ -19,9 +21,11 @@ class Advice
     private ?int $id = null;
 
     #[ORM\Column]
+    #[Groups(['read:collection'])]
     private ?int $month = null;
 
     #[ORM\Column(type: Types::TEXT)]
+    #[Groups(['read:collection'])]
     private ?string $tips = null;
 
     public function getId(): ?int
