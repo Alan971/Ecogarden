@@ -8,6 +8,7 @@ use Doctrine\Persistence\ManagerRegistry;
 use Symfony\Component\Security\Core\Exception\UnsupportedUserException;
 use Symfony\Component\Security\Core\User\PasswordAuthenticatedUserInterface;
 use Symfony\Component\Security\Core\User\PasswordUpgraderInterface;
+use Symfony\Component\Uid\Uuid;
 
 /**
  * @extends ServiceEntityRepository<User>
@@ -57,4 +58,29 @@ class UserRepository extends ServiceEntityRepository implements PasswordUpgrader
     //            ->getOneOrNullResult()
     //        ;
     //    }
+    public function findOneByEmail(string $email): ?User
+    {
+        return $this->createQueryBuilder('u')
+            ->andWhere('u.email = :val')
+            ->setParameter('val', $email)
+            ->getQuery()
+            ->getOneOrNullResult()
+        ;
+    }   
+    public function deleteUserByEmail(string $email): void
+    {
+        $user = $this->findOneByEmail($email);
+        if($user != null){
+            $this->getEntityManager()->remove($user);
+            $this->getEntityManager()->flush();
+        }
+    }
+    public function deleteUserByUuid(Uuid $uuid): void
+    {
+        $user = $this->find($uuid);
+        if($user != null){
+            $this->getEntityManager()->remove($user);
+            $this->getEntityManager()->flush();
+        }
+    }
 }
