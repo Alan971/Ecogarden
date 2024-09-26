@@ -141,10 +141,10 @@ class UserControlAndModifyHandler
         // enregistrement des infoUser 
          $infoUser = $this->infoUserManager->findOneBy(['user' => $userToAdd->getid()]);
         $infoUser->setCity($arrayCity[0]['city']); //on ne récupère que la première ville du tableau
+        //on considère que le site ne s'adresse qu'au français, pour l'instant
         $infoUser->setCountry('FR');
         $this->infoUserManager->persistAndFlush($infoUser);
-        return ['message' => 'Vous êtes bien enregistré ! 
-                    Vous pouvez vous connecter avec votre email et votre mot de passe : 
+        return ['message' => 'Vous êtes bien enregistré ! Vous pouvez vous connecter avec votre email et votre mot de passe : 
                     http://ecogarden.test/api/auth', 'status' => 200];
     }
 

@@ -13,6 +13,8 @@ use Symfony\Component\Routing\Attribute\Route;
 use Symfony\Component\HttpFoundation\Request;
 use Symfony\Component\Serializer\SerializerInterface;
 use Symfony\Component\Validator\Validator\ValidatorInterface;
+use Symfony\Contracts\Cache\ItemInterface;
+use Symfony\Contracts\Cache\TagAwareCacheInterface;
 
 class AdviceController extends AbstractController
 {
@@ -38,12 +40,22 @@ class AdviceController extends AbstractController
     **/
     #[IsGranted('IS_AUTHENTICATED_FULLY')]
     #[Route('api/conseil/{month}', name: 'app_month_advice', methods: ['GET'])]
-    public function selectedMonthAdvices(int $month, AdviceRepository $adviceRepository): JsonResponse
+    public function selectedMonthAdvices(int $month, AdviceRepository $adviceRepository, TagAwareCacheInterface $cachePool): JsonResponse
     {
         if($month < 1 || $month > 12){
             return new JsonResponse(['message' => 'Le mois doit être compris entre 1 et 12'], 400);
         }
-        $advices = $adviceRepository->findAllInMonth($month);
+        $idCache = 'advices_'.$month;
+        $advices = $cachePool->get($idCache, function(ItemInterface $item) use ($adviceRepository, $month)
+        {
+            $item->tag('advices');
+            $advices = $adviceRepository->findAllInMonth($month);
+            $item->expiresAfter(3600); //le cache dure 1 heure. il expire au bout du même tempe que le JWT
+            return $advices;
+        }
+        ); 
+
+        //$advices = $adviceRepository->findAllInMonth($month);
         return $this->json($advices);
     }
 
@@ -58,7 +70,8 @@ class AdviceController extends AbstractController
      */
     #[Route('api/conseil', name: 'app_register_advice', methods: ['POST'])]
     #[IsGranted('ROLE_ADMIN', message: 'Vous n\'avez pas les droits suffisants pour créer un conseil')]
-    public function AddAdvices( Request $request,EntityManagerInterface $em, SerializerInterface $serializer, ValidatorInterface $validator): JsonResponse
+    public function AddAdvices( Request $request,EntityManagerInterface $em, 
+                                SerializerInterface $serializer, ValidatorInterface $validator): JsonResponse
     {
         $advice = new Advice();
         $advice = $serializer->deserialize($request->getContent(), Advice::class, 'json');
