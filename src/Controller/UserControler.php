@@ -17,6 +17,7 @@ use Symfony\Component\PasswordHasher\Hasher\UserPasswordHasherInterface;
 use Symfony\Component\Uid\Uuid;
 use Symfony\Component\Security\Http\Attribute\IsGranted;
 use Symfony\Component\Routing\Requirement\Requirement;
+use Symfony\Component\HttpFoundation\Response;
 
 class UserControler extends AbstractController
 {
@@ -113,17 +114,10 @@ class UserControler extends AbstractController
      */
     #[IsGranted('ROLE_ADMIN', message: 'Vous n\'avez pas les droits suffisants pour modifier un utilisateur')]
     #[Route('/api/users', name: 'app_user_view', methods: ['GET'])]
-    public function listAllUsers(UserRepository $userRepository):JsonResponse
+    public function listAllUsers(UserRepository $userRepository, SerializerInterface $serializer):JsonResponse
     {
-        //récupération des données de la bdd
         $users = $userRepository->findAll();
-        //sélection des données utiles
-        $i = 0;
-        foreach ($users as $user) {
-            $liteUser[$i]['email'] = $user->getEmail();
-            $liteUser[$i]['id'] = $user->getId();
-            $i++;
-        }
-        return $this->json($liteUser);
+        $jsonUsers = $serializer->serialize($users, 'json', ['groups' => ['getAllUsers']]);
+        return new JsonResponse($jsonUsers, Response::HTTP_OK, [], true);
     }
 }

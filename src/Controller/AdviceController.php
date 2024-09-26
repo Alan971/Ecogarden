@@ -4,9 +4,7 @@ namespace App\Controller;
 
 use App\Entity\Advice;
 use App\Repository\AdviceRepository;
-use Doctrine\ORM\EntityManager;
 use Doctrine\ORM\EntityManagerInterface;
-use phpDocumentor\Reflection\DocBlock\Tag;
 use Symfony\Component\Security\Http\Attribute\IsGranted;
 use Symfony\Bundle\FrameworkBundle\Controller\AbstractController;
 use Symfony\Component\HttpFoundation\JsonResponse;
@@ -16,6 +14,7 @@ use Symfony\Component\Serializer\SerializerInterface;
 use Symfony\Component\Validator\Validator\ValidatorInterface;
 use Symfony\Contracts\Cache\ItemInterface;
 use Symfony\Contracts\Cache\TagAwareCacheInterface;
+use Symfony\Component\HttpFoundation\Response;
 
 class AdviceController extends AbstractController
 {
@@ -26,7 +25,7 @@ class AdviceController extends AbstractController
     **/
     #[Route('api/conseil', name: 'app_advice', methods: ['GET'])]
     #[IsGranted('IS_AUTHENTICATED_FULLY')]
-    public function advices(AdviceRepository $adviceRepository, TagAwareCacheInterface $cachePool): JsonResponse
+    public function advices(AdviceRepository $adviceRepository, TagAwareCacheInterface $cachePool, SerializerInterface $serializer): JsonResponse
     {
         $idCache = 'advices_' . date('m');
         $advices = $cachePool->get($idCache, function(ItemInterface $item) use ($adviceRepository)
@@ -37,8 +36,8 @@ class AdviceController extends AbstractController
             return $advices;
         }
         );
-        return $this->json($advices);
-
+        $jsonAdvices = $serializer->serialize($advices, 'json', ['groups' => ['getAdvices']]);
+        return new JsonResponse($jsonAdvices, Response::HTTP_OK, [], true);
     }
     /**
      *  affiche les conseils du mois demandé à l'utilisateur
@@ -49,7 +48,8 @@ class AdviceController extends AbstractController
     **/
     #[IsGranted('IS_AUTHENTICATED_FULLY')]
     #[Route('api/conseil/{month}', name: 'app_month_advice', methods: ['GET'])]
-    public function selectedMonthAdvices(int $month, AdviceRepository $adviceRepository, TagAwareCacheInterface $cachePool): JsonResponse
+    public function selectedMonthAdvices(int $month, AdviceRepository $adviceRepository, 
+                                        TagAwareCacheInterface $cachePool, SerializerInterface $serializer): JsonResponse
     {
         if($month < 1 || $month > 12){
             return new JsonResponse(['message' => 'Le mois doit être compris entre 1 et 12'], 400);
@@ -63,7 +63,8 @@ class AdviceController extends AbstractController
             return $advices;
         }
         ); 
-        return $this->json($advices);
+    $jsonAdvices = $serializer->serialize($advices, 'json', ['groups' => ['getAdvices']]);
+    return new JsonResponse($jsonAdvices, Response::HTTP_OK, [], true);
     }
 
     /**
