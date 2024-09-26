@@ -3,6 +3,7 @@
 namespace App\Repository;
 
 use App\Entity\InfoUser;
+use Symfony\Component\Uid\Uuid;
 use Doctrine\Bundle\DoctrineBundle\Repository\ServiceEntityRepository;
 use Doctrine\Persistence\ManagerRegistry;
 
@@ -40,4 +41,16 @@ class InfoUserRepository extends ServiceEntityRepository
     //            ->getOneOrNullResult()
     //        ;
     //    }
+    public function findOneByUuid(string $uuid): ?InfoUser
+    {
+
+        dump($uuid);
+        // $val = $uuid->toString();
+        // dump($val);
+        return $this->createQueryBuilder('i')
+            ->andWhere('i.user = :val')
+            ->setParameter('val', $uuid)
+            ->getQuery()
+            ->getOneOrNullResult();
+    }
 }

@@ -17,8 +17,8 @@ use Symfony\Component\Validator\Validator\ValidatorInterface;
 class AdviceController extends AbstractController
 {
     /**
-     *  affiche les conseils du mois en cours à l'utilisateur 
-     * 
+     *  affiche les conseils du mois en cours à l'utilisateur
+     *
      * @return JsonResponse
     **/
     #[Route('api/conseil', name: 'app_advice', methods: ['GET'])]
@@ -27,13 +27,14 @@ class AdviceController extends AbstractController
     {
         $advices = $adviceRepository->findAllInMonth(date('m'));
         return $this->json($advices);
+
     }
     /**
-     *  affiche les conseils du mois demandé à l'utilisateur 
-     * 
+     *  affiche les conseils du mois demandé à l'utilisateur
+     *
      * @param int $month
      * @return JsonResponse
-     * 
+     *
     **/
     #[IsGranted('IS_AUTHENTICATED_FULLY')]
     #[Route('api/conseil/{month}', name: 'app_month_advice', methods: ['GET'])]
@@ -55,7 +56,7 @@ class AdviceController extends AbstractController
      * @param ValidatorInterface $validator
      * @return JsonResponse
      */
-    #[Route('api/conseil', name: 'app_month_advice', methods: ['POST'])]
+    #[Route('api/conseil', name: 'app_register_advice', methods: ['POST'])]
     #[IsGranted('ROLE_ADMIN', message: 'Vous n\'avez pas les droits suffisants pour créer un conseil')]
     public function AddAdvices( Request $request,EntityManagerInterface $em, SerializerInterface $serializer, ValidatorInterface $validator): JsonResponse
     {
@@ -101,7 +102,7 @@ class AdviceController extends AbstractController
      * @param ValidatorInterface $validator
      * @return JsonResponse
      */
-    #[Route('api/conseil{id}', name: 'app_delete_advice', methods: ['PUT'])]
+    #[Route('api/conseil{id}', name: 'app_modify_advice', methods: ['PUT'])]
     #[IsGranted('ROLE_ADMIN', message: 'Vous n\'avez pas les droits suffisants pour modifier un conseil')]
     public function modifyAdvices( int $id, Request $request, AdviceRepository $adviceRepository, EntityManagerInterface $em, SerializerInterface $serializer, ValidatorInterface $validator): JsonResponse
     {
