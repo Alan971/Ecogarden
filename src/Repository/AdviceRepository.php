@@ -36,6 +36,16 @@ class AdviceRepository extends BaseRepository
                ->getResult()
            ;
        }
+       public function delete($id)
+       {
+           $this->createQueryBuilder('a')
+               ->delete()
+               ->where('a.id = :val')
+               ->setParameter('val', $id)
+               ->getQuery()
+               ->execute()
+           ;
+       }
 
 
     //    /**

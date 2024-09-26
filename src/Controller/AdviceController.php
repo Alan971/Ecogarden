@@ -6,6 +6,7 @@ use App\Entity\Advice;
 use App\Repository\AdviceRepository;
 use Doctrine\ORM\EntityManager;
 use Doctrine\ORM\EntityManagerInterface;
+use phpDocumentor\Reflection\DocBlock\Tag;
 use Symfony\Component\Security\Http\Attribute\IsGranted;
 use Symfony\Bundle\FrameworkBundle\Controller\AbstractController;
 use Symfony\Component\HttpFoundation\JsonResponse;
@@ -25,9 +26,17 @@ class AdviceController extends AbstractController
     **/
     #[Route('api/conseil', name: 'app_advice', methods: ['GET'])]
     #[IsGranted('IS_AUTHENTICATED_FULLY')]
-    public function advices(AdviceRepository $adviceRepository): JsonResponse
+    public function advices(AdviceRepository $adviceRepository, TagAwareCacheInterface $cachePool): JsonResponse
     {
-        $advices = $adviceRepository->findAllInMonth(date('m'));
+        $idCache = 'advices_' . date('m');
+        $advices = $cachePool->get($idCache, function(ItemInterface $item) use ($adviceRepository)
+        {
+            $item->tag('advices');
+            $advices = $adviceRepository->findAllInMonth(date('m'));
+            $item->expiresAfter(3600); //le cache dure 1 heure. il expire au bout du même tempe que le JWT
+            return $advices;
+        }
+        );
         return $this->json($advices);
 
     }
@@ -54,8 +63,6 @@ class AdviceController extends AbstractController
             return $advices;
         }
         ); 
-
-        //$advices = $adviceRepository->findAllInMonth($month);
         return $this->json($advices);
     }
 
@@ -94,8 +101,10 @@ class AdviceController extends AbstractController
 
     #[Route('api/conseil{id}', name: 'app_delete_advice', methods: ['DELETE'])]
     #[IsGranted('ROLE_ADMIN', message: 'Vous n\'avez pas les droits suffisants pour supprimer un conseil')]
-    public function deleteAdvices( int $id, Request $request, AdviceRepository $adviceRepository, EntityManagerInterface $em, SerializerInterface $serializer, ValidatorInterface $validator): JsonResponse
+    public function deleteAdvices( int $id, AdviceRepository $adviceRepository, 
+                                    TagAwareCacheInterface $cachePool): JsonResponse
     {
+        $cachePool->invalidateTags(['advices']);
         $advice = $adviceRepository->find($id);
         if($advice == null){
             return new JsonResponse(['message' => 'Le conseil n\'existe pas'], 404);
