@@ -22,8 +22,7 @@ class WeatherController extends AbstractController
     {
         $currentUser = $this->getUser();
         $jsonResponse = $weatherHandler->yourWeather($currentUser->getInfoUser(), null, $this->getParameter('WEATHER_API_KEY'));
-        return new JsonResponse($jsonResponse['message'], $jsonResponse['status'], [], true);
-   
+        return new JsonResponse($jsonResponse['message'], $jsonResponse['status']);
     }
 
     /**
@@ -37,6 +36,6 @@ class WeatherController extends AbstractController
     public function zipcodeWeather(int $zipcode, WeatherHandler $weatherHandler): JsonResponse
     {
         $jsonResponse = $weatherHandler->yourWeather( null, $zipcode, $this->getParameter('WEATHER_API_KEY'));
-        return new JsonResponse($jsonResponse['message'], $jsonResponse['status'], [], true);
+        return new JsonResponse($jsonResponse['message'], $jsonResponse['status']);
     }
 }

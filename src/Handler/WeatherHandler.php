@@ -63,20 +63,15 @@ class WeatherHandler
          );
 
         //  formatage de la réponse
-        $formatData = "{\n ZipCode:" . $zipcode . "\n Country:" . $country . "\n}\n";
-
+        $data = ['ZipCode' => $zipcode, 'Country' => $country];
         //  formatage arbitraire de la réponse
         $weather = $this->serializer->deserialize($response->getContent(), Weather::class, 'json');
-        $shortWeather = "{\n Température :" . $weather->getCurrent()['temp'] ." °C \n " .
-                            "Pression : " . $weather->getCurrent()['pressure'] ." hPa \n " .
-                            "Humidité : " . $weather->getCurrent()['humidity'] ."% \n " .
-                            "Vent : " . $weather->getCurrent()['wind_speed'] ." m/s \n " .
-                            "Description : " . $weather->getCurrent()['weather'][0]['description'] ." \n}\n";
+        $data['Température'] = $weather->getCurrent()['temp'] ." °C";
+        $data['Pression'] = $weather->getCurrent()['pressure'] ." hPa";
+        $data['Humidité'] = $weather->getCurrent()['humidity'] ."%";
+        $data['Vent'] = $weather->getCurrent()['wind_speed'] ." m/s";
+        $data['Description'] = $weather->getCurrent()['weather'][0]['description'];
 
-        return ['message' => $formatData . $shortWeather, 'status' =>$response->getStatusCode() ];
-         // en cas de besoin de la réponse complète
-        //return ['message' => $formatData . $response->getContent(), 'status' =>$response->getStatusCode() ];
+        return ['message' => $data , 'status' =>$response->getStatusCode() ];
     }
-
-
 }
