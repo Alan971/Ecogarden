@@ -7,6 +7,8 @@ use Symfony\Bundle\FrameworkBundle\Controller\AbstractController;
 use Symfony\Component\HttpFoundation\JsonResponse;
 use Symfony\Component\Routing\Attribute\Route;
 use Symfony\Component\Security\Http\Attribute\IsGranted;
+use Symfony\Contracts\Cache\ItemInterface;
+use Symfony\Contracts\Cache\TagAwareCacheInterface;
 
 class WeatherController extends AbstractController
 {
@@ -18,10 +20,17 @@ class WeatherController extends AbstractController
      */
     #[Route('api/meteo', name: 'app_weather', methods: ['GET'])]
     #[IsGranted('IS_AUTHENTICATED_FULLY')]
-    public function yourWeather(WeatherHandler $weatherHandler): JsonResponse
+    public function yourWeather(WeatherHandler $weatherHandler, TagAwareCacheInterface $cachePool): JsonResponse
     {
-        $currentUser = $this->getUser();
-        $jsonResponse = $weatherHandler->yourWeather($currentUser->getInfoUser(), null, $this->getParameter('WEATHER_API_KEY'));
+        $idCache = 'weather_' . time();
+        $jsonResponse = $cachePool->get($idCache, function(ItemInterface $item) use ($weatherHandler)
+        {
+            $item->tag('weather');
+            $jsonResponse = $weatherHandler->yourWeather($this->getUser()->getInfoUser(), null, $this->getParameter('WEATHER_API_KEY'));
+            $item->expiresAfter(3600); //le cache dure 1 heure. il expire au bout du même tempe que le JWT
+            return $jsonResponse;
+        }
+        );
         return new JsonResponse($jsonResponse['message'], $jsonResponse['status']);
     }
 
@@ -33,9 +42,17 @@ class WeatherController extends AbstractController
      * @return JsonResponse
      */
     #[Route('api/meteo/{zipcode}', name: 'app_weather_zipcode', methods: ['GET'])]
-    public function zipcodeWeather(int $zipcode, WeatherHandler $weatherHandler): JsonResponse
+    public function zipcodeWeather(int $zipcode, WeatherHandler $weatherHandler, TagAwareCacheInterface $cachePool): JsonResponse
     {
-        $jsonResponse = $weatherHandler->yourWeather( null, $zipcode, $this->getParameter('WEATHER_API_KEY'));
+        $idCache = 'weather_'. time();
+        $jsonResponse = $cachePool->get($idCache, function(ItemInterface $item) use ($weatherHandler, $zipcode)
+        {
+            $item->tag('weather');
+            $jsonResponse = $weatherHandler->yourWeather( null, $zipcode, $this->getParameter('WEATHER_API_KEY'));
+            $item->expiresAfter(3600); //le cache dure 1 heure. il expire au bout du même tempe que le JWT
+            return $jsonResponse;
+        }
+        );
         return new JsonResponse($jsonResponse['message'], $jsonResponse['status']);
     }
 }
