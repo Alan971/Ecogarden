@@ -45,7 +45,7 @@ class UserControler extends AbstractController
     public function newUser(Request $request): JsonResponse
     {
         $answerArray = $this->userControlAndModify->userAdd($request->getContent());
-        return new JsonResponse(['message' => $answerArray['message']], $answerArray['status']);
+        return new JsonResponse(['message' => $answerArray['message'], 'status' => $answerArray['status']], $answerArray['status']);
     }
     /**
      * Methode permettant de supprimer un utilisateur
@@ -61,10 +61,10 @@ class UserControler extends AbstractController
         $uuid = Uuid::fromString($uuid);
         $user = $userRepository->find($uuid);
         if($user == null){
-            return new JsonResponse(['message' => 'Le compte n\'existe pas'], 404);
+            return new JsonResponse(['message' => 'Le compte n\'existe pas', 'status' => '404'], 404);
         }
         $userRepository->deleteUserByUuid($uuid);
-        return new JsonResponse(['message' => "Le compte ". $uuid . " a été supprimé"], 201);
+        return new JsonResponse(['message' => "Le compte ". $uuid . " a été supprimé", 'status' => '201'], 201);
     }
     /**
      * Methode permettant de supprimer un utilisateur
@@ -79,10 +79,10 @@ class UserControler extends AbstractController
     {
         $user = $userRepository->findOneByEmail($email);
         if($user == null){
-            return new JsonResponse(['message' => 'Le compte n\'existe pas'], 404);
+            return new JsonResponse(['message' => 'Le compte n\'existe pas', 'status' => '404'], 404);
         }
         $userRepository->deleteUserByEmail($email);
-        return new JsonResponse(['message' => "Le compte ". $email . " a été supprimé"], 201);
+        return new JsonResponse(['message' => "Le compte ". $email . " a été supprimé", 'status' => '201'], 201);
     }
 
     /**
@@ -101,7 +101,7 @@ class UserControler extends AbstractController
     public function modifyUser(string $uuid, Request $request): JsonResponse
     {
         $answerArray = $this->userControlAndModify->userEdit($uuid, $request->getContent());
-        return new JsonResponse(['message' => $answerArray['message']], $answerArray['status']);
+        return new JsonResponse(['message' => $answerArray['message'], 'status' => $answerArray['status']], $answerArray['status']);
 
     }
 

@@ -31,7 +31,7 @@ class WeatherController extends AbstractController
             return $jsonResponse;
         }
         );
-        return new JsonResponse($jsonResponse['message'], $jsonResponse['status']);
+        return new JsonResponse(['message' => $jsonResponse['message'], 'status' => $jsonResponse['status']], $jsonResponse['status']);
     }
 
     /**
@@ -53,6 +53,6 @@ class WeatherController extends AbstractController
             return $jsonResponse;
         }
         );
-        return new JsonResponse($jsonResponse['message'], $jsonResponse['status']);
+        return new JsonResponse(['message' => $jsonResponse['message'], 'status' => $jsonResponse['status']], $jsonResponse['status']);
     }
 }
