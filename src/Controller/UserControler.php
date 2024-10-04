@@ -40,6 +40,7 @@ class UserControler extends AbstractController
      * @param UserPasswordHasherInterface $userPasswordHasher
      * @return JsonResponse
      */
+    #[IsGranted('ROLE_ADMIN', message: 'Vous n\'avez pas les droits suffisants pour supprimer un utilisateur')]
     #[Route('/api/user', name: 'app_user_add', methods: ['POST'])]
     public function newUser(Request $request): JsonResponse
     {
