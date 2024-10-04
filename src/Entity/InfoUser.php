@@ -18,9 +18,11 @@ class InfoUser
     private ?User $user = null;
 
     #[ORM\Column(length: 255)]
+    #[Assert\NotBlank(message: "Le prénom est obligatoire")]
     private ?string $firstName = null;
 
     #[ORM\Column(length: 255)]
+    #[Assert\NotBlank(message: "Le nom est obligatoire")]
     private ?string $lastName = null;
 
     #[ORM\Column(nullable: true)]
@@ -34,9 +36,12 @@ class InfoUser
     #[Assert\NotBlank(message: "Le code postal est obligatoire")]
     private ?int $zipCode = null;
 
+    // la ville est optionnelle car le plus important est le code postal
+    // qi aucune ville n'est renseignée, le code postal est utilisé pour trouver la ville
     #[ORM\Column(length: 255, nullable: true)]
     private ?string $city = null;
 
+    // par défaut en France 
     #[ORM\Column(length: 255, nullable: true)]
     private ?string $country = null;
 

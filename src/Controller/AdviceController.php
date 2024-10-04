@@ -24,7 +24,6 @@ class AdviceController extends AbstractController
      * @return JsonResponse
     **/
     #[Route('api/conseil', name: 'app_advice', methods: ['GET'])]
-    #[IsGranted('IS_AUTHENTICATED_FULLY')]
     public function advices(AdviceRepository $adviceRepository, TagAwareCacheInterface $cachePool, SerializerInterface $serializer): JsonResponse
     {
         $idCache = 'advices_' . date('m');
@@ -46,7 +45,6 @@ class AdviceController extends AbstractController
      * @return JsonResponse
      *
     **/
-    #[IsGranted('IS_AUTHENTICATED_FULLY')]
     #[Route('api/conseil/{month}', name: 'app_month_advice', methods: ['GET'])]
     public function selectedMonthAdvices(int $month, AdviceRepository $adviceRepository, 
                                         TagAwareCacheInterface $cachePool, SerializerInterface $serializer): JsonResponse

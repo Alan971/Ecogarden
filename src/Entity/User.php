@@ -25,10 +25,14 @@ class User implements UserInterface, PasswordAuthenticatedUserInterface
 
     #[ORM\Column(length: 180)]
     #[Groups(['getAllUsers'])]
+    #[Assert\NotBlank(message: 'L\'email est obligatoire')]
+    #[Assert\Email(message: 'L\'email n\'est pas valide')]
     private ?string $email = null;
 
     /**
      * @var list<string> The user roles
+     * lors de la création d'un compte, le ROLE_USER est ajouté automatiquement avec comme valeur 'ROLE_USER'
+     * voir le controller UserControler::newUser pour plus de détails
      */
     #[ORM\Column]
     #[Groups(['getAllUsers'])]

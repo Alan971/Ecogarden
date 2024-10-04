@@ -19,7 +19,6 @@ class WeatherController extends AbstractController
      * @return JsonResponse
      */
     #[Route('api/meteo', name: 'app_weather', methods: ['GET'])]
-    #[IsGranted('IS_AUTHENTICATED_FULLY')]
     public function yourWeather(WeatherHandler $weatherHandler, TagAwareCacheInterface $cachePool): JsonResponse
     {
         $idCache = 'weather_' . time();
